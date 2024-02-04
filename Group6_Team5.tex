@@ -1,6 +1,11 @@
 \documentclass{article}
 \usepackage{svg}
 \usepackage{caption}
+\usepackage{subcaption}
+\usepackage{graphicx}
+\usepackage{tabularx}
+
+\usepackage[margin=1in]{geometry} % for 1 inch side panels
 
 
 \begin{document}
@@ -9,9 +14,9 @@
     \centering
     \vspace*{0cm}
     {\scshape\Large Frankfurt University of Applied Sciences}\\[3cm]
-    {\huge\bfseries Title}\\[15cm]
+    {\huge\bfseries Title}\\[8cm]
     {\Large\itshape Group 6:}\\
-    {\Large\itshape Hermon Gimikael, Howard-Yi Hong Soon, Jiwon Won, Lars Friese, Marc Roemer, Stefan Nguyen}\\[4cm]
+    {\Large\itshape Hermon Giikael, Howard-Yi Hong Soon, Jiwon Won, Lars Friese, Marc Roemer, Stefan Nguyen}\\[4cm]
     Supervisor:\\
     Jörg Schäfer\\[3cm]
     {\large \today}
@@ -82,22 +87,88 @@
 		\end{figure}
 		\newpage
 
-\section{Lars Friese}
-	\subsection{Requirement1}
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
-		\end{figure}
-		\newpage
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
-		\end{figure}
-		\newpage
+\section[]{Lars Friese}
+	\subsection{Requirement 10: Easy usability with Gesture Control}
+	\begin{center}
+		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
+			\hline
+			Name             & Use gestures to execute actions on smartwatch \\ \hline
+			ID               & 12 \\ \hline
+			Business Value   & medium \\ \hline
+			Description      & When the user lifts his arm and turns his wrist the smartwatch display turns on, when he lowers the arm the display turns of. Additionally the smartwatch executes a costum gesture \\ \hline
+			Trigger          & User lifting/lowering arm and turning wrist or shaking his wrist \\ \hline
+			Actors           & User, System, Gyroscope Sensor\\ \hline
+			Pre-conditions   & Display is turned on/off\\ \hline
+			Post-conditions  & Display is turned on/off, App opened\\ \hline
+			Basic Flow       & \\ \hline
+							  Description & This is the main scenario where the system recognizes the hand up movement \\ \hline
+							  Actions & \\ \hline
+							  1 & User raises arm \\ \hline
+							  2 & System recognizes gesture \\ \hline
+							  3 & Display turns on \\ \hline
+			Alternative Flow & A \\ \hline
+							  Description & Actions \\ \hline
+							  & 1 \\ \hline
+							  & 2 \\ \hline
+			Alternative Flow & B \\ \hline
+							  Description & Actions \\ \hline
+							  & 1 \\ \hline
+							  & 2 \\ \hline
+							  & 3 \\ \hline
+							  & 4 \\ \hline
+							  & 5 \\ \hline
+		\end{tabularx}
+	\end{center}
+
+	\begin{figure}[htbp]
+		\centering
+		\begin{subfigure}{\textwidth}
+			\resizebox{\textwidth}{!}{\includesvg[]{Lars/Use Case Gesture Control/GestureControl_usecase.svg}}
+			\caption{Use Case Diagram}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+			Example text 1 \\
+			Example text 2
+		\end{subfigure}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\begin{subfigure}{\textwidth}
+			\resizebox{\textwidth}{!}{\includesvg[]{Lars/Use Case Gesture Control/GestureControl_activity.svg}}
+			\caption{Activity Diagram}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+			Example text 3 \\
+			Example text 4
+		\end{subfigure}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\begin{subfigure}{\textwidth}
+			\resizebox{\textwidth}{!}{\includesvg[]{Lars/Use Case Gesture Control/GestureControl_class.svg}}
+			\caption{Class Diagram}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+			Example text 5 \\
+			Example text 6
+		\end{subfigure}
+	\end{figure}
+	
+	\begin{figure}[htbp]
+		\centering
+		\begin{subfigure}{\textwidth}
+			\resizebox{\textwidth}{!}{\includesvg[]{Lars/Use Case Gesture Control/GestureControl_sequence.svg}}
+			\caption{Sequence Diagram}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+			Example text 7 \\
+			Example text 8
+		\end{subfigure}
+	\end{figure}
+\newpage
+
 
 \section{Marc Roemer}
 	\subsection{Requirement 9: Calculation and display daily and weekly step count statistics}
