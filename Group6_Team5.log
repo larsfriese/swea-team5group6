@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.5)  5 FEB 2024 17:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.5)  5 FEB 2024 18:29
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -320,91 +320,136 @@ File: Kreis2.pdf Graphic file (type pdf)
 Package pdftex.def Info: Kreis2.pdf  used on input line 51.
 (pdftex.def)             Requested size: 469.75502pt x 332.16525pt.
  [4] [5]
+Package svg Info: Last page of `./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf' is 1 on input line 89.
+ (svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf_tex
+<./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf, id=32, page=1, 551.05875pt x 385.44pt>
+File: ./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 551.05875pt x 385.47433pt.
+) [6 <./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf' is 1 on input line 104.
+ (svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf_tex
+File: ./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 551.05875pt x 385.47433pt.
+) [7]
+Package svg Info: Last page of `./svg-inkscape/ShareWorkoutAchievement_activity_svg-tex.pdf' is 1 on input line 119.
+ (svg-inkscape/ShareWorkoutAchievement_activity_svg-tex.pdf_tex
+<./svg-inkscape/ShareWorkoutAchievement_activity_svg-tex.pdf, id=395, page=1, 679.78969pt x 537.50812pt>
+File: ./svg-inkscape/ShareWorkoutAchievement_activity_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/ShareWorkoutAchievement_activity_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/ShareWorkoutAchievement_activity_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 679.78967pt x 537.5314pt.
+) [8 <./svg-inkscape/ShareWorkoutAchievement_activity_svg-tex.pdf>]
 File: Kreis2.pdf Graphic file (type pdf)
 <use Kreis2.pdf>
-Package pdftex.def Info: Kreis2.pdf  used on input line 96.
+Package pdftex.def Info: Kreis2.pdf  used on input line 137.
 (pdftex.def)             Requested size: 469.75502pt x 332.16525pt.
- [6]
+ [9]
 File: Kreis2.pdf Graphic file (type pdf)
 <use Kreis2.pdf>
-Package pdftex.def Info: Kreis2.pdf  used on input line 103.
+Package pdftex.def Info: Kreis2.pdf  used on input line 144.
 (pdftex.def)             Requested size: 469.75502pt x 332.16525pt.
- [7]
-Package svg Info: Last page of `./svg-inkscape/GestureControl_usecase_svg-tex.pdf' is 1 on input line 143.
+ [10]
+Package svg Info: Last page of `./svg-inkscape/GestureControl_usecase_svg-tex.pdf' is 1 on input line 186.
  (svg-inkscape/GestureControl_usecase_svg-tex.pdf_tex
-<./svg-inkscape/GestureControl_usecase_svg-tex.pdf, id=39, page=1, 835.62187pt x 606.01407pt>
+<./svg-inkscape/GestureControl_usecase_svg-tex.pdf, id=818, page=1, 835.62187pt x 606.01407pt>
 File: ./svg-inkscape/GestureControl_usecase_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GestureControl_usecase_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/GestureControl_usecase_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 835.62187pt x 606.04958pt.
 )
-Package svg Info: Last page of `./svg-inkscape/GestureControl_activity_svg-tex.pdf' is 1 on input line 155.
+Package svg Info: Last page of `./svg-inkscape/GestureControl_activity_svg-tex.pdf' is 1 on input line 198.
  (svg-inkscape/GestureControl_activity_svg-tex.pdf_tex
-<./svg-inkscape/GestureControl_activity_svg-tex.pdf, id=41, page=1, 548.80031pt x 682.80093pt>
+<./svg-inkscape/GestureControl_activity_svg-tex.pdf, id=820, page=1, 548.80031pt x 682.80093pt>
 File: ./svg-inkscape/GestureControl_activity_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GestureControl_activity_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/GestureControl_activity_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 548.80031pt x 682.86176pt.
 )
-Package svg Info: Last page of `./svg-inkscape/GestureControl_class_svg-tex.pdf' is 1 on input line 167.
+Package svg Info: Last page of `./svg-inkscape/GestureControl_class_svg-tex.pdf' is 1 on input line 210.
  (svg-inkscape/GestureControl_class_svg-tex.pdf_tex
-<./svg-inkscape/GestureControl_class_svg-tex.pdf, id=43, page=1, 627.09282pt x 456.95718pt>
+<./svg-inkscape/GestureControl_class_svg-tex.pdf, id=822, page=1, 627.09282pt x 456.95718pt>
 File: ./svg-inkscape/GestureControl_class_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GestureControl_class_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/GestureControl_class_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 627.09277pt x 456.97696pt.
 )
-Package svg Info: Last page of `./svg-inkscape/GestureControl_sequence_svg-tex.pdf' is 1 on input line 179.
+Package svg Info: Last page of `./svg-inkscape/GestureControl_sequence_svg-tex.pdf' is 1 on input line 222.
  (svg-inkscape/GestureControl_sequence_svg-tex.pdf_tex
-<./svg-inkscape/GestureControl_sequence_svg-tex.pdf, id=45, page=1, 746.03719pt x 733.99219pt>
+<./svg-inkscape/GestureControl_sequence_svg-tex.pdf, id=824, page=1, 746.03719pt x 733.99219pt>
 File: ./svg-inkscape/GestureControl_sequence_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GestureControl_sequence_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/GestureControl_sequence_svg-tex.pdf , page1 used on input line 56.
 (pdftex.def)             Requested size: 746.03722pt x 734.02397pt.
-) [8] [9 <./svg-inkscape/GestureControl_usecase_svg-tex.pdf>] [10 <./svg-inkscape/GestureControl_activity_svg-tex.pdf>] [11 <./svg-inkscape/GestureControl_class_svg-tex.pdf>] [12 <./svg-inkscape/GestureControl_sequence_svg-tex.pdf>] [13] [14]
+) [11] [12 <./svg-inkscape/GestureControl_usecase_svg-tex.pdf>] [13 <./svg-inkscape/GestureControl_activity_svg-tex.pdf>] [14 <./svg-inkscape/GestureControl_class_svg-tex.pdf>] [15 <./svg-inkscape/GestureControl_sequence_svg-tex.pdf>] [16] [17]
 
 pdfTeX warning: pdflatex (file ./Marc/req9/9activity.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Marc/req9/9activity.pdf, id=1777, 794.97pt x 614.295pt>
+<Marc/req9/9activity.pdf, id=2555, 794.97pt x 614.295pt>
 File: Marc/req9/9activity.pdf Graphic file (type pdf)
 <use Marc/req9/9activity.pdf>
-Package pdftex.def Info: Marc/req9/9activity.pdf  used on input line 208.
+Package pdftex.def Info: Marc/req9/9activity.pdf  used on input line 251.
 (pdftex.def)             Requested size: 469.75502pt x 363.00267pt.
-[15 <./Marc/req9/9activity.pdf>] [16] [17] [18] [19] [20]
+[18 <./Marc/req9/9activity.pdf>] [19] [20] [21] [22] [23]
 
 pdfTeX warning: pdflatex (file ./Marc/req10/10activity.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Marc/req10/10activity.pdf, id=1809, 794.97pt x 614.295pt>
+<Marc/req10/10activity.pdf, id=2587, 794.97pt x 614.295pt>
 File: Marc/req10/10activity.pdf Graphic file (type pdf)
 <use Marc/req10/10activity.pdf>
-Package pdftex.def Info: Marc/req10/10activity.pdf  used on input line 247.
+Package pdftex.def Info: Marc/req10/10activity.pdf  used on input line 290.
 (pdftex.def)             Requested size: 469.75502pt x 363.00267pt.
-[21 <./Marc/req10/10activity.pdf>] [22] [23] [24]
-File: Kreis2.pdf Graphic file (type pdf)
-<use Kreis2.pdf>
-Package pdftex.def Info: Kreis2.pdf  used on input line 276.
-(pdftex.def)             Requested size: 469.75502pt x 332.16525pt.
- [25]
-File: Kreis2.pdf Graphic file (type pdf)
-<use Kreis2.pdf>
-Package pdftex.def Info: Kreis2.pdf  used on input line 283.
-(pdftex.def)             Requested size: 469.75502pt x 332.16525pt.
- [26] (Group6_Team5.aux)
+[24 <./Marc/req10/10activity.pdf>] [25] [26] [27] [28]
+Package svg Info: Last page of `./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf' is 1 on input line 353.
+ (svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf_tex
+<./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf, id=2618, page=1, 645.91313pt x 469.00218pt>
+File: ./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 645.91312pt x 469.0225pt.
+) [29 <./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf>]
+Package svg Info: Last page of `./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf' is 1 on input line 370.
+ (svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf_tex
+<./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf, id=3066, page=1, 414.79968pt x 395.97937pt>
+File: ./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 414.7997pt x 395.99048pt.
+)
+Package svg Info: Last page of `./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf' is 1 on input line 388.
+ (svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf_tex
+<./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf, id=3068, page=1, 500.62032pt x 352.31625pt>
+File: ./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 500.62032pt x 352.3315pt.
+)
+Package svg Info: Last page of `./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf' is 1 on input line 406.
+ (svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf_tex
+<./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf, id=3070, page=1, 640.64343pt x 616.55344pt>
+File: ./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf Graphic file (type pdf)
+<use ./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf, page 1>
+Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf , page1 used on input line 56.
+(pdftex.def)             Requested size: 640.6434pt x 616.56133pt.
+) [30 <./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf>] [31 <./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf>] [32 <./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf>] (Group6_Team5.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 6486 strings out of 474485
- 129777 string characters out of 5743263
+ 6584 strings out of 474485
+ 137085 string characters out of 5743263
  1940542 words of memory out of 5000000
- 28650 multiletter control sequences out of 15000+600000
+ 28728 multiletter control sequences out of 15000+600000
  561441 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  94i,13n,93p,383b,664s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Group6_Team5.pdf (27 pages, 1557570 bytes).
+Output written on Group6_Team5.pdf (33 pages, 3010487 bytes).
 PDF statistics:
- 1872 PDF objects out of 2073 (max. 8388607)
+ 4421 PDF objects out of 5155 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 68 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
