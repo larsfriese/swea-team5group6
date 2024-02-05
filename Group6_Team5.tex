@@ -14,7 +14,7 @@
     \centering
     \vspace*{0cm}
     {\scshape\Large Frankfurt University of Applied Sciences}\\[3cm]
-    {\huge\bfseries Title}\\[8cm]
+    {\huge\bfseries ABCD}\\[8cm]
     {\Large\itshape Group 6:}\\
     {\Large\itshape Hermon Giikael, Howard-Yi Hong Soon, Jiwon Won, Lars Friese, Marc Roemer, Stefan Nguyen}\\[4cm]
     Supervisor:\\
@@ -251,20 +251,40 @@
 			
 
 \section{Stefan Nguyen}
-	\subsection{Display Heart Rate Data on Smartwatch}
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
-		\end{figure}
+	\subsection{Requirement 11: Environment Monitoring }
+		
+		\begin{center}
+			\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
+				\hline
+				Name             & Environment monitoring \\ \hline
+				ID               & 11 \\ \hline
+				Business Value   & Low \\ \hline
+				Description      & Tracks UV exposure, air quality, temperature in real time \\ \hline
+				Trigger          & Typical event which adjusts the changes in real time \\ \hline
+				Actors           & Environmental Sensor Array, which is responsible for capturing environmental data \\ \hline
+				Pre-conditions   & Environmental sensors are operational and calibrated\\ \hline
+				Post-conditions  & Displays the data in the smartwatch\\ \hline
+				Basic Flow       & \\ \hline
+								  Description & Detail each change in the environment monioring system \\ \hline
+								  Actions & \\ \hline
+								  1 & activating the sensors \\ \hline
+								  2 & capturing the data (e.g. temperature, UV, etc) \\ \hline
+								  3 & processing data e.g. analysis or computations \\ \hline
+								  4 & transfer data into smartwatch \\ \hline
+								  5 & display data in smartwatch \\ \hline
+				Alternative Flow & A \\ \hline
+								  Description & Error capturing data (network, communication etc) \\ \hline
+								  1 & sensor fails to capture data \\ \hline
+								  2 & fail, communication or network error in smartwatch or sensor \\ \hline
+								  3 & Error capturing data / false data display information \\ \hline
+				Alternative Flow & B \\ \hline
+								  Description & Environmental sensor detect conditions which my threaten health conditions \\ \hline
+								  1 & sensor detects hazardous condition and flag it as highest priority \\ \hline
+								  2 & sends push notification and warns the user \\ \hline
+								  3 & displays the notification on the smartwatch and recommends actions (e.g. apply sunscreen, seek shelter, etc) \\ \hline
+								  4 & user acknowledges the notification\\ \hline
+								  5 & user doesn't acknoweldege notification -> the system keeps sending notifications or warns the user \\ \hline
+			\end{tabularx}
+		\end{center}
 		\newpage
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
-		\end{figure}
-		\newpage
-
 \end{document}
