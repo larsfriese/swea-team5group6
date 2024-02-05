@@ -1,0 +1,14 @@
+\contentsline {section}{\numberline {1}Hermon Gimikael}{2}{}%
+\contentsline {subsection}{\numberline {1.1}Requirement1}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Requirement2}{4}{}%
+\contentsline {section}{\numberline {2}Howard-Yi Hong Soon}{5}{}%
+\contentsline {subsection}{\numberline {2.1}Requirement 10: Easy usability with Gesture Control}{5}{}%
+\contentsline {section}{\numberline {3}Jiwon Won}{6}{}%
+\contentsline {subsection}{\numberline {3.1}Requirement1}{6}{}%
+\contentsline {section}{\numberline {4}}{8}{}%
+\contentsline {subsection}{\numberline {4.1}Requirement 10: Easy usability with Gesture Control}{8}{}%
+\contentsline {section}{\numberline {5}Marc Roemer}{13}{}%
+\contentsline {subsection}{\numberline {5.1}Requirement 9: Calculation and display daily and weekly step count statistics}{13}{}%
+\contentsline {subsection}{\numberline {5.2}Requirement 10: Create and manages a workout plan}{19}{}%
+\contentsline {section}{\numberline {6}Stefan Nguyen}{25}{}%
+\contentsline {subsection}{\numberline {6.1}Display Heart Rate Data on Smartwatch}{25}{}%
