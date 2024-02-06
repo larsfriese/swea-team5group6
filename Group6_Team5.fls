@@ -137,6 +137,7 @@ INPUT .\Group6_Team5.toc
 INPUT Group6_Team5.toc
 INPUT C:\Users\School\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 OUTPUT Group6_Team5.toc
+INPUT C:\Users\School\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\School\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\Kreis2.pdf
 INPUT .\Kreis2.pdf
@@ -152,7 +153,6 @@ INPUT .\Kreis2.pdf
 INPUT .\Kreis2.pdf
 INPUT .\Kreis2.pdf
 INPUT .\Kreis2.pdf
-INPUT C:\Users\School\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT .\Howard\share_workout\ShareWorkoutAchievement_usecase.svg
 INPUT .\Howard\share_workout\ShareWorkoutAchievement_usecase.svg
 INPUT .\Howard\share_workout\ShareWorkoutAchievement_usecase.svg
