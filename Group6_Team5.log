@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.5)  6 FEB 2024 13:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.2.5)  6 FEB 2024 13:24
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -354,7 +354,7 @@ Package pdftex.def Info: ./svg-inkscape/ShareWorkoutAchievement_sequence_svg-tex
 ) [11] [12 <./svg-inkscape/ShareWorkoutAchievement_usecase_svg-tex.pdf>] [13 <./svg-inkscape/ShareWorkoutAchievement_activity_svg-tex.pdf>] [14 <./svg-inkscape/ShareWorkoutAchievement_class_svg-tex.pdf>] [15 <./svg-inkscape/ShareWorkoutAchievement_sequence_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/NutritionalTracking_usecase_svg-tex.pdf' is 1 on input line 460.
  (svg-inkscape/NutritionalTracking_usecase_svg-tex.pdf_tex
-<./svg-inkscape/NutritionalTracking_usecase_svg-tex.pdf, id=1743, page=1, 540.51938pt x 311.66437pt>
+<./svg-inkscape/NutritionalTracking_usecase_svg-tex.pdf, id=1785, page=1, 540.51938pt x 311.66437pt>
 File: ./svg-inkscape/NutritionalTracking_usecase_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/NutritionalTracking_usecase_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/NutritionalTracking_usecase_svg-tex.pdf , page1 used on input line 56.
@@ -362,7 +362,7 @@ Package pdftex.def Info: ./svg-inkscape/NutritionalTracking_usecase_svg-tex.pdf 
 )
 Package svg Info: Last page of `./svg-inkscape/Show nutritient and calories_svg-tex.pdf' is 1 on input line 468.
  (svg-inkscape/Show nutritient and calories_svg-tex.pdf_tex
-<./svg-inkscape/Show nutritient and calories_svg-tex.pdf, id=1745, page=1, 149.05687pt x 182.18062pt>
+<./svg-inkscape/Show nutritient and calories_svg-tex.pdf, id=1787, page=1, 149.05687pt x 182.18062pt>
 File: ./svg-inkscape/Show nutritient and calories_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Show nutritient and calories_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Show nutritient and calories_svg-tex.pdf , page1 used on input line 56.
@@ -370,7 +370,7 @@ Package pdftex.def Info: ./svg-inkscape/Show nutritient and calories_svg-tex.pdf
 )
 Package svg Info: Last page of `./svg-inkscape/NutritionalTracking_activity_svg-tex.pdf' is 1 on input line 476.
  (svg-inkscape/NutritionalTracking_activity_svg-tex.pdf_tex
-<./svg-inkscape/NutritionalTracking_activity_svg-tex.pdf, id=1747, page=1, 493.845pt x 392.96812pt>
+<./svg-inkscape/NutritionalTracking_activity_svg-tex.pdf, id=1789, page=1, 493.845pt x 392.96812pt>
 File: ./svg-inkscape/NutritionalTracking_activity_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/NutritionalTracking_activity_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/NutritionalTracking_activity_svg-tex.pdf , page1 used on input line 56.
@@ -378,7 +378,7 @@ Package pdftex.def Info: ./svg-inkscape/NutritionalTracking_activity_svg-tex.pdf
 )
 Package svg Info: Last page of `./svg-inkscape/NutritionalTracking_class_svg-tex.pdf' is 1 on input line 492.
  (svg-inkscape/NutritionalTracking_class_svg-tex.pdf_tex
-<./svg-inkscape/NutritionalTracking_class_svg-tex.pdf, id=1749, page=1, 435.12563pt x 374.14781pt>
+<./svg-inkscape/NutritionalTracking_class_svg-tex.pdf, id=1791, page=1, 435.12563pt x 374.14781pt>
 File: ./svg-inkscape/NutritionalTracking_class_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/NutritionalTracking_class_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/NutritionalTracking_class_svg-tex.pdf , page1 used on input line 56.
@@ -386,7 +386,7 @@ Package pdftex.def Info: ./svg-inkscape/NutritionalTracking_class_svg-tex.pdf , 
 )
 Package svg Info: Last page of `./svg-inkscape/NutritionalTracking_sequence_svg-tex.pdf' is 1 on input line 507.
  (svg-inkscape/NutritionalTracking_sequence_svg-tex.pdf_tex
-<./svg-inkscape/NutritionalTracking_sequence_svg-tex.pdf, id=1751, page=1, 646.66594pt x 938.75719pt>
+<./svg-inkscape/NutritionalTracking_sequence_svg-tex.pdf, id=1793, page=1, 646.66594pt x 938.75719pt>
 File: ./svg-inkscape/NutritionalTracking_sequence_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/NutritionalTracking_sequence_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/NutritionalTracking_sequence_svg-tex.pdf , page1 used on input line 56.
@@ -401,7 +401,7 @@ pdfTeX warning: pdflatex (file ./svg-inkscape/Show nutritient and calories_svg-t
 >] [18 <./svg-inkscape/NutritionalTracking_activity_svg-tex.pdf>] [19 <./svg-inkscape/NutritionalTracking_class_svg-tex.pdf>] [20 <./svg-inkscape/NutritionalTracking_sequence_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/AppearenceTheme_usecase_svg-tex.pdf' is 1 on input line 566.
  (svg-inkscape/AppearenceTheme_usecase_svg-tex.pdf_tex
-<./svg-inkscape/AppearenceTheme_usecase_svg-tex.pdf, id=3974, page=1, 551.05875pt x 341.02406pt>
+<./svg-inkscape/AppearenceTheme_usecase_svg-tex.pdf, id=4061, page=1, 551.05875pt x 341.02406pt>
 File: ./svg-inkscape/AppearenceTheme_usecase_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/AppearenceTheme_usecase_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/AppearenceTheme_usecase_svg-tex.pdf , page1 used on input line 56.
@@ -409,7 +409,7 @@ Package pdftex.def Info: ./svg-inkscape/AppearenceTheme_usecase_svg-tex.pdf , pa
 )
 Package svg Info: Last page of `./svg-inkscape/AppearenceTheme_activity_svg-tex.pdf' is 1 on input line 580.
  (svg-inkscape/AppearenceTheme_activity_svg-tex.pdf_tex
-<./svg-inkscape/AppearenceTheme_activity_svg-tex.pdf, id=3976, page=1, 455.45157pt x 375.65344pt>
+<./svg-inkscape/AppearenceTheme_activity_svg-tex.pdf, id=4063, page=1, 455.45157pt x 375.65344pt>
 File: ./svg-inkscape/AppearenceTheme_activity_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/AppearenceTheme_activity_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/AppearenceTheme_activity_svg-tex.pdf , page1 used on input line 56.
@@ -417,7 +417,7 @@ Package pdftex.def Info: ./svg-inkscape/AppearenceTheme_activity_svg-tex.pdf , p
 )
 Package svg Info: Last page of `./svg-inkscape/AppearenceTheme_class_svg-tex.pdf' is 1 on input line 595.
  (svg-inkscape/AppearenceTheme_class_svg-tex.pdf_tex
-<./svg-inkscape/AppearenceTheme_class_svg-tex.pdf, id=3978, page=1, 398.23781pt x 264.23718pt>
+<./svg-inkscape/AppearenceTheme_class_svg-tex.pdf, id=4065, page=1, 398.23781pt x 264.23718pt>
 File: ./svg-inkscape/AppearenceTheme_class_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/AppearenceTheme_class_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/AppearenceTheme_class_svg-tex.pdf , page1 used on input line 56.
@@ -425,7 +425,7 @@ Package pdftex.def Info: ./svg-inkscape/AppearenceTheme_class_svg-tex.pdf , page
 )
 Package svg Info: Last page of `./svg-inkscape/AppearenceTheme_sequence_svg-tex.pdf' is 1 on input line 610.
  (svg-inkscape/AppearenceTheme_sequence_svg-tex.pdf_tex
-<./svg-inkscape/AppearenceTheme_sequence_svg-tex.pdf, id=3980, page=1, 647.41875pt x 996.72375pt>
+<./svg-inkscape/AppearenceTheme_sequence_svg-tex.pdf, id=4067, page=1, 647.41875pt x 996.72375pt>
 File: ./svg-inkscape/AppearenceTheme_sequence_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/AppearenceTheme_sequence_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/AppearenceTheme_sequence_svg-tex.pdf , page1 used on input line 56.
@@ -437,7 +437,7 @@ LaTeX Warning: Float too large for page by 111.66786pt on input line 615.
 [21] [22 <./svg-inkscape/AppearenceTheme_usecase_svg-tex.pdf>] [23 <./svg-inkscape/AppearenceTheme_activity_svg-tex.pdf>] [24 <./svg-inkscape/AppearenceTheme_class_svg-tex.pdf>] [25 <./svg-inkscape/AppearenceTheme_sequence_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/Stopwatch_usecase_svg-tex.pdf' is 1 on input line 669.
  (svg-inkscape/Stopwatch_usecase_svg-tex.pdf_tex
-<./svg-inkscape/Stopwatch_usecase_svg-tex.pdf, id=5840, page=1, 583.42969pt x 388.45125pt>
+<./svg-inkscape/Stopwatch_usecase_svg-tex.pdf, id=5927, page=1, 583.42969pt x 388.45125pt>
 File: ./svg-inkscape/Stopwatch_usecase_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Stopwatch_usecase_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Stopwatch_usecase_svg-tex.pdf , page1 used on input line 56.
@@ -445,7 +445,7 @@ Package pdftex.def Info: ./svg-inkscape/Stopwatch_usecase_svg-tex.pdf , page1 us
 )
 Package svg Info: Last page of `./svg-inkscape/Stopwatch_activity_svg-tex.pdf' is 1 on input line 683.
  (svg-inkscape/Stopwatch_activity_svg-tex.pdf_tex
-<./svg-inkscape/Stopwatch_activity_svg-tex.pdf, id=5842, page=1, 481.04718pt x 347.04657pt>
+<./svg-inkscape/Stopwatch_activity_svg-tex.pdf, id=5929, page=1, 481.04718pt x 347.04657pt>
 File: ./svg-inkscape/Stopwatch_activity_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Stopwatch_activity_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Stopwatch_activity_svg-tex.pdf , page1 used on input line 56.
@@ -453,7 +453,7 @@ Package pdftex.def Info: ./svg-inkscape/Stopwatch_activity_svg-tex.pdf , page1 u
 ) [26] [27 <./svg-inkscape/Stopwatch_usecase_svg-tex.pdf>] [28 <./svg-inkscape/Stopwatch_activity_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/Stopwatch_class_svg-tex.pdf' is 1 on input line 699.
  (svg-inkscape/Stopwatch_class_svg-tex.pdf_tex
-<./svg-inkscape/Stopwatch_class_svg-tex.pdf, id=6606, page=1, 475.02469pt x 166.37157pt>
+<./svg-inkscape/Stopwatch_class_svg-tex.pdf, id=6693, page=1, 475.02469pt x 166.37157pt>
 File: ./svg-inkscape/Stopwatch_class_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Stopwatch_class_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Stopwatch_class_svg-tex.pdf , page1 used on input line 56.
@@ -461,7 +461,7 @@ Package pdftex.def Info: ./svg-inkscape/Stopwatch_class_svg-tex.pdf , page1 used
 )
 Package svg Info: Last page of `./svg-inkscape/Stopwatch_sequence_svg-tex.pdf' is 1 on input line 715.
  (svg-inkscape/Stopwatch_sequence_svg-tex.pdf_tex
-<./svg-inkscape/Stopwatch_sequence_svg-tex.pdf, id=6608, page=1, 487.8225pt x 600.74437pt>
+<./svg-inkscape/Stopwatch_sequence_svg-tex.pdf, id=6695, page=1, 487.8225pt x 600.74437pt>
 File: ./svg-inkscape/Stopwatch_sequence_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/Stopwatch_sequence_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/Stopwatch_sequence_svg-tex.pdf , page1 used on input line 56.
@@ -479,7 +479,7 @@ Package pdftex.def Info: Kreis2.pdf  used on input line 737.
  [32]
 Package svg Info: Last page of `./svg-inkscape/GestureControl_usecase_svg-tex.pdf' is 1 on input line 779.
  (svg-inkscape/GestureControl_usecase_svg-tex.pdf_tex
-<./svg-inkscape/GestureControl_usecase_svg-tex.pdf, id=7424, page=1, 835.62187pt x 606.01407pt>
+<./svg-inkscape/GestureControl_usecase_svg-tex.pdf, id=7511, page=1, 835.62187pt x 606.01407pt>
 File: ./svg-inkscape/GestureControl_usecase_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GestureControl_usecase_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/GestureControl_usecase_svg-tex.pdf , page1 used on input line 56.
@@ -487,7 +487,7 @@ Package pdftex.def Info: ./svg-inkscape/GestureControl_usecase_svg-tex.pdf , pag
 )
 Package svg Info: Last page of `./svg-inkscape/GestureControl_activity_svg-tex.pdf' is 1 on input line 791.
  (svg-inkscape/GestureControl_activity_svg-tex.pdf_tex
-<./svg-inkscape/GestureControl_activity_svg-tex.pdf, id=7426, page=1, 548.80031pt x 682.80093pt>
+<./svg-inkscape/GestureControl_activity_svg-tex.pdf, id=7513, page=1, 548.80031pt x 682.80093pt>
 File: ./svg-inkscape/GestureControl_activity_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GestureControl_activity_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/GestureControl_activity_svg-tex.pdf , page1 used on input line 56.
@@ -495,7 +495,7 @@ Package pdftex.def Info: ./svg-inkscape/GestureControl_activity_svg-tex.pdf , pa
 )
 Package svg Info: Last page of `./svg-inkscape/GestureControl_class_svg-tex.pdf' is 1 on input line 803.
  (svg-inkscape/GestureControl_class_svg-tex.pdf_tex
-<./svg-inkscape/GestureControl_class_svg-tex.pdf, id=7428, page=1, 627.09282pt x 456.95718pt>
+<./svg-inkscape/GestureControl_class_svg-tex.pdf, id=7515, page=1, 627.09282pt x 456.95718pt>
 File: ./svg-inkscape/GestureControl_class_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GestureControl_class_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/GestureControl_class_svg-tex.pdf , page1 used on input line 56.
@@ -503,7 +503,7 @@ Package pdftex.def Info: ./svg-inkscape/GestureControl_class_svg-tex.pdf , page1
 )
 Package svg Info: Last page of `./svg-inkscape/GestureControl_sequence_svg-tex.pdf' is 1 on input line 815.
  (svg-inkscape/GestureControl_sequence_svg-tex.pdf_tex
-<./svg-inkscape/GestureControl_sequence_svg-tex.pdf, id=7430, page=1, 746.03719pt x 733.99219pt>
+<./svg-inkscape/GestureControl_sequence_svg-tex.pdf, id=7517, page=1, 746.03719pt x 733.99219pt>
 File: ./svg-inkscape/GestureControl_sequence_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/GestureControl_sequence_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/GestureControl_sequence_svg-tex.pdf , page1 used on input line 56.
@@ -511,7 +511,7 @@ Package pdftex.def Info: ./svg-inkscape/GestureControl_sequence_svg-tex.pdf , pa
 ) [33] [34 <./svg-inkscape/GestureControl_usecase_svg-tex.pdf>] [35 <./svg-inkscape/GestureControl_activity_svg-tex.pdf>] [36 <./svg-inkscape/GestureControl_class_svg-tex.pdf>] [37 <./svg-inkscape/GestureControl_sequence_svg-tex.pdf>] [38] [39]
 
 pdfTeX warning: pdflatex (file ./Marc/req9/9activity.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Marc/req9/9activity.pdf, id=9161, 794.97pt x 614.295pt>
+<Marc/req9/9activity.pdf, id=9248, 794.97pt x 614.295pt>
 File: Marc/req9/9activity.pdf Graphic file (type pdf)
 <use Marc/req9/9activity.pdf>
 Package pdftex.def Info: Marc/req9/9activity.pdf  used on input line 844.
@@ -519,7 +519,7 @@ Package pdftex.def Info: Marc/req9/9activity.pdf  used on input line 844.
 [40 <./Marc/req9/9activity.pdf>] [41] [42] [43] [44] [45]
 
 pdfTeX warning: pdflatex (file ./Marc/req10/10activity.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<Marc/req10/10activity.pdf, id=9193, 794.97pt x 614.295pt>
+<Marc/req10/10activity.pdf, id=9280, 794.97pt x 614.295pt>
 File: Marc/req10/10activity.pdf Graphic file (type pdf)
 <use Marc/req10/10activity.pdf>
 Package pdftex.def Info: Marc/req10/10activity.pdf  used on input line 883.
@@ -527,7 +527,7 @@ Package pdftex.def Info: Marc/req10/10activity.pdf  used on input line 883.
 [46 <./Marc/req10/10activity.pdf>] [47] [48] [49]
 Package svg Info: Last page of `./svg-inkscape/DisplayHeartRateDataOnSmartwatch_use_case_diagram_svg-tex.pdf' is 1 on input line 956.
  (svg-inkscape/DisplayHeartRateDataOnSmartwatch_use_case_diagram_svg-tex.pdf_tex
-<./svg-inkscape/DisplayHeartRateDataOnSmartwatch_use_case_diagram_svg-tex.pdf, id=9221, page=1, 693.34032pt x 524.71031pt>
+<./svg-inkscape/DisplayHeartRateDataOnSmartwatch_use_case_diagram_svg-tex.pdf, id=9308, page=1, 693.34032pt x 524.71031pt>
 File: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_use_case_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_use_case_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_use_case_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -535,7 +535,7 @@ Package pdftex.def Info: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_use_cas
 )
 Package svg Info: Last page of `./svg-inkscape/DisplayHeartRateDataOnSmartwatch_activity_diagram_svg-tex.pdf' is 1 on input line 972.
  (svg-inkscape/DisplayHeartRateDataOnSmartwatch_activity_diagram_svg-tex.pdf_tex
-<./svg-inkscape/DisplayHeartRateDataOnSmartwatch_activity_diagram_svg-tex.pdf, id=9223, page=1, 520.19344pt x 427.5975pt>
+<./svg-inkscape/DisplayHeartRateDataOnSmartwatch_activity_diagram_svg-tex.pdf, id=9310, page=1, 520.19344pt x 427.5975pt>
 File: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_activity_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_activity_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_activity_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -543,7 +543,7 @@ Package pdftex.def Info: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_activit
 )
 Package svg Info: Last page of `./svg-inkscape/DisplayHeartRateDataOnSmartwatch_class_diagram_svg-tex.pdf' is 1 on input line 988.
  (svg-inkscape/DisplayHeartRateDataOnSmartwatch_class_diagram_svg-tex.pdf_tex
-<./svg-inkscape/DisplayHeartRateDataOnSmartwatch_class_diagram_svg-tex.pdf, id=9225, page=1, 537.50812pt x 340.27126pt>
+<./svg-inkscape/DisplayHeartRateDataOnSmartwatch_class_diagram_svg-tex.pdf, id=9312, page=1, 537.50812pt x 340.27126pt>
 File: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_class_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_class_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_class_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -551,7 +551,7 @@ Package pdftex.def Info: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_class_d
 )
 Package svg Info: Last page of `./svg-inkscape/DisplayHeartRateDataOnSmartwatch_sequence_diagram_svg-tex.pdf' is 1 on input line 1005.
  (svg-inkscape/DisplayHeartRateDataOnSmartwatch_sequence_diagram_svg-tex.pdf_tex
-<./svg-inkscape/DisplayHeartRateDataOnSmartwatch_sequence_diagram_svg-tex.pdf, id=9227, page=1, 625.58719pt x 510.40688pt>
+<./svg-inkscape/DisplayHeartRateDataOnSmartwatch_sequence_diagram_svg-tex.pdf, id=9314, page=1, 625.58719pt x 510.40688pt>
 File: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_sequence_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_sequence_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_sequence_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -559,7 +559,7 @@ Package pdftex.def Info: ./svg-inkscape/DisplayHeartRateDataOnSmartwatch_sequenc
 ) [50] [51 <./svg-inkscape/DisplayHeartRateDataOnSmartwatch_use_case_diagram_svg-tex.pdf>] [52 <./svg-inkscape/DisplayHeartRateDataOnSmartwatch_activity_diagram_svg-tex.pdf>] [53 <./svg-inkscape/DisplayHeartRateDataOnSmartwatch_class_diagram_svg-tex.pdf>] [54 <./svg-inkscape/DisplayHeartRateDataOnSmartwatch_sequence_diagram_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf' is 1 on input line 1071.
  (svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf_tex
-<./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf, id=10896, page=1, 645.91313pt x 469.00218pt>
+<./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf, id=10983, page=1, 645.91313pt x 469.00218pt>
 File: ./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -567,7 +567,7 @@ Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_use_case_diagram_s
 )
 Package svg Info: Last page of `./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf' is 1 on input line 1089.
  (svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf_tex
-<./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf, id=10898, page=1, 414.79968pt x 395.97937pt>
+<./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf, id=10985, page=1, 414.79968pt x 395.97937pt>
 File: ./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -575,7 +575,7 @@ Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_activity_diagram_s
 )
 Package svg Info: Last page of `./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf' is 1 on input line 1108.
  (svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf_tex
-<./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf, id=10900, page=1, 500.62032pt x 352.31625pt>
+<./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf, id=10987, page=1, 500.62032pt x 352.31625pt>
 File: ./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -583,7 +583,7 @@ Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-
 )
 Package svg Info: Last page of `./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf' is 1 on input line 1127.
  (svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf_tex
-<./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf, id=10902, page=1, 640.64343pt x 616.55344pt>
+<./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf, id=10989, page=1, 640.64343pt x 616.55344pt>
 File: ./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -591,7 +591,7 @@ Package pdftex.def Info: ./svg-inkscape/EnvironmentMonitoring_sequence_diagram_s
 ) [55] [56 <./svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf>] [57 <./svg-inkscape/EnvironmentMonitoring_activity_diagram_svg-tex.pdf>] [58 <./svg-inkscape/EnvironmentMonitoring_class_diagram_svg-tex.pdf>] [59 <./svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/PayWithSmartwatch_use_case_diagram_svg-tex.pdf' is 1 on input line 1193.
  (svg-inkscape/PayWithSmartwatch_use_case_diagram_svg-tex.pdf_tex
-<./svg-inkscape/PayWithSmartwatch_use_case_diagram_svg-tex.pdf, id=12672, page=1, 703.87968pt x 426.84468pt>
+<./svg-inkscape/PayWithSmartwatch_use_case_diagram_svg-tex.pdf, id=12759, page=1, 703.87968pt x 426.84468pt>
 File: ./svg-inkscape/PayWithSmartwatch_use_case_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/PayWithSmartwatch_use_case_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/PayWithSmartwatch_use_case_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -599,7 +599,7 @@ Package pdftex.def Info: ./svg-inkscape/PayWithSmartwatch_use_case_diagram_svg-t
 )
 Package svg Info: Last page of `./svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf' is 1 on input line 1209.
  (svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf_tex
-<./svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf, id=12674, page=1, 510.40688pt x 448.67625pt>
+<./svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf, id=12761, page=1, 510.40688pt x 448.67625pt>
 File: ./svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -607,7 +607,7 @@ Package pdftex.def Info: ./svg-inkscape/PayWithSmartwatch_activity_diagram_svg-t
 )
 Package svg Info: Last page of `./svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.pdf' is 1 on input line 1226.
  (svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.pdf_tex
-<./svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.pdf, id=12676, page=1, 630.10406pt x 298.11375pt>
+<./svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.pdf, id=12763, page=1, 630.10406pt x 298.11375pt>
 File: ./svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -615,7 +615,7 @@ Package pdftex.def Info: ./svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.
 ) [60] [61 <./svg-inkscape/PayWithSmartwatch_use_case_diagram_svg-tex.pdf>] [62 <./svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/PayWithSmartwatch_sequence_diagram_svg-tex.pdf' is 1 on input line 1244.
  (svg-inkscape/PayWithSmartwatch_sequence_diagram_svg-tex.pdf_tex
-<./svg-inkscape/PayWithSmartwatch_sequence_diagram_svg-tex.pdf, id=13404, page=1, 585.68813pt x 591.71063pt>
+<./svg-inkscape/PayWithSmartwatch_sequence_diagram_svg-tex.pdf, id=13491, page=1, 585.68813pt x 591.71063pt>
 File: ./svg-inkscape/PayWithSmartwatch_sequence_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/PayWithSmartwatch_sequence_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/PayWithSmartwatch_sequence_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -623,7 +623,7 @@ Package pdftex.def Info: ./svg-inkscape/PayWithSmartwatch_sequence_diagram_svg-t
 ) [63 <./svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.pdf>] [64 <./svg-inkscape/PayWithSmartwatch_sequence_diagram_svg-tex.pdf>]
 Package svg Info: Last page of `./svg-inkscape/TipsUsingTheSmartwatch_use_case_diagram_svg-tex.pdf' is 1 on input line 1310.
  (svg-inkscape/TipsUsingTheSmartwatch_use_case_diagram_svg-tex.pdf_tex
-<./svg-inkscape/TipsUsingTheSmartwatch_use_case_diagram_svg-tex.pdf, id=14351, page=1, 677.53125pt x 424.58624pt>
+<./svg-inkscape/TipsUsingTheSmartwatch_use_case_diagram_svg-tex.pdf, id=14438, page=1, 677.53125pt x 424.58624pt>
 File: ./svg-inkscape/TipsUsingTheSmartwatch_use_case_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TipsUsingTheSmartwatch_use_case_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/TipsUsingTheSmartwatch_use_case_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -631,7 +631,7 @@ Package pdftex.def Info: ./svg-inkscape/TipsUsingTheSmartwatch_use_case_diagram_
 )
 Package svg Info: Last page of `./svg-inkscape/TipsUsingTheSmartwatch_activity_diagram_svg-tex.pdf' is 1 on input line 1325.
  (svg-inkscape/TipsUsingTheSmartwatch_activity_diagram_svg-tex.pdf_tex
-<./svg-inkscape/TipsUsingTheSmartwatch_activity_diagram_svg-tex.pdf, id=14353, page=1, 510.40688pt x 448.67625pt>
+<./svg-inkscape/TipsUsingTheSmartwatch_activity_diagram_svg-tex.pdf, id=14440, page=1, 510.40688pt x 448.67625pt>
 File: ./svg-inkscape/TipsUsingTheSmartwatch_activity_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TipsUsingTheSmartwatch_activity_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/TipsUsingTheSmartwatch_activity_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -639,7 +639,7 @@ Package pdftex.def Info: ./svg-inkscape/TipsUsingTheSmartwatch_activity_diagram_
 )
 Package svg Info: Last page of `./svg-inkscape/TipsUsingTheSmartwatch_class_diagram_svg-tex.pdf' is 1 on input line 1341.
  (svg-inkscape/TipsUsingTheSmartwatch_class_diagram_svg-tex.pdf_tex
-<./svg-inkscape/TipsUsingTheSmartwatch_class_diagram_svg-tex.pdf, id=14355, page=1, 558.58687pt x 382.42876pt>
+<./svg-inkscape/TipsUsingTheSmartwatch_class_diagram_svg-tex.pdf, id=14442, page=1, 558.58687pt x 382.42876pt>
 File: ./svg-inkscape/TipsUsingTheSmartwatch_class_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TipsUsingTheSmartwatch_class_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/TipsUsingTheSmartwatch_class_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -647,7 +647,7 @@ Package pdftex.def Info: ./svg-inkscape/TipsUsingTheSmartwatch_class_diagram_svg
 )
 Package svg Info: Last page of `./svg-inkscape/TipsUsingTheSmartwatch_sequence_diagram_svg-tex.pdf' is 1 on input line 1357.
  (svg-inkscape/TipsUsingTheSmartwatch_sequence_diagram_svg-tex.pdf_tex
-<./svg-inkscape/TipsUsingTheSmartwatch_sequence_diagram_svg-tex.pdf, id=14357, page=1, 608.2725pt x 415.5525pt>
+<./svg-inkscape/TipsUsingTheSmartwatch_sequence_diagram_svg-tex.pdf, id=14444, page=1, 608.2725pt x 415.5525pt>
 File: ./svg-inkscape/TipsUsingTheSmartwatch_sequence_diagram_svg-tex.pdf Graphic file (type pdf)
 <use ./svg-inkscape/TipsUsingTheSmartwatch_sequence_diagram_svg-tex.pdf, page 1>
 Package pdftex.def Info: ./svg-inkscape/TipsUsingTheSmartwatch_sequence_diagram_svg-tex.pdf , page1 used on input line 56.
@@ -667,9 +667,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  94i,13n,93p,690b,670s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\School\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on Group6_Team5.pdf (70 pages, 9237356 bytes).
+Output written on Group6_Team5.pdf (70 pages, 9246345 bytes).
 PDF statistics:
- 15957 PDF objects out of 18468 (max. 8388607)
+ 16044 PDF objects out of 18468 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  398 words of extra memory for PDF output out of 10000 (max. 10000000)
 
