@@ -636,7 +636,7 @@ In our third Meeting we have once more discussed our documentation, we simply tr
 								3 & User press "Stop" to halt timing \\ \hline
 								4 & User can either resume timing by pressing "Start" or reset the stopwatch by pressing "Reset" \\ \hline
 				Alternative Flow & A \\ \hline
-								The stopwatch fails to start due to a software glitch\\ \hline
+								Description Actions& The stopwatch fails to start due to a software glitch\\ \hline
 								1 & User attempts to start the stopwatch, but it does not respond \\ \hline
 								2 & The device prompts an error message or remains inactive\\ \hline
 								3 & User restarts the device or the application and retires initialing the stopwatch \\ \hline
@@ -684,8 +684,9 @@ In our third Meeting we have once more discussed our documentation, we simply tr
 				\caption{Activity Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				This appearence theme activity diagram show the flow chart of this requirement, user has two option to select, either white or dark theme.
-				Each flow apply preset font color and contrast level, then user can adjust contrast level manually if they want to customize it.
+				This stopwatch activity diagram shows the detail flow chart of stopwatch. It initiate whenever user start the stopwatch, the time begins to elapsed
+				then at some point user stop the stopwatch and halt the elapsed time. User has option, either save elapsed time or no. Afterwards, user can 
+				chose to reset the time or start to process again to resume the time.
 			\end{subfigure}
 		\end{figure}
 		\newpage
@@ -699,8 +700,8 @@ In our third Meeting we have once more discussed our documentation, we simply tr
 				\caption{Class Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				This appearence theme class diagram shows the classes, operations and classes for the requirement. User has to press 
-				the opration button to, when it becomes true, then it will initiate the class StopWatch. The operation in StopWatch depends on 
+				This stopwatch class diagram shows the classes, operations and classes for the requirement. User has to press 
+				the opration button to initiate it. When it becomes true, then it will initiate the class StopWatch. The operation in StopWatch depends on 
 				UserInput, either it starts, stop or reset. If user want to save the elapsed time, it will use get operation to get the time,
 				then the SaveTime class will perform an opeeration to save it. 
 			\end{subfigure}
