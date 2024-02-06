@@ -2,18 +2,6 @@
 \contentsline {subsection}{\numberline {1.1}Requirement1}{2}{}%
 \contentsline {subsection}{\numberline {1.2}Requirement2}{4}{}%
 \contentsline {section}{\numberline {2}Howard-Yi Hong Soon}{5}{}%
-<<<<<<< HEAD
-\contentsline {subsection}{\numberline {2.1}Requirement 10: Easy usability with Gesture Control}{5}{}%
-\contentsline {section}{\numberline {3}Jiwon Won}{6}{}%
-\contentsline {subsection}{\numberline {3.1}Requirement1}{6}{}%
-\contentsline {section}{\numberline {4}}{8}{}%
-\contentsline {subsection}{\numberline {4.1}Requirement 10: Easy usability with Gesture Control}{8}{}%
-\contentsline {section}{\numberline {5}Marc Roemer}{13}{}%
-\contentsline {subsection}{\numberline {5.1}Requirement 9: Calculation and display daily and weekly step count statistics}{13}{}%
-\contentsline {subsection}{\numberline {5.2}Requirement 10: Create and manages a workout plan}{19}{}%
-\contentsline {section}{\numberline {6}Stefan Nguyen}{25}{}%
-\contentsline {subsection}{\numberline {6.1}Display Heart Rate Data on Smartwatch}{25}{}%
-=======
 \contentsline {subsection}{\numberline {2.1}Requirement 5: Share workout achievement on social media}{5}{}%
 \contentsline {paragraph}{Functional requirements}{5}{}%
 \contentsline {paragraph}{Non-functional requirements}{5}{}%
@@ -35,7 +23,14 @@
 \contentsline {subsection}{\numberline {5.2}Requirement 10: Create and manages a workout plan}{38}{}%
 \contentsline {section}{\numberline {6}Stefan Nguyen}{44}{}%
 \contentsline {subsection}{\numberline {6.1}Requirement 3: Display Heart Rate on Smartwatch}{44}{}%
+\contentsline {paragraph}{Functional requirements}{44}{}%
+\contentsline {paragraph}{Non-functional requirements}{44}{}%
 \contentsline {subsection}{\numberline {6.2}Requirement 11: Environment Monitoring}{49}{}%
+\contentsline {paragraph}{Functional requirements}{49}{}%
+\contentsline {paragraph}{Non-functional requirements}{49}{}%
 \contentsline {subsection}{\numberline {6.3}Requirement 13: Pay with Smartwatch}{54}{}%
+\contentsline {paragraph}{Functional requirements}{54}{}%
+\contentsline {paragraph}{Non-functional requirements}{54}{}%
 \contentsline {subsection}{\numberline {6.4}Requirement 14: Tips for using the Smartwatch}{57}{}%
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
+\contentsline {paragraph}{Functional requirements}{59}{}%
+\contentsline {paragraph}{Non-functional requirements}{59}{}%

@@ -1,15 +1,9 @@
 # Fdb version 4
-<<<<<<< HEAD
-["pdflatex"] 1707152081.00774 "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" "Group6_Team5.pdf" "Group6_Team5" 1707152084.58134 0
-  "C:/Users/School/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1707148943 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
-  "C:/Users/School/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1707148845 24225558 421734660196544859c6725293d6409c ""
-=======
-["pdflatex"] 1707167722.11528 "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" "Group6_Team5.pdf" "Group6_Team5" 1707167724.76173 0
+["pdflatex"] 1707215822.94479 "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" "Group6_Team5.pdf" "Group6_Team5" 1707215826.00469 0
   "C:/Users/School/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1707148943 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/School/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1707157424 11548 7abbf5f8806780bc7dfd4799d4c47ad9 ""
   "C:/Users/School/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1707148845 24225558 421734660196544859c6725293d6409c ""
   "C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
   "C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx10.tfm" 1136765053 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/School/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmcsc10.tfm" 1136765053 1300 63a6111ee6274895728663cf4b4e7e81 ""
@@ -79,14 +73,9 @@
   "C:/Users/School/AppData/Local/Programs/MiKTeX/tex/latex/transparent/transparent.sty" 1674488802 1918 c8d1ecb3722721d6f624992cbc042b70 ""
   "C:/Users/School/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/School/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-<<<<<<< HEAD
-  "Group6_Team5.aux" 1707152084 3994 e5441922ce460e2b7a9ecd59e24afb73 "pdflatex"
-  "Group6_Team5.tex" 1707152075 8815 0170c7c220579a5034d8bb8be78127a8 ""
-  "Group6_Team5.toc" 1707152084 1071 c9a8dbff12cd24e7b5de00ddbc15dd27 "pdflatex"
-=======
-  "Group6_Team5.aux" 1707167724 5402 4f31d80abd39712daaae68cd014ea0c9 "pdflatex"
-  "Group6_Team5.tex" 1707167718 49883 3f255ab7f1adfdef0e96a7927dc0404b ""
-  "Group6_Team5.toc" 1707167724 2135 5de740111d7ce473cf2e8c431cf216c2 "pdflatex"
+  "Group6_Team5.aux" 1707215825 6210 a41de1630d4ea0826b42ffbc3556ea4b "pdflatex"
+  "Group6_Team5.tex" 1707215818 52752 83c4fe70bfaa7dd613cff3582e5bc958 ""
+  "Group6_Team5.toc" 1707215825 2615 09b2c80588498382d599aaf42769cc0f "pdflatex"
   "Howard/AppearenceTheme/AppearenceTheme_activity.svg" 1707167060 349354 d3ecfe7e6209fd0657316fd70b18c972 ""
   "Howard/AppearenceTheme/AppearenceTheme_class.svg" 1707165853 407317 4d72b96cfcca0b5f046b779ab73e1d3d ""
   "Howard/AppearenceTheme/AppearenceTheme_sequence.svg" 1707167035 817654 64e1eb6bc94a9a08dbfd0bd0d622a7ce ""
@@ -103,7 +92,6 @@
   "Howard/share_workout/ShareWorkoutAchievement_class.svg" 1707155569 410125 6f679b55ce2d6ebe3287c6d9d87a9eae ""
   "Howard/share_workout/ShareWorkoutAchievement_sequence.svg" 1707156177 633589 e64fabd1a9fb2732435c21c6a6e65461 ""
   "Howard/share_workout/ShareWorkoutAchievement_usecase.svg" 1707153327 347641 350097a8a4b8e8151b9434dfce752548 ""
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
   "Kreis2.pdf" 1706267416 5090 42773461f86cc88c9b5c3dbc8b3b4bf4 ""
   "Lars/Use Case Gesture Control/GestureControl_activity.svg" 1707148109 405452 cabe9dfb05ca1824b770925d61964cbc ""
   "Lars/Use Case Gesture Control/GestureControl_class.svg" 1707148109 415544 de3af91e62525e601951cb89786c3fdf ""
@@ -111,9 +99,6 @@
   "Lars/Use Case Gesture Control/GestureControl_usecase.svg" 1707148109 550101 297b40544ba1cfd1c21586cf21dcf0ef ""
   "Marc/req10/10activity.pdf" 1707148109 219293 66d51924fdf2d0171aa7fd2d2d585b98 ""
   "Marc/req9/9activity.pdf" 1707148109 152776 307b560151ee825382b6b4a2124381aa ""
-<<<<<<< HEAD
-  "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" 1707152075 8815 0170c7c220579a5034d8bb8be78127a8 ""
-=======
   "Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_activity_diagram.svg" 1707148109 452768 81f98be1467753eddd4c08cf690aeea8 ""
   "Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_class_diagram.svg" 1707148109 505513 ab01c03a0f877e0d1943543ad274c070 ""
   "Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_sequence_diagram.svg" 1707148109 565389 4c8e33b22c3d60b4b8c82bb36d6bb1db ""
@@ -122,7 +107,7 @@
   "Stefan/Environment Monitoring/EnvironmentMonitoring_class_diagram.svg" 1707148109 564566 f0cef497ce01403aaceebf2799343ea8 ""
   "Stefan/Environment Monitoring/EnvironmentMonitoring_sequence_diagram.svg" 1707148109 624819 455f13163cb278c0b945efc0f5782aac ""
   "Stefan/Environment Monitoring/EnvironmentMonitoring_use_case_diagram.svg" 1707148109 557848 2d737935eba64056823ffb7487d13798 ""
-  "Stefan/Pay with Smartwatch/PayWithSmartwatch_activity_diagram.svg" 1707148109 379529 06c90ef9ac0c8b4bee28944e7f505e46 ""
+  "Stefan/Pay with Smartwatch/PayWithSmartwatch_activity_diagram.svg" 1707214500 337678 9544a4ac1fd1014c3847f2b222ba3be5 ""
   "Stefan/Pay with Smartwatch/PayWithSmartwatch_class_diagram.svg" 1707148109 455089 41bb84030d042e8ca9fe2bf0e8ed8cef ""
   "Stefan/Pay with Smartwatch/PayWithSmartwatch_sequence_diagram.svg" 1707148109 680670 3d2d163b90afbe2fedab76fbead8ceb4 ""
   "Stefan/Pay with Smartwatch/PayWithSmartwatch_use_case_diagram.svg" 1707148109 487695 e824990343af984c3f47ba0a1377d844 ""
@@ -131,7 +116,7 @@
   "Stefan/Tips for using the Smartwatch/TipsUsingTheSmartwatch_sequence_diagram.svg" 1707148109 569376 3e38b0508d69d59b2b02bebc3d6afffc ""
   "Stefan/Tips for using the Smartwatch/TipsUsingTheSmartwatch_use_case_diagram.svg" 1707148109 490184 606f0eb77781ed09041c7248a1a68ce0 ""
   "Stefan/UI Prototypes/Show nutritient and calories.svg" 1707148109 322963 92abcf4bafaac9f9849a912b8c31aabc ""
-  "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" 1707167718 49883 3f255ab7f1adfdef0e96a7927dc0404b ""
+  "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" 1707215818 52752 83c4fe70bfaa7dd613cff3582e5bc958 ""
   "svg-inkscape/AppearenceTheme_activity_svg-tex.pdf" 1707167065 177851 1e1070bcea72b90d06cbadbea3a9aed0 ""
   "svg-inkscape/AppearenceTheme_activity_svg-tex.pdf_tex" 1707167065 2125 73caf53976e63a5c75aa97adc1c7435d ""
   "svg-inkscape/AppearenceTheme_class_svg-tex.pdf" 1707166049 199226 9d62c5c02f0780369b571b5f8993b839 ""
@@ -156,7 +141,6 @@
   "svg-inkscape/EnvironmentMonitoring_sequence_diagram_svg-tex.pdf_tex" 1707152932 2153 b23fc68431aa846010bed4e0a3b579c5 ""
   "svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf" 1707152915 260102 6372baff10692a478c3aa433698bc65a ""
   "svg-inkscape/EnvironmentMonitoring_use_case_diagram_svg-tex.pdf_tex" 1707152915 2146 0254c4312cf06f217a8e8c0af561415b ""
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
   "svg-inkscape/GestureControl_activity_svg-tex.pdf" 1707148973 209048 f2562b4ce3723779142787d07f42e724 ""
   "svg-inkscape/GestureControl_activity_svg-tex.pdf_tex" 1707148973 2117 e7b50f788c5bffb0e9cf8c047641866b ""
   "svg-inkscape/GestureControl_class_svg-tex.pdf" 1707148978 224978 702fb1f21be04b24fc3ee68aa86275b1 ""
@@ -165,8 +149,6 @@
   "svg-inkscape/GestureControl_sequence_svg-tex.pdf_tex" 1707148984 2123 9be11a0abb9d24ee90c095cf2a2bcc03 ""
   "svg-inkscape/GestureControl_usecase_svg-tex.pdf" 1707148967 246969 211d8291088beb604669a11cdd8c36a0 ""
   "svg-inkscape/GestureControl_usecase_svg-tex.pdf_tex" 1707148967 2114 67c9577dbf8d2b89d5f10a6c2df3a0c6 ""
-<<<<<<< HEAD
-=======
   "svg-inkscape/NutritionalTracking_activity_svg-tex.pdf" 1707159664 188501 67a68c99f7921f0bfdf1162787a18f0a ""
   "svg-inkscape/NutritionalTracking_activity_svg-tex.pdf_tex" 1707159664 2133 9606a2b107e6d1c2a350d6d28b84d6de ""
   "svg-inkscape/NutritionalTracking_class_svg-tex.pdf" 1707160350 223512 1882830d38fb1a29c2383fad0dfa820a ""
@@ -175,8 +157,8 @@
   "svg-inkscape/NutritionalTracking_sequence_svg-tex.pdf_tex" 1707160352 2133 e851c7e7679efcd2e66444f3810bc7a8 ""
   "svg-inkscape/NutritionalTracking_usecase_svg-tex.pdf" 1707159089 176479 8ce6260f1a9f8e55c5c2c3a5170f79a5 ""
   "svg-inkscape/NutritionalTracking_usecase_svg-tex.pdf_tex" 1707159089 2131 259c00f1959e7f08445a4937e71d6690 ""
-  "svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf" 1707164353 177270 dbedb687c86b630dd07f12bf61f2674f ""
-  "svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf_tex" 1707164353 2139 f969e3ce38f5161e9c55f2c5f96828c6 ""
+  "svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf" 1707214527 188068 d757ccf35739bf5fb162d62ab12a13e3 ""
+  "svg-inkscape/PayWithSmartwatch_activity_diagram_svg-tex.pdf_tex" 1707214527 2138 61a0bf4da47b543b2039e644fd7be894 ""
   "svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.pdf" 1707164355 191723 13715afefb32de3059d8ce9d71aa5199 ""
   "svg-inkscape/PayWithSmartwatch_class_diagram_svg-tex.pdf_tex" 1707164355 2133 eee22adce6d6c14b1ac02adf9b2585ef ""
   "svg-inkscape/PayWithSmartwatch_sequence_diagram_svg-tex.pdf" 1707164357 331576 faedc6f8be3b626748ba80c567eeeee3 ""
@@ -209,7 +191,6 @@
   "svg-inkscape/TipsUsingTheSmartwatch_sequence_diagram_svg-tex.pdf_tex" 1707164365 2155 08ea4ba79d3c2204e453b04059ac0f21 ""
   "svg-inkscape/TipsUsingTheSmartwatch_use_case_diagram_svg-tex.pdf" 1707164359 225541 deece5f6cf6c606a9dd5ff0f1c6dcc1a ""
   "svg-inkscape/TipsUsingTheSmartwatch_use_case_diagram_svg-tex.pdf_tex" 1707164359 2146 1cdce1c112176780c373ac776a81c27c ""
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
   (generated)
   "Group6_Team5.aux"
   "Group6_Team5.log"

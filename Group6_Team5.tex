@@ -658,42 +658,11 @@
 		\newpage
 			
 
+
 \section{Stefan Nguyen}
-<<<<<<< HEAD
-	\subsection{Requirement 3: Display Heart Rate on Smartwatch}
-		\begin{center}
-			\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
-				\hline
-				Name             & Display Heart Rate on Smartwatch \\ \hline
-				ID               & 3 \\ \hline
-				Business Value   & Medium \\ \hline
-				Description      & User can look at their herat beat data on the smartwatch \\ \hline
-				Trigger          & Click app icon from "health app" on smartwatch display, and then enter section "heart beat" \\ \hline
-				Actors           & User, Health data app, Heartbeat sensor \\ \hline
-				Pre-conditions   & Smartwatch turned on \\ \hline
-				Post-conditions  & User receives information about his health data \\ \hline
-				Basic Flow       & \\ \hline
-								Description & This is the main scenario where the user already has a valid account and password \\ \hline
-								Actions & \\ \hline
-								1 & The user opens the heartbeat app \\ \hline
-								2 & The app presents the user current heartrate in real time \\ \hline
-				Alternative Flow & A \\ \hline
-								Description & Inaccurate Sensoring of the heart beat \\ \hline
-								Actions & \\ \hline
-								1 & The app alerts the user about potential inaccuracy of the heart beat rate because of sensor issues. \\ \hline
-								2 & The app guides the user through a recalibration of the sensor for accurate restults.  \\ \hline
-				Alternative Flow & B \\ \hline
-								Description & App sensors an anomaly in the heartbeat pattern  \\ \hline
-								Actions & \\ \hline
-								1 & The app sends a push notification to the user that the sensors detected an irregular heart beat. \\ \hline
-								2 & The app provides guidance and relaxation techniques to normalize the heart beat rate. \\ \hline
-								3 & If the heart beat doesn't change the app gives the user the possibility to call medical service. \\ \hline
-			\end{tabularx}
-		\end{center}
-	\newpage
-=======
 
 \subsection{Requirement 3: Display Heart Rate on Smartwatch}
+	\textbf{Stefan Nguyen}
 	\begin{center}
 		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
 			\hline
@@ -723,70 +692,85 @@
 							3 & If the heart beat doesn't change the app gives the user the possibility to call medical service. \\ \hline
 		\end{tabularx}
 	\end{center}
+	\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The smartwatch should be able to display the user's current heart rate in real time when the application is active.
+			\item If the heart rate doesn't return to the normal state, the user is able to call emergency. 
+		\end{itemize}
+		
+	\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The sensor must provide accurate readings within a specific tolerance e.g. +/- 2-3 heart beats per minute under nomal condition. 
+			\item The app displays the heart rate within specific time frames, so delays should be minimal
+		\end{itemize}
+
+	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
+		\centering
+		\begin{subfigure}{\textwidth}
+			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_use_case_diagram.svg}}
+			\caption{Use Case Diagram}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+			The User has specific interactions for example he is able to review his heart rate on the history, he can also receive
+			heart rate alerts which will include safety confirmation and extend if an emergency is needed. We can also set a limit of heart rate for example,
+			if the user sets the limit to 140 bpm then he will get notified if we get passed that bpm. Next he can view the current heart rate on the smartwatch.
+			The External health monioring service can sensor the heart rate proceed its data and give the user personal insight of his heartrate. 
+		\end{subfigure}
+	\end{figure}
 
 
-\begin{figure}[htbp]
-	\centering
-	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_use_case_diagram.svg}}
-		\caption{Use Case Diagram}
-	\end{subfigure}
-	\begin{subfigure}{\textwidth}
-		The User has specific interactions for example he is able to review his heart rate on the history, he can also receive
-		heart rate alerts which will include safety confirmation and extend if an emergency is needed. We can also set a limit of heart rate for example,
-		if the user sets the limit to 140 bpm then he will get notified if we get passed that bpm. Next he can view the current heart rate on the smartwatch.
-		The External health monioring service can sensor the heart rate proceed its data and give the user personal insight of his heartrate. 
-	\end{subfigure}
-\end{figure}
+	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
+		\centering
+		\begin{subfigure}{\textwidth}
+			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_activity_diagram.svg}}
+			\caption{Activity Diagram}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+			Inside the Activity Diagram we start sensor the heart rate and proceed the data. Then with the given analysis it checks the 
+			heart rate from the user. If its not fine we prepare an alert and send the user a safety confirmation. If its needed then we call an ambulance. If not 
+			we can display the heartbeat data on the smartwatch. Then the user has a variety of options inside the smartwatch, e.g. 
+			view current heart rate or the history of the past analysis or even receive personal insight of the heart rate. 
+		\end{subfigure}
+	\end{figure}
 
 
-\begin{figure}[htbp]
-	\centering
-	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_activity_diagram.svg}}
-		\caption{Activity Diagram}
-	\end{subfigure}
-	\begin{subfigure}{\textwidth}
-		Inside the Activity Diagram we start sensor the heart rate and proceed the data. Then with the given analysis it checks the 
-		heart rate from the user. If its not fine we prepare an alert and send the user a safety confirmation. If its needed then we call an ambulance. If not 
-		we can display the heartbeat data on the smartwatch. Then the user has a variety of options inside the smartwatch, e.g. 
-		view current heart rate or the history of the past analysis or even receive personal insight of the heart rate. 
-	\end{subfigure}
-\end{figure}
+	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
+		\centering
+		\begin{subfigure}{\textwidth}
+			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_class_diagram.svg}}
+			\caption{Class Diagram}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+			Inside the Class Diagram we check the data from the User because height, weight or even age does play an important factor
+			for the heart rate analysis. Next we sensor the heart rate from the user and proceed the data. For that we use a directional 
+			association since we do the operation once, and the muliplitiy stays 1 because we only use 1 sensor. Inside the process data we check for 
+			the current heart rate. Last but not least, we display the data and the user is able to show the completed heart rate 
+			analysis. 
+		\end{subfigure}
+	\end{figure}
 
 
-\begin{figure}[htbp]
-	\centering
-	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_class_diagram.svg}}
-		\caption{Class Diagram}
-	\end{subfigure}
-	\begin{subfigure}{\textwidth}
-		Inside the Class Diagram we check the data from the User because height, weight or even age does play an important factor
-		for the heart rate analysis. Next we sensor the heart rate from the user and proceed the data. For that we use a directional 
-		association since we do the operation once, and the muliplitiy stays 1 because we only use 1 sensor. Inside the process data we check for 
-		the current heart rate. Last but not least, we display the data and the user is able to show the completed heart rate 
-		analysis. 
-	\end{subfigure}
-\end{figure}
-
-
-\begin{figure}[htbp]
-	\centering
-	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_sequence_diagram.svg}}
-		\caption{Sequence Diagram}
-	\end{subfigure}
-	\begin{subfigure}{\textwidth}
-		Inside the Main we get the profile from the user and read the heartRate with the Sensor. Next we proceed the data and check 
-		if a safety confirmation is needed. If yes we do an emergency call and we contact for medical assistance. Else we can process 
-		the data and prepare to display the data to the user. When we send the data to the user we also make sure to stop the sensoring and 
-		the user is able to review the current heart rate analysis. 
-	\end{subfigure}
-\end{figure}
-\newpage
+	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
+		\centering
+		\begin{subfigure}{\textwidth}
+			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_sequence_diagram.svg}}
+			\caption{Sequence Diagram}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+			Inside the Main we get the profile from the user and read the heartRate with the Sensor. Next we proceed the data and check 
+			if a safety confirmation is needed. If yes we do an emergency call and we contact for medical assistance. Else we can process 
+			the data and prepare to display the data to the user. When we send the data to the user we also make sure to stop the sensoring and 
+			the user is able to review the current heart rate analysis. 
+		\end{subfigure}
+	\end{figure}
+	\newpage
 
 \subsection{Requirement 11: Environment Monitoring}
+	\textbf{Stefan Nguyen}
 	\begin{center}
 		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
 			\hline
@@ -822,25 +806,23 @@
 							  5 & user doesn't acknoweldege notification -> the system keeps sending notifications or warns the user \\ \hline
 		\end{tabularx}
 	\end{center}
+	\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The sensor should automatically activate to environement changes or updates.
+			\item It needs to capture the environement data in real time.
+		\end{itemize}
+		
+	\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The display of the environement data on the smartwatch must be clear, intuitive and easily to understand. 
+			\item Must optimize low power consumption to minimize impact to smartwatch battery life. 
+		\end{itemize}
 	
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
-<<<<<<< HEAD
-			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_use_case_diagram.svg}}
-			\caption{Use Case Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			The User has specific interactions for example he is able to review his heart rate on the history, he can also receive
-			heart rate alerts which will include safety confirmation and extend if an emergency is needed. We can also set a limit of heart rate for example,
-			if the user sets the limit to 140 bpm then he will get notified if we get passed that bpm. Next he can view the current heart rate on the smartwatch.
-			The External health monioring service can sensor the heart rate proceed its data and give the user personal insight of his heartrate. 
-		\end{subfigure}
-	\end{figure}
-	\newpage
-=======
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Environment Monitoring/EnvironmentMonitoring_use_case_diagram.svg}}
 			\caption{Use Case Diagram}
 		\end{subfigure}
@@ -854,24 +836,11 @@
 		\end{subfigure}
 	\end{figure}
 	
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
-<<<<<<< HEAD
-			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_activity_diagram.svg}}
-			\caption{Activity Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			Inside the Activity Diagram we start sensor the heart rate and proceed the data. Then with the given analysis it checks the 
-			heart rate from the user. If its not fine we prepare an alert and send the user a safety confirmation. If its needed then we call an ambulance. If not 
-			we can display the heartbeat data on the smartwatch. Then the user has a variety of options inside the smartwatch, e.g. 
-			view current heart rate or the history of the past analysis or even receive personal insight of the heart rate. 
-		\end{subfigure}
-	\end{figure}
-	\newpage
-=======
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Environment Monitoring/EnvironmentMonitoring_activity_diagram.svg}}
 			\caption{Activity Diagram}
 		\end{subfigure}
@@ -886,22 +855,11 @@
 		\end{subfigure}
 	\end{figure}
 	
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
-<<<<<<< HEAD
-			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_class_diagram.svg}}
-			\caption{Class Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			Inside the Class Diagram we check the data from the User because height, weight or even age does play an important factor
-			for the heart rate analysis. Next we sensor the heart rate from the user and proceed the data. For that we use a directional 
-			association since we do the operation once, and the muliplitiy stays 1 because we only use 1 sensor. Inside the process data we check for 
-			the current heart rate. Last but not least, we display the data and the user is able to show the completed heart rate 
-			analysis. 
-=======
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Environment Monitoring/EnvironmentMonitoring_class_diagram.svg}}
 			\caption{Class Diagram}
 		\end{subfigure}
@@ -918,6 +876,7 @@
 	
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Environment Monitoring/EnvironmentMonitoring_sequence_diagram.svg}}
@@ -934,6 +893,7 @@
 	\newpage
 
 \subsection{Requirement 13: Pay with Smartwatch}
+	\textbf{Stefan Nguyen}
 	\begin{center}
 		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
 			\hline
@@ -968,9 +928,21 @@
 							5 & User gets notificated and needs to pay with a different payment method \\ \hline
 		\end{tabularx}
 	\end{center}
+	\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The smartwatch must provide an option for users to initiate a payment via app or interface. 
+			\item The User should be able to review the payment amount and confirm the transaction directly to the smartwatch. 
+		\end{itemize}
+		
+	\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The payment process should be easy and require minimal steps to complete the transaction. 
+			\item The payment should have high reliability with high success rate for transaction and minimal downtime. 
+		\end{itemize}
 
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Pay with Smartwatch/PayWithSmartwatch_use_case_diagram.svg}}
@@ -986,6 +958,7 @@
 
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Pay with Smartwatch/PayWithSmartwatch_activity_diagram.svg}}
@@ -1002,6 +975,7 @@
 
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Pay with Smartwatch/PayWithSmartwatch_class_diagram.svg}}
@@ -1014,24 +988,14 @@
 			for the password and get the receipt that the transaction was sucessful. If there is a case when the password is 
 			incorrect we simply ask the user to retry. If the retries all failed or the user decides to pay with a different 
 			payment method we need to stop the process. 
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
 		\end{subfigure}
 	\end{figure}
 	\newpage
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
-<<<<<<< HEAD
-			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Display heart rate data on smartwatch/DisplayHeartRateDataOnSmartwatch_sequence_diagram.svg}}
-			\caption{Sequence Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			Inside the Main we get the profile from the user and read the heartRate with the Sensor. Next we proceed the data and check 
-			if a safety confirmation is needed. If yes we do an emergency call and we contact for medical assistance. Else we can process 
-			the data and prepare to display the data to the user. When we send the data to the user we also make sure to stop the sensoring and 
-			the user is able to review the current heart rate analysis. 
-=======
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Pay with Smartwatch/PayWithSmartwatch_sequence_diagram.svg}}
 			\caption{Sequence Diagram}
 		\end{subfigure}
@@ -1041,318 +1005,12 @@
 			user to enter the password. If the password is correct we get the receipt and the transaction message. If we might occur to incorrect 
 			password we have 2 more retries and if those 2 failed aswell we stop the program if not we can get the receipt and the transaction
 			message. 
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
 		\end{subfigure}
 	\end{figure}
 	\newpage
 
-<<<<<<< HEAD
-	\subsection{Requirement 11: Environment Monitoring}
-		\begin{center}
-			\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
-				\hline
-				Name             & Environment monitoring \\ \hline
-				ID               & 11 \\ \hline
-				Business Value   & Low \\ \hline
-				Description      & Tracks UV exposure, air quality, temperature in real time \\ \hline
-				Trigger          & Typical event which adjusts the changes in real time \\ \hline
-				Actors           & Environmental Sensor Array, which is responsible for capturing environmental data \\ \hline
-				Pre-conditions   & Environmental sensors are operational and calibrated\\ \hline
-				Post-conditions  & Displays the data in the smartwatch\\ \hline
-				Basic Flow       & \\ \hline
-								  Description & Detail each change in the environment monioring system \\ \hline
-								  Actions & \\ \hline
-								  1 & activating the sensors \\ \hline
-								  2 & capturing the data (e.g. temperature, UV, etc) \\ \hline
-								  3 & processing data e.g. analysis or computations \\ \hline
-								  4 & transfer data into smartwatch \\ \hline
-								  5 & display data in smartwatch \\ \hline
-				Alternative Flow & A \\ \hline
-								  Description & Error capturing data (network, communication etc) \\ \hline
-								  Actions & \\ \hline
-								  1 & sensor fails to capture data \\ \hline
-								  2 & fail, communication or network error in smartwatch or sensor \\ \hline
-								  3 & Error capturing data / false data display information \\ \hline
-				Alternative Flow & B \\ \hline
-								  Description & Environmental sensor detect conditions which my threaten health conditions \\ \hline
-								  Actions & \\ \hline
-								  1 & sensor detects hazardous condition and flag it as highest priority \\ \hline
-								  2 & sends push notification and warns the user \\ \hline
-								  3 & displays the notification on the smartwatch and recommends actions (e.g. apply sunscreen, seek shelter, etc) \\ \hline
-								  4 & user acknowledges the notification\\ \hline
-								  5 & user doesn't acknoweldege notification -> the system keeps sending notifications or warns the user \\ \hline
-			\end{tabularx}
-		\end{center}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Environment Monitoring/EnvironmentMonitoring_use_case_diagram.svg}}
-				\caption{Use Case Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				The Environment Monitoring shows the use cases. The Actvity sensor sensors the environment and transmit
-				proceeds the data and generate a safe monioring notification. This tells the user the current environement e.g.
-				temperature, UV exposure or more. If it comes to hazardous conditions it sends the user a notification and asks him 
-				to either acknoweldege or not. Next the activity sensor displays the data on the smartwatch and record or
-				track any other incident reports. The user on the other hand can acknoweldege the notification and look into
-				history data and has an authentification. 
-			\end{subfigure}
-		\end{figure}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Environment Monitoring/EnvironmentMonitoring_activity_diagram.svg}}
-				\caption{Activity Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				The activity diagram shows a walkthrough of the operations or activities that need to be done, 
-				so it can monitor the environment. Firstly, it activates the sensor and collects all the environment 
-				data and transmits/proceeds them. It later asks for safe monitoring to ensure that there are no incidents 
-				like hazards or natural disasters. If the user clicks no then the system prepares the notification and 
-				asks the user to acknowledge the alert. The alert shows tips or recommendations which need to be done, to 
-				shorten the risk of endangering personal life. If the user doesn’t accept the notification then the system 
-				keeps warning the user or keeps spamming alerts, else it displays the data with the notification.
-			\end{subfigure}
-		\end{figure}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Environment Monitoring/EnvironmentMonitoring_class_diagram.svg}}
-				\caption{Class Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				The UML shows the structure of the classes, how they interact with each other and what methods are 
-				used later in the sequence diagram. For example, the Activity Sensor sends data to the process data 
-				which is a unidirectional relation with 1. The activity sensor has methods like activate sensor, keep 
-				monitoring and stop monitoring. The monitoring would work permanently while the smartwatch is on. The 
-				process list has the notifications, hazardous condition and process data and uses the unidirectional 
-				relation to the display. While the display formats the data to the smartwatch so that the user can access 
-				the data and can see the outputted data. 
-			\end{subfigure}
-		\end{figure}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Environment Monitoring/EnvironmentMonitoring_sequence_diagram.svg}}
-				\caption{Sequence Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				The sensor diagram almost works the same way as the display heartbeat data. It activates the sensor, 
-				does the process and checks for hazardous conditions in the environment and does the following alternative
-				operations. Later it either sends a notification or outputs the data to the display of the smartwatch. 
-				The small part of smartwatch on represents that the sensor works permanently and keeps monitoring until 
-				the smartwatch is off. 
-			\end{subfigure}
-		\end{figure}
-		\newpage
-	
-	\subsection{Requirement 13: Pay with Smartwatch}
-		\begin{center}
-			\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
-				\hline
-				Name             & Pay with Smartwatch \\ \hline
-				ID               & 13 \\ \hline
-				Business Value   & Low \\ \hline
-				Description      & Allows users to make payments using their smartwatch connected to a digital wallet or bank account. \\ \hline
-				Trigger          & User chooses to pay with a smartwatch within an app  \\ \hline
-				Actors           & User, Payment System, Bank \\ \hline
-				Pre-conditions   & smartwatch with payment capability, bank acount must be linked to digital wallet, the card reader supports the smartwatch payments \\ \hline
-				Post-conditions  & process confirmed, receipt sent to user email, recorded to the transaction history \\ \hline
-				Basic Flow       & \\ \hline
-								Description & User completes the smartwatch transaction \\ \hline
-								Actions & \\ \hline
-								1 & Selects "Pay with Smartwatch" option within the app and reads with the card reader \\ \hline
-								2 & User sees the amount to pay and confirms the payment  \\ \hline
-								3 & Payment system processes the transaction with the user's bank or digitial wallet \\ \hline
-								4 & confirmation through the card reader and receipt sent to the users email \\ \hline
-				Alternative Flow & A \\ \hline
-								Description & Payment with smartwatch fails due to connectivity issues \\ \hline
-								Actions & \\ \hline
-								1 & User attempts to pay, but the smartwatch cant connect to the card reader \\ \hline
-								2 & The card reader sends an error message \\ \hline
-								3 & User resolves the issue or decides to pay with a different payment method \\ \hline
-				Alternative Flow & B \\ \hline
-								Description & Payment declined by the bank or digital wallet \\ \hline
-								Actions & \\ \hline
-								1 & User confirms the payment on the smartwatch \\ \hline
-								2 & Payment system processes the transaction but receives an error due wrong password  \\ \hline
-								3 & User retry entering password but still no result \\ \hline
-								4 & Bank account blocks the card \\ \hline
-								5 & User gets notificated and needs to pay with a different payment method \\ \hline
-			\end{tabularx}
-		\end{center}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Pay with Smartwatch/PayWithSmartwatch_use_case_diagram.svg}}
-				\caption{Use Case Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				The Use Case Diagram describes the different connection and actions the user can do within the smartwatch. For example, 
-				the user is able to pay with the smartwatch. After it reads the smartwatch in the card reader it verifies the card and 
-				either complete the transaction or cancel the transaction. If the transaction completes the user gets a receipt or an 
-				email which confirms the payment. In addition the user is able to manage his bank accounts inside the smartwatch application. 
-			\end{subfigure}
-		\end{figure}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Pay with Smartwatch/PayWithSmartwatch_activity_diagram.svg}}
-				\caption{Activity Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				The Activity Diagram describes the process of actions. For example the user holds his smartwatch with the digital card
-				to a card reader and the card reader verifies if the card exists or does not. If the card doesn't exists it notifies
-				the user that the card is invalid. Else we proceed to the bank account and the user should enter the password. If the 
-				password is wrong it requests to enter the password again. After 3 tries it should automatically block the user. Else the 
-				cash has been successfully transfered and the user can complete the transaction. 
-			\end{subfigure}
-		\end{figure}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Pay with Smartwatch/PayWithSmartwatch_class_diagram.svg}}
-				\caption{Class Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				The Class Diagram shows the interactions and relationships to each single process. For example, the User is
-				able to create an account and register himself. Then it has a directional association to the proceed Data. Thats
-				where the card is being checked, wheither it exists or not. If it exists we simply go to the bank account and check 
-				for the password and get the receipt that the transaction was sucessful. If there is a case when the password is 
-				incorrect we simply ask the user to retry. If the retries all failed or the user decides to pay with a different 
-				payment method we need to stop the process. 
-			\end{subfigure}
-		\end{figure}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Pay with Smartwatch/PayWithSmartwatch_sequence_diagram.svg}}
-				\caption{Sequence Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				Inside the Sequence Diagram we have a Main which opens the smartwatch. Then the user checks the digital card with the 
-				card reader if it exists or not. If it doesn't we simply stop the program. Else we can just check if its vaild and request the 
-				user to enter the password. If the password is correct we get the receipt and the transaction message. If we might occur to incorrect 
-				password we have 2 more retries and if those 2 failed aswell we stop the program if not we can get the receipt and the transaction
-				message. 
-			\end{subfigure}
-		\end{figure}
-		\newpage
-
-	\subsection{Requirement 14: Tips for using the Smartwatch}
-		\begin{center}
-			\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
-				\hline
-				Name             & Tips for using the Smartwatch \\ \hline
-				ID               & 14 \\ \hline
-				Business Value   & Low \\ \hline
-				Description      & Provides the user with helpful tips and guidance throughout the smartwatch \\ \hline
-				Trigger          & User requess tips and help with the smartwatch interface or associated app \\ \hline
-				Actors           & User, Smartwatch, Companion smartwatch app \\ \hline
-				Pre-conditions   & Smartwatch connected with phone, needs basic knowledge for the usage of the smartwatch \\ \hline
-				Post-conditions  & User receives helpful tips and feels more confident using the smartwatch, engagement with the features increased \\ \hline
-				Basic Flow       & \\ \hline
-								Description & The user accesses and navigates through the tips inside the smartwatch application \\ \hline
-								Actions & \\ \hline
-								1 & User opens the tips feature and see the companion smartphone app \\ \hline
-								2 & Browse through different categories like, fitness help or functionality throughout the watch \\ \hline
-								3 & Selects the option \\ \hline
-								4 & Enhance the smartwatch usage \\ \hline
-				Alternative Flow & A \\ \hline
-								Description & Connectivity error or fail opening the tips application \\ \hline
-								Actions & \\ \hline
-								1 & User attempts to access the tips application, but an error appeared due to connectivity errors. \\ \hline
-								2 & Smartwatch prompts the user to check the internet connection  \\ \hline
-								3 & User resolves the issue and can successfully enter the tips application \\ \hline
-				Alternative Flow & B \\ \hline
-								Description & User requests specific tips through a voice command, but the smartwatch does not recognize the command.  \\ \hline
-								Actions & \\ \hline
-								1 & User gives a voice command requesting tips on a specific feature \\ \hline
-								2 & The smartwatch fails to recognize the command and asks the user to try again \\ \hline
-								3 & User repeats the command with clearer pronunciation \\ \hline
-								4 & If the smartwatch still fails to recognize the command, it asks to type the request \\ \hline
-								5 & User types the request, and the smartwatch displays the relevant tips \\ \hline
-			\end{tabularx}
-		\end{center}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Tips for using the Smartwatch/TipsUsingTheSmartwatch_use_case_diagram.svg}}
-				\caption{Use Case Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				The Use Case Diagram for the Tips for using the smartwatch should just enhance the guidance for the user. So that the 
-				user knows the new features of the smartwatch and help him get to know it better. So the user has the option to see a 
-				variety of tips e.g. maintaining the device, customize the watch faces, smart notification and much more. Then if the user
-				wants to find a specific tip there is also a search bar. Finally, the user can give feature advices inside the smartwatch
-			\end{subfigure}
-		\end{figure}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Tips for using the Smartwatch/TipsUsingTheSmartwatch_activity_diagram.svg}}
-				\caption{Activity Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				The Activity Diagram shows the process for using the tips application. It is required to open the smartwatch and 
-				navigate to the application. Then the user has options. For example, he can open the preset of tips, else he can search
-				for specific elements. If the element is not found we simply notify the user that it's not available. 
-				If the user choose a tip for guidance we simply continue with reading the tip or else we can just close the process. 
-			\end{subfigure}
-		\end{figure}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Tips for using the Smartwatch/TipsUsingTheSmartwatch_class_diagram.svg}}
-				\caption{Class Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				For the Class Diagram we have 3 classes. The user, searchbar and then the tips application. The User usually 
-				has an id for this smartwatch an account is registered with a name. If the user decides to pick one of the presets
-				it directs him/her to the tipsApplication, where he can read the advice. Else if he decides to search for an element 
-				we can find it and directs us to the tipsApplication. 
-			\end{subfigure}
-		\end{figure}
-		\newpage
-
-		\begin{figure}[htbp]
-			\centering
-			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Tips for using the Smartwatch/TipsUsingTheSmartwatch_sequence_diagram.svg}}
-				\caption{Sequence Diagram}
-			\end{subfigure}
-			\begin{subfigure}{\textwidth}
-				The Sequence Diagram shows the process of the application. For example the user has the application opened. Then it can
-				either teake the presets which directs us to the tips application and gets us the output. Or else we can search the element. 
-				If we search for the element, we check if its found or not. If not then we simply say that the element is not found and close the application. 
-				The other option is that the user found the tip and gets the output. 
-			\end{subfigure}
-		\end{figure}
-		\newpage
-=======
 \subsection{Requirement 14: Tips for using the Smartwatch}
+	\textbf{Stefan Nguyen}
 	\begin{center}
 		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
 			\hline
@@ -1387,9 +1045,21 @@
 							5 & User types the request, and the smartwatch displays the relevant tips \\ \hline
 		\end{tabularx}
 	\end{center}
+	\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The users should easily access the repository of tips and guidance directly from the smartwatch. 
+			\item User's should be able to search for specific tips using keywords or phrases. 
+		\end{itemize}
+		
+	\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The Scalability needs to be good, so that it can handle an increasing number of tips. 
+			\item The Content Quality for using the Tips application needs to be accurate and easy to follow / understand. 
+		\end{itemize}
 	
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Tips for using the Smartwatch/TipsUsingTheSmartwatch_use_case_diagram.svg}}
@@ -1404,6 +1074,7 @@
 	\end{figure}
 	
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Tips for using the Smartwatch/TipsUsingTheSmartwatch_activity_diagram.svg}}
@@ -1419,6 +1090,7 @@
 	
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Tips for using the Smartwatch/TipsUsingTheSmartwatch_class_diagram.svg}}
@@ -1434,6 +1106,7 @@
 
 
 	\begin{figure}[htbp]
+		\textbf{Stefan Nguyen}
 		\centering
 		\begin{subfigure}{\textwidth}
 			\resizebox{\textwidth}{!}{\includesvg[]{Stefan/Tips for using the Smartwatch/TipsUsingTheSmartwatch_sequence_diagram.svg}}
@@ -1448,6 +1121,5 @@
 	\end{figure}
 	\newpage
 
->>>>>>> 254085d9bff255d29e909eea9b069dd855e33a46
 
 \end{document}
