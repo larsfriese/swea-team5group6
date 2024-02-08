@@ -726,23 +726,345 @@ In our third Meeting we have once more discussed our documentation, we simply tr
 		\end{figure}
 		\newpage
 
-\section{Jiwon Won}
-	\subsection{Requirement1}
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
+		\section{Jiwon Won}
+		\subsection{Requirement 7: Personalized health recommendations}
+		
+		\begin{table}[htbp]
+			\centering
+			\small
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
+				\hline
+				Name             & Display personalized health insights and recommendations                                \\ \hline
+				ID               & 7                                                                                       \\ \hline
+				Business Value   & High                                                                                    \\ \hline
+				Description      & Show contents related to ingestion, activity, general health care, and medical information regarding insufficient part of personal analysis \\ \hline
+				Trigger          & Triggered when the system receives new content from the server and shares it based on the importance regarding personal data \\ \hline
+				Actors           & User, Health Care System, Content Recommendation System                                 \\ \hline
+				Pre-conditions   & Internet connected, health recommendation app opened                                    \\ \hline
+				Post-conditions  & User checks recommended articles                                                         \\ \hline
+				Basic Flow       & This is the main scenario when the system successfully sends health-related contents to the user \\ \hline
+								 & Actions: \\
+								 & 1. User pushes "refresh" button \\
+								 & 2. Recommendation system requests a list of insufficient categories from the health care system \\
+								 & 3. Health care system rates categories, making a list from the most insufficient to least insufficient \\
+								 & 4. Health care system sends the list to the recommendation system \\
+								 & 5. Recommendation system shows contents regarding the order of the list \\ \hline
+				Alternative Flow A & Recommendation system failed to connect data with health care system \\
+								 & Actions: \\
+								 & 1. User pushes "refresh" button \\
+								 & 2. Recommendation system shows contents by most recent \\ \hline
+				Alternative Flow B & User does not have insufficient part of his data \\
+								 & Actions: \\
+								 & 1. User pushes "refresh" button \\
+								 & 2. Recommendation system requests a list of insufficient categories from the health care system \\
+								 & 3. Health care system rates categories by "user achievement/sufficient standard", making a list from lowest to highest categories \\
+								 & 4. Health care system sends the list to the recommendation system \\
+								 & 5. Recommendation system shows contents regarding the order of the list \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item explainnnnn
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item explainnnn
+		\end{itemize}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_usecase.svg}}
+				\caption{Use Case Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
 		\end{figure}
 		\newpage
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
+		
+
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation__activity.svg}}
+				\caption{Activity Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
+		\end{figure}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_class.svg}}
+				\caption{Class Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
+		\end{figure}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.6}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_sequence.svg}}
+				\caption{Sequence Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
+		\end{figure}
+		\newpage
+		
+		
+		\subsection{Requirement 13: Change Lock Screen Template}
+		\begin{table}[htbp]
+			\centering
+			\small
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|X|}
+				\hline
+				Name             & Change the template of lock screen                                \\ \hline
+				ID               & 13                                                                                       \\ \hline
+				Business Value   & Medium                                                                                    \\ \hline
+				Description      & Show options of clock templates and change the lock screen \\ \hline
+				Trigger          & User chooses new clock template and click "Change" button \\ \hline
+				Actors           & User, Lock screen system                                \\ \hline
+				Pre-conditions   & Lock screen app turned on                                    \\ \hline
+				Post-conditions  & User can see the new lock screen when the smart watch turned on                                                        \\ \hline
+				Basic Flow       & This is the main scenario when the user changes his lock screen to new template \\ \hline
+								 & Actions: \\
+								 & 1. The system shows templates from latest update\\
+								 & 2. User clicks a template he is willing to change \\
+								 & 3. System shows detailed options (color, font) of the template \\
+								 & 4. User chooses the details \\
+								 & 5. User clicks "Change" button \\
+								 & 6. The system changes lock screen according to the new lock screen choice \\ \hline
+				Alternative Flow A & User could not find any template to change \\
+								 & Actions: \\
+								 & 1. User clicks "Back" button \\
+								 & 2. The system is turned off \\ \hline
+				Alternative Flow B & User chose the same template as the current lock screen but wants to change in different color and font \\
+								 & Actions: \\
+								 & 1. System shows detailed options (color, font) of the template \\
+								 & 2. User clicks the details different from the current style \\
+								 & 3. User clicks "Change" button \\
+								 & 4. The system changes the lock screen according to the new lock screen choice \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item explainnnnn
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item explainnnn
+		\end{itemize}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/LockScreen/LockScreen_usecase.svg}}
+				\caption{Use Case Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
 		\end{figure}
 		\newpage
 
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.8}{\includesvg[]{Jiwon/LockScreen/LockScreen_activity.svg}}
+				\caption{Activity Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
+		\end{figure}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/LockScreen/LockScreen_class.svg}}
+				\caption{Class Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
+		\end{figure}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.5}{\includesvg[]{Jiwon/LockScreen/LockScreen_sequence.svg}}
+				\caption{Sequence Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
+		\end{figure}
+		\newpage
+		
+		
+		\subsection{Requirement 14: Calculator}
+		\begin{table}[htbp]
+			\centering
+			\small
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|X|}
+				\hline
+				Name             & Calculator                                \\ \hline
+				ID               & 14                                                                                       \\ \hline
+				Business Value   & Low                                                                                    \\ \hline
+				Description      & Caculate polynomial term \\ \hline
+				Trigger          & User open "Calculator" app \\ \hline
+				Actors           & User, Calculator system                                \\ \hline
+				Pre-conditions   & Calculator app opened                                    \\ \hline
+				Post-conditions  & User can see the result of the conclusion of polynomial term                                              \\ \hline
+				Basic Flow       & This is the main scenario when user made a polynomial term in range of real number \\ \hline
+								 & Actions: \\
+								 & 1. User write down polynomial term by calculator \\
+								 & 2. User push "=" button \\
+								 & 3. System calculate polynomial term \\
+								 & 4. System shows conculusion of the term in real number \\
+								 & 5. System reset the term in 0 \\ \hline
+				Alternative Flow A & The conclusion of terminals is imaginary number \\
+								 & Actions: \\
+								 & 1. System check the terminal can be calculated in range of real number \\
+								 & 2. System show "Please correct the terminal" \\ \hline
+				Alternative Flow B & User try to devide in 0 \\
+								 & Actions: \\
+								 & 1. System check the terminal is mathematically correct  \\
+								 & 2. System show "You can not divide in 0" \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item explainnnnn
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item explainnnn
+		\end{itemize}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/Calculator/Calculator_usecase.svg}}
+				\caption{Use Case Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
+		\end{figure}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.9}{\includesvg[]{Jiwon/Calculator/Calculator_activity.svg}}
+				\caption{Activity Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
+		\end{figure}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/Calculator/Calculator_class.svg}}
+				\caption{Class Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnnnn
+			\end{subfigure}
+		\end{figure}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Jiwon Won}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.7}{\includesvg[]{Jiwon/Calculator/Calculator_sequence.svg}}
+				\caption{Sequence Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				explainationnnnnnnnnn
+			\end{subfigure}
+		\end{figure}
+		\newpage   
+		
+		\subsection{Requirement 15: Bioelectrical Impedance Analysis}
+		\begin{table}[htbp]
+			\centering
+			\small
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|X|}
+				\hline
+				Name             & Bioelectrical Impedance Analysis                                \\ \hline
+				ID               & 15                                                                                       \\ \hline
+				Business Value   & High                                                                                    \\ \hline
+				Description      & Show amount of total body water, protein, minerals, fat mass of user's body \\ \hline
+				Trigger          & User push "start" button \\ \hline
+				Actors           & User, Bioelectrical sensor, System                                \\ \hline
+				Pre-conditions   & Analysis application opened                                  \\ \hline
+				Post-conditions  & User can see the biomedical analysis result of measurement                                              \\ \hline
+				Basic Flow       & This is the main scenario when user start measurement in stable condition \\ \hline
+								 & Actions: \\
+								 & 1. User starts refresh the measurement \\
+								 & 2. System shows introduction for stable environment to measure \\
+								 & 3. Bioelectrical sensor measure impedance of user \\
+								 & 4. System calculate amount of each category according to impedance measurement \\
+								 & 5. System show a chart of analysis \\ \hline
+				Alternative Flow A & Extra ordinary humidity detected on the sensor \\
+								 & Actions: \\
+								 & 1. Bioelectrical sensor detect abnormal humidity \\
+								 & 2. System show message "Make sensor clean and dry for measurement" \\ \hline
+				Alternative Flow B & Device is detached during sensor measuring \\
+								 & Actions: \\
+								 & 1. Bioelectrical sensor can not find electrical interaction with user  \\
+								 & 2. System show message "Device detached" \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item explainnnnn
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item explainnnn
+		\end{itemize}
+		\newpage
 
 
 \section[]{Lars Friese}
@@ -1142,7 +1464,7 @@ In our third Meeting we have once more discussed our documentation, we simply tr
 	\end{figure}
 	\newpage
 
-\subsection{Requirement 13: Pay with Smartwatch}
+\subsection{Requirement 23: Pay with Smartwatch}
 	\textbf{Stefan Nguyen}
 	\begin{center}
 		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
@@ -1259,7 +1581,7 @@ In our third Meeting we have once more discussed our documentation, we simply tr
 	\end{figure}
 	\newpage
 
-\subsection{Requirement 14: Tips for using the Smartwatch}
+\subsection{Requirement 24: Tips for using the Smartwatch}
 	\textbf{Stefan Nguyen}
 	\begin{center}
 		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
