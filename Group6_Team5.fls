@@ -194,8 +194,8 @@ INPUT .\Group6_Team5.toc
 INPUT Group6_Team5.toc
 INPUT C:\Users\School\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
 OUTPUT Group6_Team5.toc
-INPUT C:\Users\School\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT C:\Users\School\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT C:\Users\School\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT .\Kreis2.pdf
 INPUT .\Kreis2.pdf
 INPUT .\Kreis2.pdf
@@ -494,19 +494,12 @@ INPUT .\svg-inkscape\GestureControl_usecase_svg-tex.pdf
 INPUT .\Lars\Use Case Gesture Control\GestureControl_activity.svg
 INPUT .\Lars\Use Case Gesture Control\GestureControl_activity.svg
 INPUT .\Lars\Use Case Gesture Control\GestureControl_activity.svg
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf_tex
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf_tex
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf_tex
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf_tex
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf
-INPUT svg-inkscape\GestureControl_activity_svg-tex.pdf_tex
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf
-INPUT .\svg-inkscape\GestureControl_activity_svg-tex.pdf
+INPUT .\svg-inkscape\GestureControl_activity_svg-raw.pdf
+INPUT .\svg-inkscape\GestureControl_activity_svg-raw.pdf
+INPUT .\svg-inkscape\GestureControl_activity_svg-raw.pdf
+INPUT .\svg-inkscape\GestureControl_activity_svg-raw.pdf
+INPUT .\svg-inkscape\GestureControl_activity_svg-raw.pdf
+INPUT .\svg-inkscape\GestureControl_activity_svg-raw.pdf
 INPUT .\Lars\Use Case Gesture Control\GestureControl_class.svg
 INPUT .\Lars\Use Case Gesture Control\GestureControl_class.svg
 INPUT .\Lars\Use Case Gesture Control\GestureControl_class.svg
@@ -539,6 +532,70 @@ INPUT svg-inkscape\GestureControl_sequence_svg-tex.pdf_tex
 INPUT .\svg-inkscape\GestureControl_sequence_svg-tex.pdf
 INPUT .\svg-inkscape\GestureControl_sequence_svg-tex.pdf
 INPUT .\svg-inkscape\GestureControl_sequence_svg-tex.pdf
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_usecase.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_usecase.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_usecase.svg
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_activity.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_activity.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_activity.svg
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT svg-inkscape\VoiceAssistant_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_class.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_class.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_class.svg
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT svg-inkscape\VoiceAssistant_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_sequence.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_sequence.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_sequence.svg
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
 INPUT .\Marc\req9\9activity.pdf
 INPUT .\Marc\req9\9activity.pdf
 INPUT .\Marc\req9\9activity.pdf
