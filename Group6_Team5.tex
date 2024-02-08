@@ -322,7 +322,370 @@ then we seek for improvement and review from other team members. In the very end
 \end{itemize}
 \newpage
 
-\section{Hermon}
+\section{Hermon Gimikael}
+  \subsection{Requirement 1 : Allow user to create and join fitness challenges and competitions}
+
+\begin{table}[h!]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
+        \hline
+        Name             & Allow user to create and join fitness Challenges and competitions                               \\ \hline
+        ID               &                                                                                      \\ \hline
+        Business Value   & Medium                                                                                  \\ \hline
+        Description      & Allows the user to create a fitness Challenge for himself and to join or invite other logged in user\\ \hline
+        Trigger          & User pushs create and share button or pushs join button \\ \hline
+        Actors           & User1,User2,User Challenge System                        \\ \hline
+        Pre-conditions   & User1 and User2 successfully logged in, internet connection                                  \\ \hline
+        Post-conditions  & User can participate a Challenge alone or with User2                                                        \\ \hline
+        Basic Flow       & This is the main scenario were User1 creates a Challenge and Invite User2 who accept it\\ \hline
+                         & Actions: \\
+                         & 1. User1 set sports category,period and goal\\
+                         & 2. User1 pushs "share" button \\
+                         & 3. User1 chooses User2 to compete with\\
+                         & 4. User Challenge System sends invitation to User2 \\
+                         & 5. User2 receives invitation\\
+                         & 6. User Challenge System generates same Challenge page for User1 and User2 \\ \hline
+        Alternative Flow A & User2 rejects the invitation\\
+                         & Actions: \\
+                         & 1. System sends User1 notification that User2 rejected his invitation \\
+                         & 2. User1 pushes share button \\
+                         & 3. User1 chooses User3 to compete with\\
+                         & 4. System sends invitation to User3 \\
+                         & 5. User3 pushes"accept" button \\
+                         & 6. Challenge System generates same Challenge page for User1 and User3 \\ \hline
+        Alternative Flow B & User1 sent wrong User invitation \\
+                         & Actions: \\
+                         & 1. User1 push "show Invitation list" \\
+                         & 2. User1 pushs "cancel" button \\
+                         & 3. System withdraw invitation notification from User2\\ \hline
+    \end{tabularx}
+\end{table}
+
+\newpage
+
+        
+\begin{figure}[htbp]
+	\textbf{Hermon Gimikael}
+    \centering
+	\begin{subfigure}{\textwidth}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge_UseCase.svg}}
+		\caption{Use Case Diagram}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+	\end{subfigure}
+\end{figure}
+
+\newpage
+
+    \begin{figure}[htbp]
+		\textbf{Hermon Gimikael}
+		\centering
+		\begin{subfigure}{\textwidth}
+			\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge_Activity.svg}}
+			\caption{Activity Diagram}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+		\end{subfigure}
+	\end{figure}
+
+	\newpage
+
+    \begin{figure}[htbp]
+		\textbf{Hermon Gimikael}
+		\centering
+		\begin{subfigure}{\textwidth}
+			\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge_Sequenz.svg}}
+			\caption{Sequenz Diagram}
+		\end{subfigure}
+		\begin{subfigure}{\textwidth}
+		\end{subfigure}
+	\end{figure}
+
+   
+\newpage
+
+\textbf{Hermon Gimikael}
+\subsection{Requirement 2 : Medication Reminer System}
+
+\begin{table}[h!]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
+        \hline
+        Name             & Medication Reminder System                               \\ \hline
+        ID               &                                                                                       \\ \hline
+        Business Value   & low                                                                                  \\ \hline
+        Description      & Service to help user adher to their medication schedules  \\ \hline
+        Trigger          & User adds medication and sets his Medication Details\\ \hline
+        Actors           & User,Medication Reminder System                               \\ \hline
+        Pre-conditions   & User sat his Medication and Details                                    \\ \hline
+        Post-conditions  & User took his medication on time                                                   \\ \hline
+        Basic Flow       & This is the main scenario when the user sat his Medication and Details \\ \hline
+                         & Actions: \\
+                         & 1.User sets his name, age, weight, medication, dosis, notification time, urgency Level(low,medium,high) and emergency contact\\
+                         & 2. System sends a push notification at the sat time to remind the user to take his Medicine \\
+                         & 3. After Reminder System sends a second notification that user should confirm or deny medication Intake\\
+                         & 4. User confirms \\
+                         & 5. System logs confirmation \\ \hline
+        Alternative Flow A & User denies or doesn't respond to confirmation notification \\
+                         & Actions: \\
+                         & 1. User denies or doesn't respond \\
+                         & 2. System checks medication urgency Level \\
+                         & 3. If "low" or "medium" System sends hourly push notifications as reminder 
+                           to confirm or denie \\
+                         & 4. If "high" System sends notification to emergency contact that the User didn't took his Medicin \\ \hline
+        Alternative Flow B & User want to change his Medication Details \\
+                         & Actions: \\
+                         & 1. User clicks "Details" button \\
+                         & 2. User clicks "adjust" button \\
+                         & 3. User clicks "Change" button \\
+                         & 4. User changes the Deatails \\
+                         & 5. System changes the Medication Details\\ \hline
+    \end{tabularx}
+\end{table}
+
+\newpage
+
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder_UseCase.svg}}
+        \caption{Use Case Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder_UMLDiagramm.svg}}
+        \caption{Activity Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder_Sequenz.svg}}
+        \caption{Sequenz Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \includesvg[width=\textwidth]{Hermon/MedicationReminder_Activity.svg}
+        \caption{UML Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+
+\newpage
+
+\textbf{Hermon Gimikael}
+\subsection{Requirement 3 : Water Intake Service}
+
+\begin{table}[h!]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
+        \hline
+        Name             & Water Intake Service                                \\ \hline
+        ID               &                                                                                       \\ \hline
+        Business Value   & High                                                                                    \\ \hline
+        Description      & Gives option to monitor and manage daily water consumption \\ \hline
+        Trigger          & User adds water intake  \\ \hline
+        Actors           & User,Water Intake Service                                \\ \hline
+        Pre-conditions   & Water Intake Service opened                                 \\ \hline
+        Post-conditions  & Water Intake Service has recorded and updated users Water consumption                                                     \\ \hline
+        Basic Flow       & This is the main scenario when the user added water throught the day and reached his goal \\ \hline
+                         & Actions: \\
+                         & 1. User sets his sex,age,weight\\
+                         & 2. System generated default Value \\
+                         & 3. User accepts Value \\
+                         & 4. System saves Value \\
+                         & 5. User adds water intake throught the day\\
+                         & 6. After one Time period system calculates total Intake \\
+                         & 7. User reached his Goal \\
+                         & 8. System notifies user about reached goal and logs achievment of the day\\ 
+                         & 9. System resets water intake to 0\\ \hline
+        Alternative Flow A & User missed Water intakes  \\
+                         & Actions: \\
+                         & 1. Syste informs user about missed goal\\
+                         & 2. System gives user the possibility to enter missed Water intakes \\ 
+                         & 3. user enters remaining Water\\
+                         & 4. System calculates new total Intake\\
+                         & 5. User reached his Goal\\ 
+                         & 6. System notifies user about reached goal and logs achievment of the day\\
+                         & 7. System resets water intake to 0 \\ \hline
+        Alternative Flow B & User didn't reach his goal\\
+                         & Actions: \\
+                         & 1. System informs user about missed goal \\
+                         & 2. User declines possibility to enter missed Water intakes\\
+                         & 3. System informs user about missed goal and sends reccomandations for next time \\ \hline
+    \end{tabularx}
+\end{table}
+
+\newpage
+
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/WaterIntake_UseCase.svg}}
+        \caption{Use Case Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/WaterIntake_UMLDiagram.svg}}
+        \caption{Activity Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/WaterIntakeSequenz.svg}}
+        \caption{Sequenz Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \includesvg[width=\textwidth]{Hermon/WaterIntake_Activity.svg}
+        \caption{UML Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+
+\newpage
+
+\textbf{Hermon Gimikael}
+\subsection{Requirement 4 : Mood Level Tracker}
+
+\begin{table}[h!]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
+        \hline
+        Name             & Mood Level Tracker                               \\ \hline
+        ID               &                                                                                       \\ \hline
+        Business Value   & High                                                                                   \\ \hline
+        Description      & User can track his Mood for good Mental Health beeing  \\ \hline
+        Trigger          & User chooses Mood of the day and pushs "entry" button \\ \hline
+        Actors           & User, Mood Tracker System                               \\ \hline
+        Pre-conditions   & Mood Tracker System opened                                   \\ \hline
+        Post-conditions  & User has an overlook about his well beeing                                                       \\ \hline
+        Basic Flow       & This is the main scenario were the user entry his Mood of the day and his Mood is good or okay and want a Quick diary \\ \hline
+                         & Actions: \\
+                         & 1. User click Mood entry\\
+                         & 2. System presents Mood scale \\
+                         & 3. User selects Mood Level \\
+                         & 4. User wants a Quick diary \\
+                         & 5. System generates 10 quastions for user \\
+                         & 6. Sysem logs mood entry with timestamp and quick entry\\ \hline
+        Alternative Flow A & User selects "very sad " as mood entry \\
+                         & Actions: \\
+                         & 1. System recognize low mood Level \\
+                         & 2. System suggests resources for mood improvement \\
+                         & 3. User accept suggestion \\
+                         & 4. System sends User links to articles and exercises \\
+                         & 5. System loggs mood entry with timestamp and article links \\ \hline
+        Alternative Flow B & User declines the Quick diary and summary  \\
+                         & Actions: \\
+                         & 1. System logs mood entry with timestamp \\
+                         & 2. Systeme provides summary of recent mood entries\\
+                         & 3. User declines summary \\
+                         & 4. System closes \\ \hline
+    \end{tabularx}
+\end{table}
+
+
+\newpage
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/MoodLevelTracker_Activity.svg}}
+        \caption{Use Case Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/MoodLevelTracker_UseCase.svg}}
+        \caption{Use Case Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+\newpage
+
+\begin{figure}[htbp]
+    \textbf{Hermon Gimikael}
+    \centering
+    \begin{subfigure}{\textwidth}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/MoodTrackerSystem_UMLDiagram.svg}}
+        \caption{Use Case Diagram}
+    \end{subfigure}
+    \begin{subfigure}{\textwidth}
+    \end{subfigure}
+\end{figure}
+
+
+
+\clearpage
+
+
 
 \section{Howard-Yi Hong Soon}
 		\subsection{Requirement 5: Share workout achievement on social media}
@@ -370,7 +733,7 @@ then we seek for improvement and review from other team members. In the very end
 			\item \textbf{The system is well connected to all social media accounts when the internet is available.}
 		\end{itemize}
 		
-	
+	\newpage
 
 	\begin{figure}[htbp]
 		\textbf{Howard-Yi Hong Soon}
@@ -386,7 +749,8 @@ then we seek for improvement and review from other team members. In the very end
 			optional function to download image. 
 		\end{subfigure}
 	\end{figure}
-	
+
+	\newpage
 
 
 	\begin{figure}[htbp]
@@ -404,6 +768,7 @@ then we seek for improvement and review from other team members. In the very end
 		\end{subfigure}
 	\end{figure}
 	
+	\newpage
 
 	\begin{figure}[htbp]
 		\textbf{Howard-Yi Hong Soon}
@@ -421,7 +786,7 @@ then we seek for improvement and review from other team members. In the very end
 		\end{subfigure}
 	\end{figure}
 	
-
+\newpage
 	
 	\begin{figure}[htbp]
 		\textbf{Howard-Yi Hong Soon}
@@ -486,6 +851,8 @@ then we seek for improvement and review from other team members. In the very end
 			\item The calculations of the calories and the nutritional feedbacks has to be correct which is ensured by a mechanism 
 					for prevention of data manipulation.
 		\end{itemize}
+
+		\newpage
 	
 
 	\begin{figure}[htbp]
@@ -502,6 +869,8 @@ then we seek for improvement and review from other team members. In the very end
 		\end{subfigure}
 		
 	\end{figure}
+
+	\newpage
 	
 
 		\begin{figure}[htbp]
@@ -519,6 +888,7 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 		\end{figure}
 		
+		\newpage
 
 		\begin{figure}[htbp]
 			\textbf{Howard-Yi Hong Soon}
@@ -534,12 +904,13 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 		\end{figure}
 		
+		\newpage
 
 		\begin{figure}[htbp]
 			\textbf{Howard-Yi Hong Soon}
 			\centering
 			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Howard/nutriotinal_tracking/NutritionalTracking_sequence.svg}}
+				{\includesvg[scale = 0.5]{Howard/nutriotinal_tracking/NutritionalTracking_sequence.svg}}
 				\caption{Sequence Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
@@ -592,6 +963,8 @@ then we seek for improvement and review from other team members. In the very end
 			\item The System should react immediately after user select a different them and contrast level change during the adjustment.
 			\item The interface should has clear structure for user to operate.
 		\end{itemize}
+
+		\newpage
 	
 
 	\begin{figure}[htbp]
@@ -606,6 +979,8 @@ then we seek for improvement and review from other team members. In the very end
 			change to light or dark appearance base on user selection. User also has an option to change contrast level, and also a button to reset it.
 		\end{subfigure}
 	\end{figure}
+
+	\newpage
 	
 
 		\begin{figure}[htbp]
@@ -622,6 +997,7 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 		\end{figure}
 		
+		\newpage
 
 		\begin{figure}[htbp]
 			\textbf{Howard-Yi Hong Soon}
@@ -637,18 +1013,19 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 		\end{figure}
 		
+		
 
 		\begin{figure}[htbp]
 			\textbf{Howard-Yi Hong Soon}
 			\centering
 			\begin{subfigure}{\textwidth}
-				\scalebox{0.7}{\includesvg[]{Howard/AppearenceTheme/AppearenceTheme_sequence.svg}}
+				{\includesvg[scale=0.6]{Howard/AppearenceTheme/AppearenceTheme_sequence.svg}}
 				\caption{Sequence Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		
 
 		\textbf{Howard-Yi Hong Soon}
 		\subsection{Requirement :  Stopwatch}
@@ -695,6 +1072,8 @@ then we seek for improvement and review from other team members. In the very end
 			\item The System need to have an easy and user-friendly interface for time reading.
 			\item The interface need to have visible button on interface for start, pause and reset.
 		\end{itemize}
+
+		
 	
 
 	\begin{figure}[htbp]
@@ -709,6 +1088,8 @@ then we seek for improvement and review from other team members. In the very end
 			then only can user perform stop, save and reset. Save operation can be performed after user stop the stopwatch.
 		\end{subfigure}
 	\end{figure}
+
+	
 	
 
 		\begin{figure}[htbp]
@@ -724,7 +1105,7 @@ then we seek for improvement and review from other team members. In the very end
 				chose to reset the time or start to process again to resume the time.
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		
 		
 
 		\begin{figure}[htbp]
@@ -741,6 +1122,8 @@ then we seek for improvement and review from other team members. In the very end
 				then the SaveTime class will perform an opeeration to save it. 
 			\end{subfigure}
 		\end{figure}
+
+		
 		
 
 		\begin{figure}[htbp]
@@ -1269,7 +1652,7 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\end{subfigure}
 	\end{figure}
-\newpage
+\clearpage
 
 
 \section{Marc Roemer}
