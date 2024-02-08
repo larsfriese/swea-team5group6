@@ -323,31 +323,47 @@ then we seek for improvement and review from other team members. In the very end
 \newpage
 
 \section{Hermon Gimikael}
+\section{User Challenge}
+\subsection{Use Case}
 
-	\subsection{Requirement1}
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
-		\end{figure}
-		\newpage
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
-		\end{figure}
-		\newpage
-	
-	\subsection{Requirement2}
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
-		\end{figure}
-		\newpage
+\begin{table}[h!]
+    \centering
+    \small
+    \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
+        \hline
+        Name             & Allow user to create and join fitness Challenges and competitions                               \\ \hline
+        ID               &                                                                                      \\ \hline
+        Business Value   & Medium                                                                                  \\ \hline
+        Description      & Allows the user to create a fitness Challenge for himself and to join or invite other logged in user\\ \hline
+        Trigger          & User pushs create and share button or pushs join button \\ \hline
+        Actors           & User1,User2,User Challenge System                        \\ \hline
+        Pre-conditions   & User1 and User2 successfully logged in, internet connection                                  \\ \hline
+        Post-conditions  & User can participate a Challenge alone or with User2                                                        \\ \hline
+        Basic Flow       & This is the main scenario were User1 creates a Challenge and Invite User2 who accept it\\ \hline
+                         & Actions: \\
+                         & 1. User1 set sports category,period and goal\\
+                         & 2. User1 pushs "share" button \\
+                         & 3. User1 chooses User2 to compete with\\
+                         & 4. User Challenge System sends invitation to User2 \\
+                         & 5. User2 receives invitation\\
+                         & 6. User Challenge System generates same Challenge page for User1 and User2 \\ \hline
+        Alternative Flow A & User2 rejects the invitation\\
+                         & Actions: \\
+                         & 1. System sends User1 notification that User2 rejected his invitation \\
+                         & 2. User1 pushes share button \\
+                         & 3. User1 chooses User3 to compete with\\
+                         & 4. System sends invitation to User3 \\
+                         & 5. User3 pushes"accept" button \\
+                         & 6. Challenge System generates same Challenge page for User1 and User3 \\ \hline
+        Alternative Flow B & User1 sent wrong User invitation \\
+                         & Actions: \\
+                         & 1. User1 push "show Invitation list" \\
+                         & 2. User1 pushs "cancel" button \\
+                         & 3. System withdraw invitation notification from User2\\ \hline
+    \end{tabularx}
+\end{table}
+
+\newpage
 
 \section{Howard-Yi Hong Soon}
 		\subsection{Requirement 5: Share workout achievement on social media}
@@ -395,7 +411,7 @@ then we seek for improvement and review from other team members. In the very end
 			\item \textbf{The system is well connected to all social media accounts when the internet is available.}
 		\end{itemize}
 		
-	
+	\newpage
 
 	\begin{figure}[htbp]
 		\textbf{Howard-Yi Hong Soon}
@@ -411,7 +427,8 @@ then we seek for improvement and review from other team members. In the very end
 			optional function to download image. 
 		\end{subfigure}
 	\end{figure}
-	
+
+	\newpage
 
 
 	\begin{figure}[htbp]
@@ -429,6 +446,7 @@ then we seek for improvement and review from other team members. In the very end
 		\end{subfigure}
 	\end{figure}
 	
+	\newpage
 
 	\begin{figure}[htbp]
 		\textbf{Howard-Yi Hong Soon}
@@ -446,7 +464,7 @@ then we seek for improvement and review from other team members. In the very end
 		\end{subfigure}
 	\end{figure}
 	
-
+\newpage
 	
 	\begin{figure}[htbp]
 		\textbf{Howard-Yi Hong Soon}
@@ -511,6 +529,8 @@ then we seek for improvement and review from other team members. In the very end
 			\item The calculations of the calories and the nutritional feedbacks has to be correct which is ensured by a mechanism 
 					for prevention of data manipulation.
 		\end{itemize}
+
+		\newpage
 	
 
 	\begin{figure}[htbp]
@@ -527,6 +547,8 @@ then we seek for improvement and review from other team members. In the very end
 		\end{subfigure}
 		
 	\end{figure}
+
+	\newpage
 	
 
 		\begin{figure}[htbp]
@@ -544,6 +566,7 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 		\end{figure}
 		
+		\newpage
 
 		\begin{figure}[htbp]
 			\textbf{Howard-Yi Hong Soon}
@@ -559,12 +582,13 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 		\end{figure}
 		
+		\newpage
 
 		\begin{figure}[htbp]
 			\textbf{Howard-Yi Hong Soon}
 			\centering
 			\begin{subfigure}{\textwidth}
-				\resizebox{\textwidth}{!}{\includesvg[]{Howard/nutriotinal_tracking/NutritionalTracking_sequence.svg}}
+				{\includesvg[scale = 0.5]{Howard/nutriotinal_tracking/NutritionalTracking_sequence.svg}}
 				\caption{Sequence Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
@@ -617,6 +641,8 @@ then we seek for improvement and review from other team members. In the very end
 			\item The System should react immediately after user select a different them and contrast level change during the adjustment.
 			\item The interface should has clear structure for user to operate.
 		\end{itemize}
+
+		\newpage
 	
 
 	\begin{figure}[htbp]
@@ -631,6 +657,8 @@ then we seek for improvement and review from other team members. In the very end
 			change to light or dark appearance base on user selection. User also has an option to change contrast level, and also a button to reset it.
 		\end{subfigure}
 	\end{figure}
+
+	\newpage
 	
 
 		\begin{figure}[htbp]
@@ -647,6 +675,7 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 		\end{figure}
 		
+		\newpage
 
 		\begin{figure}[htbp]
 			\textbf{Howard-Yi Hong Soon}
@@ -662,6 +691,7 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 		\end{figure}
 		
+		
 
 		\begin{figure}[htbp]
 			\textbf{Howard-Yi Hong Soon}
@@ -673,7 +703,7 @@ then we seek for improvement and review from other team members. In the very end
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		
 
 		\textbf{Howard-Yi Hong Soon}
 		\subsection{Requirement 17:  Stopwatch}
@@ -720,6 +750,8 @@ then we seek for improvement and review from other team members. In the very end
 			\item The System need to have an easy and user-friendly interface for time reading.
 			\item The interface need to have visible button on interface for start, pause and reset.
 		\end{itemize}
+
+		
 	
 
 	\begin{figure}[htbp]
@@ -734,6 +766,8 @@ then we seek for improvement and review from other team members. In the very end
 			then only can user perform stop, save and reset. Save operation can be performed after user stop the stopwatch.
 		\end{subfigure}
 	\end{figure}
+
+	
 	
 
 		\begin{figure}[htbp]
@@ -749,7 +783,7 @@ then we seek for improvement and review from other team members. In the very end
 				chose to reset the time or start to process again to resume the time.
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		
 		
 
 		\begin{figure}[htbp]
@@ -766,6 +800,8 @@ then we seek for improvement and review from other team members. In the very end
 				then the SaveTime class will perform an opeeration to save it. 
 			\end{subfigure}
 		\end{figure}
+
+		
 		
 
 		\begin{figure}[htbp]
@@ -779,7 +815,7 @@ then we seek for improvement and review from other team members. In the very end
 
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 
 		\section{Jiwon Won}
 		\subsection{Requirement 7: Personalized health recommendations}
@@ -819,68 +855,66 @@ then we seek for improvement and review from other team members. In the very end
 		\end{table}
 		\paragraph{Functional requirements}
 		\begin{itemize}
-			\item explainnnnn
+			\item The recommendation system should analyse the user’s health data to generate personalised health insight
+			\item The health system sync personal data from sensors			
 		\end{itemize}
 		
 		\paragraph{Non-functional requirements}
 		\begin{itemize}
-			\item explainnnn
+			\item The System has to hold on security protocols to protect the confidentiality of user’s health data and hast to offer options where the user has the possibility to manage the access rights to their data
 		\end{itemize}
 		\newpage
 		
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Use Case Diagram - Health Recommendation}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_usecase.svg}}
-				\caption{Use Case Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 		
 
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Activity Diagram - Health Recommendation}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation__activity.svg}}
-				\caption{Activity Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 		
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Class Diagram - Health Recommendation}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_class.svg}}
 				\caption{Class Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 		
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Sequence Diagram - Health Recommendation}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\centering
-				\scalebox{0.6}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_sequence.svg}}
-				\caption{Sequence Diagram}
+				\scalebox{0.7}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_sequence.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 		
 		
 		\subsection{Requirement 13: Change Lock Screen Template}
@@ -929,58 +963,54 @@ then we seek for improvement and review from other team members. In the very end
 		\newpage
 		
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Use Case Diagram - Change Lock Screen}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/LockScreen/LockScreen_usecase.svg}}
-				\caption{Use Case Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				=
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Activity Diagram - Change Lock Screen}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\centering
-				\scalebox{0.8}{\includesvg[]{Jiwon/LockScreen/LockScreen_activity.svg}}
-				\caption{Activity Diagram}
+				\scalebox{0.9}{\includesvg[]{Jiwon/LockScreen/LockScreen_activity.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 		
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Class Diagram - Change Lock Screen}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/LockScreen/LockScreen_class.svg}}
-				\caption{Class Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 		
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Sequence Diagram - Change Lock Screen}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\centering
-				\scalebox{0.5}{\includesvg[]{Jiwon/LockScreen/LockScreen_sequence.svg}}
-				\caption{Sequence Diagram}
+				\scalebox{0.7}{\includesvg[]{Jiwon/LockScreen/LockScreen_sequence.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 		
 		
 		\subsection{Requirement 14: Calculator}
@@ -1026,58 +1056,54 @@ then we seek for improvement and review from other team members. In the very end
 		\newpage
 		
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Use Case Diagram - Calculator}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/Calculator/Calculator_usecase.svg}}
-				\caption{Use Case Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 		
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Activity Diagram - Calculator}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\centering
 				\scalebox{0.9}{\includesvg[]{Jiwon/Calculator/Calculator_activity.svg}}
-				\caption{Activity Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 		
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Class Diagram - Calculator}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/Calculator/Calculator_class.svg}}
-				\caption{Class Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 		
 		\begin{figure}[htbp]
-			\textbf{Jiwon Won}
+			\textbf{Sequence Diagram - Calculator}
 			\centering
 			\begin{subfigure}{\textwidth}
 				\centering
-				\scalebox{0.7}{\includesvg[]{Jiwon/Calculator/Calculator_sequence.svg}}
-				\caption{Sequence Diagram}
+				\scalebox{0.8}{\includesvg[]{Jiwon/Calculator/Calculator_sequence.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				explainationnnnnnnnnn
+				
 			\end{subfigure}
 		\end{figure}
-		\newpage   
+		\clearpage   
 		
 		\subsection{Requirement 15: Bioelectrical Impedance Analysis}
 		\begin{table}[htbp]
@@ -1294,7 +1320,7 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\end{subfigure}
 	\end{figure}
-\newpage
+\clearpage
 
 
 \section{Marc Roemer}
@@ -1611,13 +1637,13 @@ then we seek for improvement and review from other team members. In the very end
 	\end{figure}
 	\newpage
 
-\subsection{Requirement 13: Pay with Smartwatch}
+\subsection{Requirement 23: Pay with Smartwatch}
 	\textbf{Stefan Nguyen}
 	\begin{center}
 		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
 			\hline
 			Name             & Pay with Smartwatch \\ \hline
-			ID               & 13 \\ \hline
+			ID               & 23 \\ \hline
 			Business Value   & Low \\ \hline
 			Description      & Allows users to make payments using their smartwatch connected to a digital wallet or bank account. \\ \hline
 			Trigger          & User chooses to pay with a smartwatch within an app  \\ \hline
@@ -1728,13 +1754,13 @@ then we seek for improvement and review from other team members. In the very end
 	\end{figure}
 	\newpage
 
-\subsection{Requirement 14: Tips for using the Smartwatch}
+\subsection{Requirement 24: Tips for using the Smartwatch}
 	\textbf{Stefan Nguyen}
 	\begin{center}
 		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
 			\hline
 			Name             & Tips for using the Smartwatch \\ \hline
-			ID               & 14 \\ \hline
+			ID               & 24 \\ \hline
 			Business Value   & Low \\ \hline
 			Description      & Provides the user with helpful tips and guidance throughout the smartwatch \\ \hline
 			Trigger          & User requess tips and help with the smartwatch interface or associated app \\ \hline
