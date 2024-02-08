@@ -11,13 +11,13 @@
 \contentsline {subsection}{\numberline {4.1}Requirement 5: Share workout achievement on social media}{13}{subsection.4.1}%
 \contentsline {paragraph}{Functional requirements}{13}{section*.29}%
 \contentsline {paragraph}{Non-functional requirements}{13}{section*.30}%
-\contentsline {subsection}{\numberline {4.2}Requirement : Nutritional Tracking for food intake and calorie counting}{18}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Requirement 8: Nutritional Tracking for food intake and calorie counting}{18}{subsection.4.2}%
 \contentsline {paragraph}{Functional requirements}{18}{section*.36}%
 \contentsline {paragraph}{Non-functional requirements}{18}{section*.37}%
-\contentsline {subsection}{\numberline {4.3}Requirement : Appearance Theme}{23}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Requirement 16: Appearance Theme}{23}{subsection.4.3}%
 \contentsline {paragraph}{Functional requirements}{23}{section*.43}%
 \contentsline {paragraph}{Non-functional requirements}{23}{section*.44}%
-\contentsline {subsection}{\numberline {4.4}Requirement : Stopwatch}{28}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.4}Requirement 17: Stopwatch}{28}{subsection.4.4}%
 \contentsline {paragraph}{Functional requirements}{28}{section*.50}%
 \contentsline {paragraph}{Non-functional requirements}{28}{section*.51}%
 \contentsline {section}{\numberline {5}Jiwon Won}{33}{section.5}%
