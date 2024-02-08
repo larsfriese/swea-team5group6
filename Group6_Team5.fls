@@ -169,7 +169,6 @@ INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-INPUT "inkscape" -V 
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
 INPUT .\Group6_Team5.out
 INPUT .\Group6_Team5.out
@@ -195,12 +194,6 @@ INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tf
 OUTPUT Group6_Team5.toc
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
-INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
-INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
-INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
-INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
-INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT .\Howard\share_workout\ShareWorkoutAchievement_usecase.svg
 INPUT .\Howard\share_workout\ShareWorkoutAchievement_usecase.svg
 INPUT .\Howard\share_workout\ShareWorkoutAchievement_usecase.svg
@@ -217,6 +210,7 @@ INPUT svg-inkscape\ShareWorkoutAchievement_usecase_svg-tex.pdf_tex
 INPUT .\svg-inkscape\ShareWorkoutAchievement_usecase_svg-tex.pdf
 INPUT .\svg-inkscape\ShareWorkoutAchievement_usecase_svg-tex.pdf
 INPUT .\svg-inkscape\ShareWorkoutAchievement_usecase_svg-tex.pdf
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT .\Howard\share_workout\ShareWorkoutAchievement_activity.svg
 INPUT .\Howard\share_workout\ShareWorkoutAchievement_activity.svg
 INPUT .\Howard\share_workout\ShareWorkoutAchievement_activity.svg
@@ -457,6 +451,11 @@ INPUT svg-inkscape\Stopwatch_sequence_svg-tex.pdf_tex
 INPUT .\svg-inkscape\Stopwatch_sequence_svg-tex.pdf
 INPUT .\svg-inkscape\Stopwatch_sequence_svg-tex.pdf
 INPUT .\svg-inkscape\Stopwatch_sequence_svg-tex.pdf
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
 INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_usecase.svg
 INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_usecase.svg
 INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_usecase.svg
