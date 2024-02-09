@@ -30,24 +30,41 @@
 \contentsline {subsection}{\numberline {4.4}Requirement 17: Stopwatch}{43}{subsection.4.4}%
 \contentsline {paragraph}{Functional requirements}{43}{section*.75}%
 \contentsline {paragraph}{Non-functional requirements}{43}{section*.76}%
-\contentsline {section}{\numberline {5}Jiwon Won}{48}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Requirement1}{48}{subsection.5.1}%
-\contentsline {section}{\numberline {6}Lars Friese}{51}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Requirement 25: Easy usability with Gesture Control}{51}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Requirement 26: Voice Assitant for easy data lookup}{56}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Marc Roemer}{61}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Requirement 9: Calculation and display daily and weekly step count statistics}{61}{subsection.7.1}%
-\contentsline {subsection}{\numberline {7.2}Requirement 10: Create and manages a workout plan}{67}{subsection.7.2}%
-\contentsline {section}{\numberline {8}Stefan Nguyen}{73}{section.8}%
-\contentsline {subsection}{\numberline {8.1}Requirement 3: Display Heart Rate on Smartwatch}{73}{subsection.8.1}%
-\contentsline {paragraph}{Functional requirements}{73}{section*.103}%
-\contentsline {paragraph}{Non-functional requirements}{73}{section*.104}%
-\contentsline {subsection}{\numberline {8.2}Requirement 11: Environment Monitoring}{78}{subsection.8.2}%
-\contentsline {paragraph}{Functional requirements}{78}{section*.109}%
-\contentsline {paragraph}{Non-functional requirements}{78}{section*.110}%
-\contentsline {subsection}{\numberline {8.3}Requirement 13: Pay with Smartwatch}{83}{subsection.8.3}%
-\contentsline {paragraph}{Functional requirements}{83}{section*.115}%
-\contentsline {paragraph}{Non-functional requirements}{83}{section*.116}%
-\contentsline {subsection}{\numberline {8.4}Requirement 14: Tips for using the Smartwatch}{86}{subsection.8.4}%
-\contentsline {paragraph}{Functional requirements}{88}{section*.121}%
-\contentsline {paragraph}{Non-functional requirements}{88}{section*.122}%
+\contentsline {section}{\numberline {5}Jiwon Won}{50}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Requirement 7: Personalized health recommendations}{50}{subsection.5.1}%
+\contentsline {paragraph}{Functional requirements}{50}{section*.82}%
+\contentsline {paragraph}{Non-functional requirements}{50}{section*.83}%
+\contentsline {subsection}{\numberline {5.2}Requirement 13: Change Lock Screen Template}{55}{subsection.5.2}%
+\contentsline {paragraph}{Functional requirements}{55}{section*.89}%
+\contentsline {paragraph}{Non-functional requirements}{55}{section*.90}%
+\contentsline {subsection}{\numberline {5.3}Requirement 14: Calculator}{60}{subsection.5.3}%
+\contentsline {paragraph}{Functional requirements}{60}{section*.96}%
+\contentsline {paragraph}{Non-functional requirements}{60}{section*.97}%
+\contentsline {subsection}{\numberline {5.4}Requirement 15: Bioelectrical Impedance Analysis}{65}{subsection.5.4}%
+\contentsline {paragraph}{Functional requirements}{65}{section*.103}%
+\contentsline {paragraph}{Non-functional requirements}{65}{section*.104}%
+\contentsline {section}{\numberline {6}Lars Friese}{70}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Requirement 12: Easy usability with Gesture Control}{70}{subsection.6.1}%
+\contentsline {paragraph}{Functional requirements}{70}{section*.109}%
+\contentsline {paragraph}{Non-functional requirements}{70}{section*.110}%
+\contentsline {subsection}{\numberline {6.2}Requirement 4: Monitor sleep quality using heartbeat data}{72}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Requirement 25: Voice Assistant for easy data lookup}{80}{subsection.6.3}%
+\contentsline {paragraph}{Functional requirements}{80}{section*.119}%
+\contentsline {paragraph}{Non-functional requirements}{80}{section*.120}%
+\contentsline {subsection}{\numberline {6.4}Requirement 26: Focus manager for focusing on work}{85}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Marc Roemer}{86}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Requirement 9: Calculation and display daily and weekly step count statistics}{86}{subsection.7.1}%
+\contentsline {subsection}{\numberline {7.2}Requirement 10: Create and manages a workout plan}{92}{subsection.7.2}%
+\contentsline {section}{\numberline {8}Stefan Nguyen}{98}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Requirement 3: Display Heart Rate on Smartwatch}{98}{subsection.8.1}%
+\contentsline {paragraph}{Functional requirements}{98}{section*.137}%
+\contentsline {paragraph}{Non-functional requirements}{98}{section*.138}%
+\contentsline {subsection}{\numberline {8.2}Requirement 11: Environment Monitoring}{103}{subsection.8.2}%
+\contentsline {paragraph}{Functional requirements}{103}{section*.143}%
+\contentsline {paragraph}{Non-functional requirements}{103}{section*.144}%
+\contentsline {subsection}{\numberline {8.3}Requirement 23: Pay with Smartwatch}{108}{subsection.8.3}%
+\contentsline {paragraph}{Functional requirements}{108}{section*.149}%
+\contentsline {paragraph}{Non-functional requirements}{108}{section*.150}%
+\contentsline {subsection}{\numberline {8.4}Requirement 24: Tips for using the Smartwatch}{111}{subsection.8.4}%
+\contentsline {paragraph}{Functional requirements}{113}{section*.155}%
+\contentsline {paragraph}{Non-functional requirements}{113}{section*.156}%

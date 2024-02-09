@@ -323,70 +323,66 @@ INPUT svg-inkscape\MedicationReminder_SequenceDiagram_svg-tex.pdf_tex
 INPUT .\svg-inkscape\MedicationReminder_SequenceDiagram_svg-tex.pdf
 INPUT .\svg-inkscape\MedicationReminder_SequenceDiagram_svg-tex.pdf
 INPUT .\svg-inkscape\MedicationReminder_SequenceDiagram_svg-tex.pdf
-INPUT .\Hermon\WaterIntake_UseCase.svg
-INPUT .\Hermon\WaterIntake_UseCase.svg
-INPUT .\Hermon\WaterIntake_UseCase.svg
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf
-INPUT svg-inkscape\WaterIntake_UseCase_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_UseCase_svg-tex.pdf
-INPUT .\Hermon\WaterIntake_ActivityDiagram.svg
-INPUT .\Hermon\WaterIntake_ActivityDiagram.svg
-INPUT .\Hermon\WaterIntake_ActivityDiagram.svg
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf
-INPUT svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ActivityDiagram_svg-tex.pdf
-INPUT .\Hermon\WaterIntake_ClassDiagram.svg
-INPUT .\Hermon\WaterIntake_ClassDiagram.svg
-INPUT .\Hermon\WaterIntake_ClassDiagram.svg
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf
-INPUT svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_ClassDiagram_svg-tex.pdf
-INPUT .\Hermon\WaterIntake_SequenceDiagram.svg
-INPUT .\Hermon\WaterIntake_SequenceDiagram.svg
-INPUT .\Hermon\WaterIntake_SequenceDiagram.svg
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf
-INPUT svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf_tex
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf
-INPUT .\svg-inkscape\WaterIntake_SequenceDiagram_svg-tex.pdf
+INPUT .\Hermon\Water Intake System Use Case.svg
+INPUT .\Hermon\Water Intake System Use Case.svg
+INPUT .\Hermon\Water Intake System Use Case.svg
+INPUT .\Water Intake System Use Case_svg-tex.pdf
+INPUT .\Water Intake System Use Case_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Use Case_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Use Case_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Use Case_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System Use Case_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System Use Case_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Use Case_svg-tex.pdf
+INPUT svg-inkscape\Water Intake System Use Case_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System Use Case_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Use Case_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Use Case_svg-tex.pdf
+INPUT .\Hermon\Water Intake System Activity.svg
+INPUT .\Hermon\Water Intake System Activity.svg
+INPUT .\Hermon\Water Intake System Activity.svg
+INPUT .\Water Intake System Activity_svg-tex.pdf
+INPUT .\Water Intake System Activity_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Activity_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Activity_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System Activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System Activity_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Activity_svg-tex.pdf
+INPUT svg-inkscape\Water Intake System Activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System Activity_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Activity_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Activity_svg-tex.pdf
+INPUT .\Hermon\Water Intake System Class.svg
+INPUT .\Hermon\Water Intake System Class.svg
+INPUT .\Hermon\Water Intake System Class.svg
+INPUT .\Water Intake System Class_svg-tex.pdf
+INPUT .\Water Intake System Class_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Class_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Class_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System Class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System Class_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Class_svg-tex.pdf
+INPUT svg-inkscape\Water Intake System Class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System Class_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Class_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System Class_svg-tex.pdf
+INPUT .\Hermon\Water Intake System seq.svg
+INPUT .\Hermon\Water Intake System seq.svg
+INPUT .\Hermon\Water Intake System seq.svg
+INPUT .\Water Intake System seq_svg-tex.pdf
+INPUT .\Water Intake System seq_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System seq_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System seq_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System seq_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System seq_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System seq_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System seq_svg-tex.pdf
+INPUT svg-inkscape\Water Intake System seq_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Water Intake System seq_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System seq_svg-tex.pdf
+INPUT .\svg-inkscape\Water Intake System seq_svg-tex.pdf
 INPUT .\Hermon\MoodLevelTracker_UseCase.svg
 INPUT .\Hermon\MoodLevelTracker_UseCase.svg
 INPUT .\Hermon\MoodLevelTracker_UseCase.svg
@@ -705,16 +701,268 @@ INPUT svg-inkscape\Stopwatch_sequence_svg-tex.pdf_tex
 INPUT .\svg-inkscape\Stopwatch_sequence_svg-tex.pdf
 INPUT .\svg-inkscape\Stopwatch_sequence_svg-tex.pdf
 INPUT .\svg-inkscape\Stopwatch_sequence_svg-tex.pdf
-INPUT .\Kreis2.pdf
-INPUT .\Kreis2.pdf
-INPUT .\Kreis2.pdf
-INPUT .\Kreis2.pdf
-INPUT .\Kreis2.pdf
-INPUT .\Kreis2.pdf
-INPUT .\Kreis2.pdf
-INPUT .\Kreis2.pdf
-INPUT .\Kreis2.pdf
-INPUT .\Kreis2.pdf
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi6.tfm
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tfm
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_usecase.svg
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_usecase.svg
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_usecase.svg
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf
+INPUT svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_usecase_svg-tex.pdf
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation__activity.svg
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation__activity.svg
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation__activity.svg
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf
+INPUT svg-inkscape\HealthRecommendation__activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation__activity_svg-tex.pdf
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_class.svg
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_class.svg
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_class.svg
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf
+INPUT svg-inkscape\HealthRecommendation_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_class_svg-tex.pdf
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_sequence.svg
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_sequence.svg
+INPUT .\Jiwon\HealthRecommendation\HealthRecommendation_sequence.svg
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf
+INPUT svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\HealthRecommendation_sequence_svg-tex.pdf
+INPUT .\Jiwon\LockScreen\LockScreen_usecase.svg
+INPUT .\Jiwon\LockScreen\LockScreen_usecase.svg
+INPUT .\Jiwon\LockScreen\LockScreen_usecase.svg
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf
+INPUT svg-inkscape\LockScreen_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_usecase_svg-tex.pdf
+INPUT .\Jiwon\LockScreen\LockScreen_activity.svg
+INPUT .\Jiwon\LockScreen\LockScreen_activity.svg
+INPUT .\Jiwon\LockScreen\LockScreen_activity.svg
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf
+INPUT svg-inkscape\LockScreen_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_activity_svg-tex.pdf
+INPUT .\Jiwon\LockScreen\LockScreen_class.svg
+INPUT .\Jiwon\LockScreen\LockScreen_class.svg
+INPUT .\Jiwon\LockScreen\LockScreen_class.svg
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf
+INPUT svg-inkscape\LockScreen_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_class_svg-tex.pdf
+INPUT .\Jiwon\LockScreen\LockScreen_sequence.svg
+INPUT .\Jiwon\LockScreen\LockScreen_sequence.svg
+INPUT .\Jiwon\LockScreen\LockScreen_sequence.svg
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf
+INPUT svg-inkscape\LockScreen_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\LockScreen_sequence_svg-tex.pdf
+INPUT .\Jiwon\Calculator\Calculator_usecase.svg
+INPUT .\Jiwon\Calculator\Calculator_usecase.svg
+INPUT .\Jiwon\Calculator\Calculator_usecase.svg
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf
+INPUT svg-inkscape\Calculator_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_usecase_svg-tex.pdf
+INPUT .\Jiwon\Calculator\Calculator_activity.svg
+INPUT .\Jiwon\Calculator\Calculator_activity.svg
+INPUT .\Jiwon\Calculator\Calculator_activity.svg
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf
+INPUT svg-inkscape\Calculator_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_activity_svg-tex.pdf
+INPUT .\Jiwon\Calculator\Calculator_class.svg
+INPUT .\Jiwon\Calculator\Calculator_class.svg
+INPUT .\Jiwon\Calculator\Calculator_class.svg
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf
+INPUT svg-inkscape\Calculator_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_class_svg-tex.pdf
+INPUT .\Jiwon\Calculator\Calculator_sequence.svg
+INPUT .\Jiwon\Calculator\Calculator_sequence.svg
+INPUT .\Jiwon\Calculator\Calculator_sequence.svg
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf
+INPUT svg-inkscape\Calculator_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\Calculator_sequence_svg-tex.pdf
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_usecase.svg
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_usecase.svg
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_usecase.svg
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf
+INPUT svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_usecase_svg-tex.pdf
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_activity.svg
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_activity.svg
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_activity.svg
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf
+INPUT svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_activity_svg-tex.pdf
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_class.svg
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_class.svg
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_class.svg
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf
+INPUT svg-inkscape\BioelecAnalysis_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_class_svg-tex.pdf
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_sequence.svg
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_sequence.svg
+INPUT .\Jiwon\BioelecAnalysis\BioelecAnalysis_sequence.svg
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf
+INPUT svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\BioelecAnalysis_sequence_svg-tex.pdf
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx9.tfm
 INPUT .\Lars\Use Case Gesture Control\GestureControl_usecase.svg
 INPUT .\Lars\Use Case Gesture Control\GestureControl_usecase.svg
 INPUT .\Lars\Use Case Gesture Control\GestureControl_usecase.svg
@@ -835,6 +1083,62 @@ INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
 INPUT svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
 INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
 INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_usecase.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_usecase.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_usecase.svg
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_usecase_svg-tex.pdf
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_activity.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_activity.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_activity.svg
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT svg-inkscape\VoiceAssistant_activity_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_activity_svg-tex.pdf
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_class.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_class.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_class.svg
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT svg-inkscape\VoiceAssistant_class_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_class_svg-tex.pdf
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_sequence.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_sequence.svg
+INPUT .\Lars\Use Case Voice Assistant\VoiceAssistant_sequence.svg
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
+INPUT svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf_tex
 INPUT .\svg-inkscape\VoiceAssistant_sequence_svg-tex.pdf
 INPUT .\Marc\req9\9activity.pdf
 INPUT .\Marc\req9\9activity.pdf
@@ -1113,6 +1417,8 @@ INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx9.pfb
+INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx9.pfb
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\49176\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb

@@ -580,7 +580,7 @@ then we seek for improvement and review from other team members. In the very end
     \textbf{Hermon Gimikael}
     \centering
     \begin{subfigure}{\textwidth}
-        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/WaterIntake_UseCase.svg}}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/Water Intake System Use Case.svg}}
         \caption{Use Case Diagram}
     \end{subfigure}
 \end{figure}
@@ -591,7 +591,7 @@ then we seek for improvement and review from other team members. In the very end
     \textbf{Hermon Gimikael}
     \centering
     \begin{subfigure}{\textwidth}
-        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/WaterIntake_ActivityDiagram.svg}}
+        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/Water Intake System Activity.svg}}
 		\caption{Activity Diagram}
 	\end{subfigure}
 \end{figure}
@@ -602,7 +602,7 @@ then we seek for improvement and review from other team members. In the very end
     \textbf{Hermon Gimikael}
     \centering
     \begin{subfigure}{\textwidth}
-        \includesvg[width=\textwidth]{Hermon/WaterIntake_ClassDiagram.svg}
+        \includesvg[width=\textwidth]{Hermon/Water Intake System Class.svg}
         \caption{Class Diagram}
     \end{subfigure}
 \end{figure}
@@ -613,7 +613,7 @@ then we seek for improvement and review from other team members. In the very end
     \textbf{Hermon Gimikael}
     \centering
     \begin{subfigure}{\textwidth}
-        \includesvg[width=\textwidth]{Hermon/WaterIntake_SequenceDiagram.svg}
+        \includesvg[width=\textwidth]{Hermon/Water Intake System seq.svg}
         \caption{Sequence Diagram}
     \end{subfigure}
 \end{figure}
@@ -1168,201 +1168,725 @@ then we seek for improvement and review from other team members. In the very end
 
 			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
 
-\section{Jiwon Won}
-	\subsection{Requirement1}
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
-		\end{figure}
+		\section{Jiwon Won}
+		\subsection{Requirement 7: Personalized health recommendations}
+		
+		\begin{table}[htbp]
+			\centering
+			\small
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
+				\hline
+				Name             & Display personalized health insights and recommendations                                \\ \hline
+				ID               & 7                                                                                       \\ \hline
+				Business Value   & High                                                                                    \\ \hline
+				Description      & Show contents related to ingestion, activity, general health care, and medical information regarding insufficient part of personal analysis \\ \hline
+				Trigger          & Triggered when the system receives new content from the server and shares it based on the importance regarding personal data \\ \hline
+				Actors           & User, Health Care System, Content Recommendation System                                 \\ \hline
+				Pre-conditions   & Internet connected, health recommendation app opened                                    \\ \hline
+				Post-conditions  & User checks recommended articles                                                         \\ \hline
+				Basic Flow       & This is the main scenario when the system successfully sends health-related contents to the user \\ \hline
+								 & Actions: \\
+								 & 1. User pushes "refresh" button \\
+								 & 2. Recommendation system requests a list of insufficient categories from the health care system \\
+								 & 3. Health care system rates categories, making a list from the most insufficient to least insufficient \\
+								 & 4. Health care system sends the list to the recommendation system \\
+								 & 5. Recommendation system shows contents regarding the order of the list \\ \hline
+				Alternative Flow A & Recommendation system failed to connect data with health care system \\
+								 & Actions: \\
+								 & 1. User pushes "refresh" button \\
+								 & 2. Recommendation system shows contents by most recent \\ \hline
+				Alternative Flow B & User does not have insufficient part of his data \\
+								 & Actions: \\
+								 & 1. User pushes "refresh" button \\
+								 & 2. Recommendation system requests a list of insufficient categories from the health care system \\
+								 & 3. Health care system rates categories by "user achievement/sufficient standard", making a list from lowest to highest categories \\
+								 & 4. Health care system sends the list to the recommendation system \\
+								 & 5. Recommendation system shows contents regarding the order of the list \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The recommendation system should analyse the user’s health data to generate personalised health insight
+			\item The health system sync personal data from sensors			
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The System has to hold on security protocols to protect the confidentiality of user’s health data and hast to offer options where the user has the possibility to manage the access rights to their data
+		\end{itemize}
 		\newpage
-		\begin{figure}[h!]
-		    \centering
-		    \captionsetup{labelformat=empty}
-		    \caption{Your caption}
-		    \includegraphics[width=\textwidth, angle=0]{Kreis2.pdf}
+		
+		\begin{figure}[htbp]
+			\textbf{Use Case Diagram - Health Recommendation}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_usecase.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
 		\end{figure}
-		\newpage
+		\clearpage
+		
 
+		\begin{figure}[htbp]
+			\textbf{Activity Diagram - Health Recommendation}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation__activity.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\textbf{Class Diagram - Health Recommendation}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_class.svg}}
+				\caption{Class Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\textbf{Sequence Diagram - Health Recommendation}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.7}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_sequence.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		
+		\subsection{Requirement 13: Change Lock Screen Template}
+		\begin{table}[htbp]
+			\centering
+			\small
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|X|}
+				\hline
+				Name             & Change the template of lock screen                                \\ \hline
+				ID               & 13                                                                                       \\ \hline
+				Business Value   & Medium                                                                                    \\ \hline
+				Description      & Show options of clock templates and change the lock screen \\ \hline
+				Trigger          & User chooses new clock template and click "Change" button \\ \hline
+				Actors           & User, Lock screen system                                \\ \hline
+				Pre-conditions   & Lock screen app turned on                                    \\ \hline
+				Post-conditions  & User can see the new lock screen when the smart watch turned on                                                        \\ \hline
+				Basic Flow       & This is the main scenario when the user changes his lock screen to new template \\ \hline
+								 & Actions: \\
+								 & 1. The system shows templates from latest update\\
+								 & 2. User clicks a template he is willing to change \\
+								 & 3. System shows detailed options (color, font) of the template \\
+								 & 4. User chooses the details \\
+								 & 5. User clicks "Change" button \\
+								 & 6. The system changes lock screen according to the new lock screen choice \\ \hline
+				Alternative Flow A & User could not find any template to change \\
+								 & Actions: \\
+								 & 1. User clicks "Back" button \\
+								 & 2. The system is turned off \\ \hline
+				Alternative Flow B & User chose the same template as the current lock screen but wants to change in different color and font \\
+								 & Actions: \\
+								 & 1. System shows detailed options (color, font) of the template \\
+								 & 2. User clicks the details different from the current style \\
+								 & 3. User clicks "Change" button \\
+								 & 4. The system changes the lock screen according to the new lock screen choice \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item explainnnnn
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item explainnnn
+		\end{itemize}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Use Case Diagram - Change Lock Screen}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/LockScreen/LockScreen_usecase.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				=
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+
+		\begin{figure}[htbp]
+			\textbf{Activity Diagram - Change Lock Screen}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.9}{\includesvg[]{Jiwon/LockScreen/LockScreen_activity.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\textbf{Class Diagram - Change Lock Screen}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/LockScreen/LockScreen_class.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\textbf{Sequence Diagram - Change Lock Screen}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.7}{\includesvg[]{Jiwon/LockScreen/LockScreen_sequence.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		
+		\subsection{Requirement 14: Calculator}
+		\begin{table}[htbp]
+			\centering
+			\small
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|X|}
+				\hline
+				Name             & Calculator                                \\ \hline
+				ID               & 14                                                                                       \\ \hline
+				Business Value   & Low                                                                                    \\ \hline
+				Description      & Caculate polynomial term \\ \hline
+				Trigger          & User open "Calculator" app \\ \hline
+				Actors           & User, Calculator system                                \\ \hline
+				Pre-conditions   & Calculator app opened                                    \\ \hline
+				Post-conditions  & User can see the result of the conclusion of polynomial term                                              \\ \hline
+				Basic Flow       & This is the main scenario when user made a polynomial term in range of real number \\ \hline
+								 & Actions: \\
+								 & 1. User write down polynomial term by calculator \\
+								 & 2. User push "=" button \\
+								 & 3. System calculate polynomial term \\
+								 & 4. System shows conculusion of the term in real number \\
+								 & 5. System reset the term in 0 \\ \hline
+				Alternative Flow A & The conclusion of terminals is imaginary number \\
+								 & Actions: \\
+								 & 1. System check the terminal can be calculated in range of real number \\
+								 & 2. System show "Please correct the terminal" \\ \hline
+				Alternative Flow B & User try to devide in 0 \\
+								 & Actions: \\
+								 & 1. System check the terminal is mathematically correct  \\
+								 & 2. System show "You can not divide in 0" \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item explainnnnn
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item explainnnn
+		\end{itemize}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Use Case Diagram - Calculator}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/Calculator/Calculator_usecase.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\textbf{Activity Diagram - Calculator}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.9}{\includesvg[]{Jiwon/Calculator/Calculator_activity.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\textbf{Class Diagram - Calculator}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/Calculator/Calculator_class.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\textbf{Sequence Diagram - Calculator}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.8}{\includesvg[]{Jiwon/Calculator/Calculator_sequence.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage   
+		
+		\subsection{Requirement 15: Bioelectrical Impedance Analysis}
+		\begin{table}[htbp]
+			\centering
+			\small
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|X|}
+				\hline
+				Name             & Bioelectrical Impedance Analysis                                \\ \hline
+				ID               & 15                                                                                       \\ \hline
+				Business Value   & High                                                                                    \\ \hline
+				Description      & Show amount of total body water, protein, minerals, fat mass of user's body \\ \hline
+				Trigger          & User push "start" button \\ \hline
+				Actors           & User, Bioelectrical sensor, System                                \\ \hline
+				Pre-conditions   & Analysis application opened                                  \\ \hline
+				Post-conditions  & User can see the biomedical analysis result of measurement                                              \\ \hline
+				Basic Flow       & This is the main scenario when user start measurement in stable condition \\ \hline
+								 & Actions: \\
+								 & 1. User starts refresh the measurement \\
+								 & 2. System shows introduction for stable environment to measure \\
+								 & 3. Bioelectrical sensor measure impedance of user \\
+								 & 4. System calculate amount of each category according to impedance measurement \\
+								 & 5. System show a chart of analysis \\ \hline
+				Alternative Flow A & Extra ordinary humidity detected on the sensor \\
+								 & Actions: \\
+								 & 1. Bioelectrical sensor detect abnormal humidity \\
+								 & 2. System show message "Make sensor clean and dry for measurement" \\ \hline
+				Alternative Flow B & Device is detached during sensor measuring \\
+								 & Actions: \\
+								 & 1. Bioelectrical sensor can not find electrical interaction with user  \\
+								 & 2. System show message "Device detached" \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item explainnnnn
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item explainnnn
+		\end{itemize}
+		\newpage
+		
+		\begin{figure}[htbp]
+			\textbf{Use Case Diagram - Bioelectrical Impedance Analysis}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/BioelecAnalysis/BioelecAnalysis_usecase.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\textbf{Activity Diagram - Bioelectrical Impedance Analysis}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.9}{\includesvg[]{Jiwon/BioelecAnalysis/BioelecAnalysis_activity.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\textbf{Class Diagram - Bioelectrical Impedance Analysis}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/BioelecAnalysis/BioelecAnalysis_class.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\textbf{Sequence Diagram - Bioelectrical Impedance Analysis}
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\scalebox{0.7}{\includesvg[]{Jiwon/BioelecAnalysis/BioelecAnalysis_sequence.svg}}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage   
 
 
 \section{Lars Friese}
-	\subsection{Requirement 25: Easy usability with Gesture Control}
-	\begin{center}
-		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
-			\hline
-			Name             & Use gestures to execute actions on smartwatch \\ \hline
-			ID               & 12 \\ \hline
-			Business Value   & medium \\ \hline
-			Description      & When the user lifts his arm and turns his wrist the smartwatch display turns on, when he lowers the arm the display turns of. Additionally the smartwatch executes a costum gesture \\ \hline
-			Trigger          & User lifting/lowering arm and turning wrist or shaking his wrist \\ \hline
-			Actors           & User, System, Gyroscope Sensor\\ \hline
-			Pre-conditions   & Display is turned on/off\\ \hline
-			Post-conditions  & Display is turned on/off, App opened\\ \hline
-			Basic Flow       & \\ \hline
-							  Description & This is the main scenario where the system recognizes the hand up movement \\ \hline
-							  Actions & \\ \hline
-							  1 & User raises arm \\ \hline
-							  2 & System recognizes gesture \\ \hline
-							  3 & Display turns on \\ \hline
-			Alternative Flow & A \\ \hline
-							  Description & Actions \\ \hline
-							  & 1 \\ \hline
-							  & 2 \\ \hline
-			Alternative Flow & B \\ \hline
-							  Description & Actions \\ \hline
-							  & 1 \\ \hline
-							  & 2 \\ \hline
-							  & 3 \\ \hline
-							  & 4 \\ \hline
-							  & 5 \\ \hline
-		\end{tabularx}
-	\end{center}
+	\subsection{Requirement 12: Easy usability with Gesture Control}
+		\vspace{1em}
+			\begin{center}
+			\small
+			\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
+				\hline
+				\textbf{Name}               & Use gestures to execute actions on smartwatch \\ \hline
+				\textbf{ID}                 & 12 \\ \hline
+				\textbf{Description}        & When the user lifts his arm and turns his wrist, the smartwatch display turns on. When he lowers the arm, the display turns off. Additionally, the smartwatch opens a custom app when the user shakes his hand. \\ \hline
+				\textbf{Trigger}            & User lifting/lowering arm and turning wrist, or shaking the hand \\ \hline
+				\textbf{Actors}             & User, System, Gyroscope Sensor \\ \hline
+				\textbf{Pre-conditions}     & Display on/off \\ \hline
+				\textbf{Post-conditions}    & Display off/on, App opened \\ \hline
+				\textbf{Basic Flow}         & This is the main scenario where the system recognizes a gesture. \\ \hline
+											& \textbf{Actions}: \\
+											& 1. User raises arm/lowers arm/shakes wrist \\
+											& 2. The system recognizes a movement and checks for a gesture \\
+											& 3. System recognizes a gesture \\
+											& 4. Display turns on/Display turns off/app opens \\ \hline
+				\textbf{Alternative Flow A} & The system doesn't recognize a gesture. \\ \hline
+											& \textbf{Actions}: \\
+											& 1. User raises arm/lowers arm/shakes wrist \\
+											& 2. The system recognizes a movement and checks for a gesture \\
+											& 3. System doesn't recognize a gesture \\ \hline
+				\textbf{Alternative Flow B} & The system misinterprets a gesture. \\ \hline
+											& \textbf{Actions}: \\
+											& 1. User raises arm/lowers arm/shakes wrist \\
+											& 2. The system recognizes a movement and checks for a gesture \\
+											& 3. System recognizes a gesture, but it is the wrong one \\
+											& 4. Display turns on/Display turns off/app opens, but the action doesn't correspond with the predefined action \\ \hline
+			\end{tabularx}
+		\end{center}
 
-	\begin{figure}[htbp]
-		\centering
-		\begin{subfigure}{\textwidth}
-			\resizebox{\textwidth}{!}{\includesvg[width=\textwidth]{Lars/Use Case Gesture Control/GestureControl_usecase.svg}}
-			\caption{Use Case Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			Example text 1 \
-			Example text 2
-		\end{subfigure}
-	\end{figure}
-	
-	\begin{figure}[htbp]
-		\centering
-		\begin{subfigure}{\textwidth}
-			\resizebox{\textwidth}{!}{\includesvg[inkscapelatex=false]{Lars/Use Case Gesture Control/GestureControl_activity.svg}}
-			\caption{Activity Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			Example text 3 \\
-			Example text STARWBERRY 
-		\end{subfigure}
-	\end{figure}
-	
-	\begin{figure}[htbp]
-		\centering
-		\begin{subfigure}{\textwidth}
-			\resizebox{\textwidth}{!}{\includesvg[]{Lars/Use Case Gesture Control/GestureControl_class.svg}}
-			\caption{Class Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			Example text 5 \\
-			Example text 6 
-		\end{subfigure}
-	\end{figure}
-	
-	\begin{figure}[htbp]
-		\centering
-		\begin{subfigure}{\textwidth}
-			\resizebox{\textwidth}{!}{\includesvg[]{Lars/Use Case Gesture Control/GestureControl_sequence.svg}}
-			\caption{Sequence Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			Example text 7 \\
-			Example text 8
-		\end{subfigure}
-	\end{figure}
-\newpage
-
-
-\subsection{Requirement 26: Voice Assitant for easy data lookup}
-	\begin{center}
-		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
-			\hline
-			Name             & Use gestures to execute actions on smartwatch \\ \hline
-			ID               & 26 \\ \hline
-			Business Value   & medium \\ \hline
-			Description      & When the user lifts his arm and turns his wrist the smartwatch display turns on, when he lowers the arm the display turns of. Additionally the smartwatch executes a costum gesture \\ \hline
-			Trigger          & User lifting/lowering arm and turning wrist or shaking his wrist \\ \hline
-			Actors           & User, System, Gyroscope Sensor\\ \hline
-			Pre-conditions   & Display is turned on/off\\ \hline
-			Post-conditions  & Display is turned on/off, App opened\\ \hline
-			Basic Flow       & \\ \hline
-							  Description & This is the main scenario where the system recognizes the hand up movement \\ \hline
-							  Actions & \\ \hline
-							  1 & User raises arm \\ \hline
-							  2 & System recognizes gesture \\ \hline
-							  3 & Display turns on \\ \hline
-			Alternative Flow & A \\ \hline
-							  Description & Actions \\ \hline
-							  & 1 \\ \hline
-							  & 2 \\ \hline
-			Alternative Flow & B \\ \hline
-							  Description & Actions \\ \hline
-							  & 1 \\ \hline
-							  & 2 \\ \hline
-							  & 3 \\ \hline
-							  & 4 \\ \hline
-							  & 5 \\ \hline
-		\end{tabularx}
-	\end{center}
-
-	\begin{figure}[htbp]
-		\centering
-		\begin{subfigure}{\textwidth}
-			\centering
-			\scalebox{0.7}{\includesvg[]{Lars/Use Case Voice Assistant/VoiceAssistant_usecase.svg}}
-			\caption{Use Case Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			
-		\end{subfigure}
-	\end{figure}
-	
-	\begin{figure}[htbp]
-		\centering
-		\begin{subfigure}{\textwidth}
-			\centering
-			\scalebox{0.7}{\includesvg[]{Lars/Use Case Voice Assistant/VoiceAssistant_activity.svg}}
-			\caption{Activity Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			Example text 3 \\
-			Example text STARWBERRY 
-		\end{subfigure}
-	\end{figure}
-\newpage
-	
-\begin{figure}[htbp]
-		\centering
-		\begin{subfigure}{\textwidth}
-			\centering
-			\scalebox{0.8}{\includesvg[]{Lars/Use Case Voice Assistant/VoiceAssistant_class.svg}}
-			\caption{Class Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
-			This class diagram shows that the VoiceAssistant class can either have 0 or 1 Web Services, and the Webservice can (at least in the context of this system)
-			not exist without the VoiceAssistant. The Knowledgebase is can exist independenlty of the VoiceAssitant and only exists once. Therefore the multiplicity is 1 and 1.
-			\\ \\
-			The sequence diagram shows the interaction between the VoiceAssistant, the WebService and The KnowledgeBase. 
-			The smartwatch first tries to retreive an answer to the users question by querying the local KnowledgeBase.
-			If an answer cant be found there, a WebService Object is created which queries a free AI search engine of the users choice for the answer.
-			It then retreives the answer, saves it in the KnowledgeBase and returns it to the User. Saving to the KnowledgeBase is asynchronous,
-			because there is no return value and, the sequence of actions doesnt have to wait for the completion of the operation.
-		\end{subfigure}
-	\end{figure}
-\newpage
-	
-	\begin{figure}[htbp]
-		\centering
-		\begin{subfigure}{\textwidth}
-			\centering
-			\scalebox{0.55}{\includesvg[]{Lars/Use Case Voice Assistant/VoiceAssistant_sequence.svg}}
-			\caption{Sequence Diagram}
-		\end{subfigure}
-		\begin{subfigure}{\textwidth}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The 
+		\end{itemize}
 		
-		\end{subfigure}
-	\end{figure}
-\clearpage
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item explainnnn
+		\end{itemize}
+		\clearpage
+	
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[width=\textwidth]{Lars/Use Case Gesture Control/GestureControl_usecase.svg}}
+				\caption{Use Case Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[inkscapelatex=false]{Lars/Use Case Gesture Control/GestureControl_activity.svg}}
+				\caption{Activity Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				Example text 3 \\
+				Example text
+			\end{subfigure}
+		\end{figure}
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Lars/Use Case Gesture Control/GestureControl_class.svg}}
+				\caption{Class Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				Example text 5 \\
+				Example text 6 
+			\end{subfigure}
+		\end{figure}
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\resizebox{\textwidth}{!}{\includesvg[]{Lars/Use Case Gesture Control/GestureControl_sequence.svg}}
+				\caption{Sequence Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				Example text 7 \\
+				Example text 8
+			\end{subfigure}
+		\end{figure}
+	\newpage
+	
+	
+	\subsection{Requirement 4: Monitor sleep quality using heartbeat data}
+	\vspace{1em}
+	\begin{center}
+		\small
+		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
+			\hline
+			\textbf{Name}               & Monitor and display sleep patterns and quality \\ \hline
+			\textbf{ID}                 & 4 \\ \hline
+			\textbf{Description}        & Show sleeping pattern chart and score of sleeping quality \\ \hline
+			\textbf{Trigger}            & Set a goal of sleeping time, and system is notified that user's heart rate pattern is changed to sleeping pattern from heart rate sensor. \\ \hline
+			\textbf{Actors}             & User, Sleeping system \\ \hline
+			\textbf{Pre-conditions}     & Smartwatch turned on, Sleep monitoring app opened \\ \hline
+			\textbf{Post-conditions}    & User gets information about their last sleep \\ \hline
+			\textbf{Basic Flow}         & This is the main scenario when the heart rate system works. \\ \hline
+										& \textbf{Actions}: \\
+										& 1. The user refreshes the monitor of sleeping app \\
+										& 2. The system notices the user starts to sleep and therefore starts to record heartbeat \\
+										& 3. The system notices the user wakes up and stops heart beta recording \\
+										& 4. The system calculates sleep quality (score between 0 and 100) \\
+										& 5. The system shows the quality score on the app \\ \hline
+			\textbf{Alternative Flow A} & The heart rate system can't calculate the heartbeat because sleeping time was shorter than the sleeping goal. \\ \hline
+										& \textbf{Actions}: \\
+										& 1. The system shows sleep data and score from sleep \\
+										& 2. The system compares and notices sleeping goal was not reached \\
+										& 3. The system shows 'did you sleep well?' notification \\ \hline
+			\textbf{Alternative Flow B} & The system calculates the score over 100 or lower than 0 (because of faulty heartbeat data). \\ \hline
+										& \textbf{Actions}: \\
+										& 1. The system finds outliers of the heart rate data \\
+										& 2. The system removes faulty heartbeat data \\
+										& 3. The system recalculates sleep quality \\
+										& 4. The system shows recalculated score \\
+										& 5. The system finds outliers of the heart rate data \\
+										& 6. The system removes faulty heartbeat data \\
+										& 7. The system recalculates sleep quality \\
+										& 8. The system shows recalculated score \\ \hline
+		\end{tabularx}
+		\end{center}
+		
+	
+		
+			\newpage
+	
+	
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=0.7]{Lars/Use Case Voice Assistant/VoiceAssistant_usecase.svg}
+				\caption{Use Case Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				
+			\end{subfigure}
+		\end{figure}
+		\clearpage % Ends the current page and forces a new page
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=0.7]{Lars/Use Case Voice Assistant/VoiceAssistant_activity.svg}
+				\caption{Activity Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				Example text 3 \\
+				Example text STARWBERRY 
+			\end{subfigure}
+		\end{figure}
+		\clearpage % Ends the current page and forces a new page
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\resizebox{\textwidth}{!}{\includesvg{Lars/Use Case Voice Assistant/VoiceAssistant_class.svg}}
+				\caption{Class Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				\vspace{1em}
+				This class diagram shows that the VoiceAssistant class can either have 0 or 1 Web Services, and the Webservice can (at least in the context of this system)
+				not exist without the VoiceAssistant. The Knowledgebase can exist independenlty of the VoiceAssitant and only exists once. Therefore the multiplicity is 1 and 1.
+				\\ \\
+				The sequence diagram shows the interaction between the VoiceAssistant, the WebService and the KnowledgeBase. 
+				The smartwatch first tries to retreive an answer to the users question by querying the local KnowledgeBase.
+				If an answer cant be found there, a WebService Object is created which qu eries a free AI search engine of the users choice for the answer.
+				It then retreives the answer, saves it in the KnowledgeBase and returns it to the User. Saving to the KnowledgeBase is asynchronous,
+				because there is no return value and, the sequence of actions doesnt have to wait for the completion of the operation.
+			\end{subfigure}
+		\end{figure}
+	
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=0.50]{Lars/Use Case Voice Assistant/VoiceAssistant_sequence.svg}
+				\caption{Sequence Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			
+			\end{subfigure}
+		\end{figure} 
+	
+	
+	
+	\subsection{Requirement 25: Voice Assistant for easy data lookup}
+	\vspace{1em}
+	\begin{center}
+		\small
+		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
+			\hline
+			\textbf{Name}               & Use a virtual assistant to access the web on the go \\ \hline
+			\textbf{ID}                 & 25 \\ \hline
+			\textbf{Description}        & Ask your virtual assistant questions and get real-time answers from the web. \\ \hline
+			\textbf{Trigger}            & Say "Hey [virtual assistant's name]" \\ \hline
+			\textbf{Actors}             & User, System \\ \hline
+			\textbf{Pre-conditions}     & Smartwatch turned on \\ \hline
+			\textbf{Post-conditions}    & User gets the information he wanted without having to pull out his phone or move his hand. \\ \hline
+			\textbf{Basic Flow}         & This is the main scenario where the smartwatch successfully retrieves information from the web. \\ \hline
+										& \textbf{Actions}: \\ 
+										& 1. The user says "Hey [virtual assistant's name]" \\ 
+										& 2. The system notices this and responds with "How can I help you?" \\ 
+										& 3. The user asks a question like "What is..." or "Can you quickly define..." \\ 
+										& 4. The system checks if the local database contains the answer or piece of information. \\ 
+										& 5. The system receives a summarized answer compiled by an AI search engine. \\ 
+										& 6. The system returns the information by reading the quick summary out loud. \\ \hline
+			\textbf{Alternative Flow A} & The smartwatch has the information already saved in the local database. \\ \hline
+										& \textbf{Actions}: \\ 
+										& 1-4. Same steps \\ 
+										& 5. The system finds the piece of information in the local database. \\ 
+										& 6. The system returns the information by reading the quick summary out loud. \\ \hline
+		\end{tabularx}
+		\end{center}
 
+		\paragraph{Functional requirements}
+			\begin{itemize}
+				\item The smartwatch should be able to respond to users voice commands with relevant information
+				\item The smartwatch should be able to retreive data from the web
+			\end{itemize}
+			
+			\paragraph{Non-functional requirements}
+			\begin{itemize}
+				\item The natural language processing of the smartwatch needs to be good enough to accurately recognize the question
+				\item The local database has to be quick enough (respond in under a couple of seconds) to respond to the given user question
+			\end{itemize}
+		\clearpage
+	
+	
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=0.7]{Lars/Use Case Voice Assistant/VoiceAssistant_usecase.svg}
+				\caption{Use Case Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=0.7]{Lars/Use Case Voice Assistant/VoiceAssistant_activity.svg}
+				\caption{Activity Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\resizebox{\textwidth}{!}{\includesvg{Lars/Use Case Voice Assistant/VoiceAssistant_class.svg}}
+				\caption{Class Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				\vspace{1em}
+				This class diagram shows that the VoiceAssistant class can either have 0 or 1 Web Services, and the Webservice can (at least in the context of this system)
+				not exist without the VoiceAssistant. The Knowledgebase can exist independenlty of the VoiceAssitant and only exists once. Therefore the multiplicity is 1 and 1.
+				\\ \\
+				The sequence diagram shows the interaction between the VoiceAssistant, the WebService and the KnowledgeBase. 
+				The smartwatch first tries to retreive an answer to the users question by querying the local KnowledgeBase.
+				If an answer cant be found there, a WebService Object is created which qu eries a free AI search engine of the users choice for the answer.
+				It then retreives the answer, saves it in the KnowledgeBase and returns it to the User. Saving to the KnowledgeBase is asynchronous,
+				because there is no return value and, the sequence of actions doesnt have to wait for the completion of the operation.
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=0.50]{Lars/Use Case Voice Assistant/VoiceAssistant_sequence.svg}
+				\caption{Sequence Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			
+			\end{subfigure}
+		\end{figure} 
+		\clearpage
+
+
+	\subsection{Requirement 26: Focus manager for focusing on work}
+	\vspace{1em}
+	\begin{center}
+		\small
+		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
+			\hline
+			\textbf{Name}               & Use smartwatch to stay off phone and keep focus on work. \\\hline
+			\textbf{ID}                 & 26 \\\hline
+			\textbf{Description}        & Smartwatch reminds you to stay on track with work, by vibrating when you try to look at your phone or try to do something else while working. You can decide on how many "work cycles" you want to do. Each work cycle is 30m work and 5m break and then another 30min work. \\\hline
+			\textbf{Trigger}            & Click "Start working session" \\\hline
+			\textbf{Actors}             & User, System, Smartphone \\\hline
+			\textbf{Pre-conditions}     & Smartwatch turned on, Bluetooth on \\\hline
+			\textbf{Post-conditions}    & User had a productive working session \\\hline
+			\textbf{Basic Flow} 		& This is the main scenario where the user starts a working session with just 1 work cycle \\\hline
+										& \textbf{Actions}: \\
+										  & 1. User selects number of "work cycles" \\
+										   & 2. Button "Start working session" appears \\
+										   & 3. User clicks the button \\
+										   & 4. User works until break starts \\
+										  & 5. User starts working again \\
+										   & 6. The smartwatch ends the working session \\\hline
+			\textbf{Alternative Flow A} & The User tries to use his phone during the working session \\\hline
+										& \textbf{Actions}: \\
+										  & 1-3. Same steps \\
+										   & 4. The system notices the user takes out phone \\
+										   & 5. The Smartwatch vibrates to remind user to stay on track, and prevents phone usage \\\hline
+			\textbf{Alternative Flow B} & The user ends the work cycle prematurely \\\hline
+										& \textbf{Actions}: \\
+										& 1-3. Same steps \\
+										& 4. The user taps on button "End work cycle"\\
+										& 5. The smartwatch doesn't count this work cycle \\\hline
+		\end{tabularx}
+	\end{center}
+	\clearpage
+	
 
 \section{Marc Roemer}
 	\subsection{Requirement 9: Calculation and display daily and weekly step count statistics}
@@ -1678,13 +2202,13 @@ then we seek for improvement and review from other team members. In the very end
 	\end{figure}
 	\newpage
 
-\subsection{Requirement 13: Pay with Smartwatch}
+\subsection{Requirement 23: Pay with Smartwatch}
 	\textbf{Stefan Nguyen}
 	\begin{center}
 		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
 			\hline
 			Name             & Pay with Smartwatch \\ \hline
-			ID               & 13 \\ \hline
+			ID               & 23 \\ \hline
 			Business Value   & Low \\ \hline
 			Description      & Allows users to make payments using their smartwatch connected to a digital wallet or bank account. \\ \hline
 			Trigger          & User chooses to pay with a smartwatch within an app  \\ \hline
@@ -1795,13 +2319,13 @@ then we seek for improvement and review from other team members. In the very end
 	\end{figure}
 	\newpage
 
-\subsection{Requirement 14: Tips for using the Smartwatch}
+\subsection{Requirement 24: Tips for using the Smartwatch}
 	\textbf{Stefan Nguyen}
 	\begin{center}
 		\begin{tabularx}{1.0\textwidth}{|>{\raggedright\arraybackslash}p{0.2\textwidth}|>{\raggedright\arraybackslash}X|}
 			\hline
 			Name             & Tips for using the Smartwatch \\ \hline
-			ID               & 14 \\ \hline
+			ID               & 24 \\ \hline
 			Business Value   & Low \\ \hline
 			Description      & Provides the user with helpful tips and guidance throughout the smartwatch \\ \hline
 			Trigger          & User requess tips and help with the smartwatch interface or associated app \\ \hline
