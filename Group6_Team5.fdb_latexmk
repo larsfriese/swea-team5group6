@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1707584529.87265 "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" "Group6_Team5.pdf" "Group6_Team5" 1707584535.69246 0
+["pdflatex"] 1707585691.65129 "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" "Group6_Team5.pdf" "Group6_Team5" 1707585697.20624 0
   "C:/Users/School/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1707301733 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/School/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1707157424 11548 7abbf5f8806780bc7dfd4799d4c47ad9 ""
   "C:/Users/School/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1707148845 24225558 421734660196544859c6725293d6409c ""
@@ -105,10 +105,10 @@
   "C:/Users/School/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/School/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/School/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Group6_Team5.aux" 1707584535 12386 22b0a72d2337adcaa5bd450dd7e93813 "pdflatex"
-  "Group6_Team5.out" 1707584535 8724 a08fe650c58dc7c09c57fa364df7633f "pdflatex"
-  "Group6_Team5.tex" 1707584529 115947 656bc4ef61b8d494d23f3d1f5cab218d ""
-  "Group6_Team5.toc" 1707584535 6173 5c266e2c4ad44afff72d9ebe3afc522a "pdflatex"
+  "Group6_Team5.aux" 1707585696 12386 22b0a72d2337adcaa5bd450dd7e93813 "pdflatex"
+  "Group6_Team5.out" 1707585696 8724 a08fe650c58dc7c09c57fa364df7633f "pdflatex"
+  "Group6_Team5.tex" 1707585690 116337 aaafcd6574242f38a364874727fc68c7 ""
+  "Group6_Team5.toc" 1707585696 6173 5c266e2c4ad44afff72d9ebe3afc522a "pdflatex"
   "Hermon/MedicationReminder_ActivityDiagram.svg" 1707468678 1827730 93f6418644c3b2e72051bd06b989cd2f ""
   "Hermon/MedicationReminder_ClassDiagram.svg" 1707468678 833484 5122cfb7a0ee917cfb7819d680168b84 ""
   "Hermon/MedicationReminder_SequenceDiagram.svg" 1707468678 1786526 b8f81d6189e301bcda7a702070f11a41 ""
@@ -202,7 +202,7 @@
   "Stefan/UI Prototypes/Heart rate.svg" 1707148109 72046 5e44c017ccf2eda3632974b86340bf72 ""
   "Stefan/UI Prototypes/Show nutritient and calories.svg" 1707148109 322963 92abcf4bafaac9f9849a912b8c31aabc ""
   "Stefan/UI Prototypes/Wallet pay.svg" 1707148109 43642 df89887c3ba988e92966e6393865a79c ""
-  "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" 1707584529 115947 656bc4ef61b8d494d23f3d1f5cab218d ""
+  "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" 1707585690 116337 aaafcd6574242f38a364874727fc68c7 ""
   "svg-inkscape/AppearenceTheme_activity_svg-tex.pdf" 1707167065 177851 1e1070bcea72b90d06cbadbea3a9aed0 ""
   "svg-inkscape/AppearenceTheme_activity_svg-tex.pdf_tex" 1707167065 2125 73caf53976e63a5c75aa97adc1c7435d ""
   "svg-inkscape/AppearenceTheme_class_svg-tex.pdf" 1707166049 199226 9d62c5c02f0780369b571b5f8993b839 ""
