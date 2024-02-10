@@ -1633,15 +1633,16 @@ then we seek for improvement and review from other team members. In the very end
 
 		\paragraph{Functional requirements}
 		\begin{itemize}
-			\item The 
+			\item The System performs certain actions when the user physically moves the smartwatch in a certain way
 		\end{itemize}
 		
 		\paragraph{Non-functional requirements}
 		\begin{itemize}
-			\item explainnnn
+			\item The smartwatch needs to be quickly accessible and easily usable
+			\item The smartwatch needs to identify the correct gesture at least 95\% of the time
 		\end{itemize}
 		\clearpage
-	
+		
 		\begin{figure}[htbp]
 			\centering
 			\begin{subfigure}{\textwidth}
@@ -1649,6 +1650,8 @@ then we seek for improvement and review from other team members. In the very end
 				\caption{Use Case Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
+				\vspace{1em}
+				
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1660,11 +1663,10 @@ then we seek for improvement and review from other team members. In the very end
 				\caption{Activity Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				Example text 3 \\
-				Example text
 			\end{subfigure}
 		\end{figure}
-		
+		\clearpage
+
 		\begin{figure}[htbp]
 			\centering
 			\begin{subfigure}{\textwidth}
@@ -1672,11 +1674,17 @@ then we seek for improvement and review from other team members. In the very end
 				\caption{Class Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				Example text 5 \\
-				Example text 6 
+				\vspace{1em}
+				In this class diagramm, the gesture controller keeps track of all the gesture objects there are.
+				Whenever a motion is detected, it will cycle thorugh all the gesture objects it has, and calls the function on each one
+				of them to check if the gesture was executed.
+				\\ \\
+				Each gesture object has a list of data that is being compared to the live gyroscope data, to determine if a gesture was done.
+				I choose to make the individual gestures specialisations of a gesture superclass.
 			\end{subfigure}
 		\end{figure}
-		
+		\clearpage
+
 		\begin{figure}[htbp]
 			\centering
 			\begin{subfigure}{\textwidth}
@@ -1684,11 +1692,12 @@ then we seek for improvement and review from other team members. In the very end
 				\caption{Sequence Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				Example text 7 \\
-				Example text 8
+				\vspace{1em}
+				This sequence diagram is pretty straightforward. You can see how every gesture subclass object checks if the motion
+				represents its gesture. At the end a boolean is returned from each object, representing if the gesture action was executred or not.
 			\end{subfigure}
 		\end{figure}
-	\newpage
+		\clearpage
 	
 	
 	\subsection{Requirement 4: Monitor sleep quality using heartbeat data}
@@ -1721,79 +1730,89 @@ then we seek for improvement and review from other team members. In the very end
 										& 1. The system finds outliers of the heart rate data \\
 										& 2. The system removes faulty heartbeat data \\
 										& 3. The system recalculates sleep quality \\
-										& 4. The system shows recalculated score \\
-										& 5. The system finds outliers of the heart rate data \\
-										& 6. The system removes faulty heartbeat data \\
-										& 7. The system recalculates sleep quality \\
-										& 8. The system shows recalculated score \\ \hline
+										& 4. The system shows recalculated score \\ \hline
 		\end{tabularx}
 		\end{center}
 		
-	
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The system track user's sleeping statement in real-time
+			\item The system measure sleeping quality in real-time
+			\item The system calculate overall score of sleeping quality			
+		\end{itemize}
 		
-			\newpage
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The system shows sleeping result in 1 minute after user refresh
+			\item Sleeping data is reliable to assume sleeping quality of user
+		\end{itemize}
+		\clearpage
+
+
+		% UI Prototype
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=1.1]{Stefan/UI Prototypes/Sleep tracker.svg}
+				\caption{Sleep Tracker Prototype}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			\end{subfigure}
+		\end{figure}
+		\clearpage
 	
 	
 		\begin{figure}[htbp]
 			\centering
 			\begin{subfigure}{\textwidth}
 				\centering
-				\includesvg[scale=0.7]{Lars/Use Case Voice Assistant/VoiceAssistant_usecase.svg}
+				\includesvg[scale=0.55]{Lars/Use Case Sleep Analysis/SleepMonitor_usecase.svg}
 				\caption{Use Case Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
 			\end{subfigure}
 		\end{figure}
-		\clearpage % Ends the current page and forces a new page
+		\clearpage
 		
 		\begin{figure}[htbp]
 			\centering
 			\begin{subfigure}{\textwidth}
 				\centering
-				\includesvg[scale=0.7]{Lars/Use Case Voice Assistant/VoiceAssistant_activity.svg}
+				\includesvg[scale=0.8]{Lars/Use Case Sleep Analysis/SleepMonitor_activity.svg}
 				\caption{Activity Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				Example text 3 \\
-				Example text STARWBERRY 
 			\end{subfigure}
 		\end{figure}
-		\clearpage % Ends the current page and forces a new page
+		\clearpage
 		
 		\begin{figure}[htbp]
 			\centering
 			\begin{subfigure}{\textwidth}
 				\centering
-				\resizebox{\textwidth}{!}{\includesvg{Lars/Use Case Voice Assistant/VoiceAssistant_class.svg}}
+				\includesvg[scale=1.1]{Lars/Use Case Sleep Analysis/SleepMonitor_class.svg}
 				\caption{Class Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 				\vspace{1em}
-				This class diagram shows that the VoiceAssistant class can either have 0 or 1 Web Services, and the Webservice can (at least in the context of this system)
-				not exist without the VoiceAssistant. The Knowledgebase can exist independenlty of the VoiceAssitant and only exists once. Therefore the multiplicity is 1 and 1.
-				\\ \\
-				The sequence diagram shows the interaction between the VoiceAssistant, the WebService and the KnowledgeBase. 
-				The smartwatch first tries to retreive an answer to the users question by querying the local KnowledgeBase.
-				If an answer cant be found there, a WebService Object is created which qu eries a free AI search engine of the users choice for the answer.
-				It then retreives the answer, saves it in the KnowledgeBase and returns it to the User. Saving to the KnowledgeBase is asynchronous,
-				because there is no return value and, the sequence of actions doesnt have to wait for the completion of the operation.
-			\end{subfigure}
+				\end{subfigure}
 		\end{figure}
+		\clearpage
 	
 		
 		\begin{figure}[htbp]
 			\centering
 			\begin{subfigure}{\textwidth}
 				\centering
-				\includesvg[scale=0.50]{Lars/Use Case Voice Assistant/VoiceAssistant_sequence.svg}
+				\includesvg[scale=0.6]{Lars/Use Case Sleep Analysis/SleepMonitor_sequence.svg}
 				\caption{Sequence Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			
 			\end{subfigure}
 		\end{figure} 
-	
+		\clearpage
 	
 	
 	\subsection{Requirement 25: Voice Assistant for easy data lookup}
@@ -1827,8 +1846,8 @@ then we seek for improvement and review from other team members. In the very end
 
 		\paragraph{Functional requirements}
 			\begin{itemize}
-				\item The smartwatch should be able to respond to users voice commands with relevant information
-				\item The smartwatch should be able to retreive data from the web
+				\item The smartwatch responds to users voice commands with relevant information
+				\item The smartwatch retreives data from the web
 			\end{itemize}
 			
 			\paragraph{Non-functional requirements}
@@ -1906,32 +1925,121 @@ then we seek for improvement and review from other team members. In the very end
 			\hline
 			\textbf{Name}               & Use smartwatch to stay off phone and keep focus on work. \\\hline
 			\textbf{ID}                 & 26 \\\hline
-			\textbf{Description}        & Smartwatch reminds you to stay on track with work, by vibrating when you try to look at your phone or try to do something else while working. You can decide on how many "work cycles" you want to do. Each work cycle is 30m work and 5m break and then another 30min work. \\\hline
+			\textbf{Description}        & Smartwatch reminds you to stay on track with work, by vibrating when you try to look at your phone or try to do something else while working. You can decide on how long you want a "working session" to be. \\\hline
 			\textbf{Trigger}            & Click "Start working session" \\\hline
 			\textbf{Actors}             & User, System, Smartphone \\\hline
 			\textbf{Pre-conditions}     & Smartwatch turned on, Bluetooth on \\\hline
 			\textbf{Post-conditions}    & User had a productive working session \\\hline
 			\textbf{Basic Flow} 		& This is the main scenario where the user starts a working session with just 1 work cycle \\\hline
 										& \textbf{Actions}: \\
-										  & 1. User selects number of "work cycles" \\
-										   & 2. Button "Start working session" appears \\
-										   & 3. User clicks the button \\
-										   & 4. User works until break starts \\
-										  & 5. User starts working again \\
-										   & 6. The smartwatch ends the working session \\\hline
+										& 1. Select length of working session\\
+										& 2. Button "Start working session" appears \\
+										& 3. User clicks the button \\
+										& 4. User works until working session ends. \\
+										& 5. Button "Start working session" appears again, and counter increases by one \\
 			\textbf{Alternative Flow A} & The User tries to use his phone during the working session \\\hline
 										& \textbf{Actions}: \\
-										  & 1-3. Same steps \\
-										   & 4. The system notices the user takes out phone \\
-										   & 5. The Smartwatch vibrates to remind user to stay on track, and prevents phone usage \\\hline
+										& 1-3. Same steps \\
+										& 4. The system notices the user takes out phone \\
+										& 5. The Smartwatch vibrates to remind user to stay on track, and prevents phone usage \\\hline
+										& 4. User gets back to working until working session ends. \\
+										& 5. Button "Start working session" appears again, and counter increases by one \\
 			\textbf{Alternative Flow B} & The user ends the work cycle prematurely \\\hline
 										& \textbf{Actions}: \\
 										& 1-3. Same steps \\
 										& 4. The user taps on button "End work cycle"\\
 										& 5. The smartwatch doesn't count this work cycle \\\hline
+										& 5. Button "Start working session" appears again \\
 		\end{tabularx}
 	\end{center}
-	\clearpage
+	
+
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The system shows no notifications during a working session
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The communication between smartphone and smartwatch system has to stay active during the whole working session
+		\end{itemize}
+		\clearpage
+
+		% UI Prototype
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=1.1]{Stefan/UI Prototypes/Focus Manager part 1.svg}
+				\caption{Sleep Tracker Prototype}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			\end{subfigure}
+		\end{figure}
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=1.1]{Stefan/UI Prototypes/Focus Manager part 2.svg}
+				\caption{Sleep Tracker Prototype}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+	
+	
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=0.7]{Lars/Use Case Focus Manager/FocusManager_usecase.svg}
+				\caption{Use Case Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=0.7]{Lars/Use Case Focus Manager/FocusManager_activity.svg}
+				\caption{Activity Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=0.8]{Lars/Use Case Focus Manager/FocusManager_class.svg}
+				\caption{Class Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+				\vspace{1em}
+				\end{subfigure}
+		\end{figure}
+		\clearpage
+		
+		\begin{figure}[htbp]
+			\centering
+			\begin{subfigure}{\textwidth}
+				\centering
+				\includesvg[scale=0.8]{Lars/Use Case Focus Manager/FocusManager_sequence.svg}
+				\caption{Sequence Diagram}
+			\end{subfigure}
+			\begin{subfigure}{\textwidth}
+			
+			\end{subfigure}
+		\end{figure} 
+		\clearpage
+
+
 	
 
 \section{Marc Roemer}
