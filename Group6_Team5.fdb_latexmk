@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1707651258.58126 "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" "Group6_Team5.pdf" "Group6_Team5" 1707651266.43164 0
+["pdflatex"] 1707652474.11194 "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" "Group6_Team5.pdf" "Group6_Team5" 1707652481.3628 0
   "C:/Users/School/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1707301733 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/School/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1707157424 11548 7abbf5f8806780bc7dfd4799d4c47ad9 ""
   "C:/Users/School/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1707148845 24225558 421734660196544859c6725293d6409c ""
@@ -107,10 +107,10 @@
   "C:/Users/School/AppData/Local/Programs/MiKTeX/tex/latex/trimspaces/trimspaces.sty" 1253169183 1380 971a51b00a14503ddf754cab24c3f209 ""
   "C:/Users/School/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/School/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1700127522 55487 80a65caedd3722f4c20a14a69e785d8f ""
-  "Group6_Team5.aux" 1707651265 12981 950c636693647409fd224676bf9f5983 "pdflatex"
-  "Group6_Team5.out" 1707651265 8948 210921800079f71e799eb40f2e522da6 "pdflatex"
-  "Group6_Team5.tex" 1707651257 122406 7562c0bd0ee0164eff1f121483a641e9 ""
-  "Group6_Team5.toc" 1707651265 6554 cd3eddc67712ff87ce8ff61780fe8a79 "pdflatex"
+  "Group6_Team5.aux" 1707652480 12981 950c636693647409fd224676bf9f5983 "pdflatex"
+  "Group6_Team5.out" 1707652480 8948 210921800079f71e799eb40f2e522da6 "pdflatex"
+  "Group6_Team5.tex" 1707652473 122409 018ae0597d4bacd6df5abb4f5186da15 ""
+  "Group6_Team5.toc" 1707652480 6554 cd3eddc67712ff87ce8ff61780fe8a79 "pdflatex"
   "Hermon/MedicationReminder/MedicationReminder_Activity.svg" 1707650531 1524428 13a3d6f655e78accb9b869bdf7e9566b ""
   "Hermon/MedicationReminder/MedicationReminder_Class.svg" 1707650531 813950 f4782cc8efb553b9d83a01d2b59bccb4 ""
   "Hermon/MedicationReminder/MedicationReminder_Sequence.svg" 1707650531 1894733 c0bedb19da073691ae635fa71edce6ec ""
@@ -217,7 +217,7 @@
   "Stefan/UI Prototypes/Show nutritient and calories.svg" 1707148109 322963 92abcf4bafaac9f9849a912b8c31aabc ""
   "Stefan/UI Prototypes/Sleep tracker.svg" 1707650531 197131 2b8a3b90dfd14a4d4e6772332f95d388 ""
   "Stefan/UI Prototypes/Wallet pay.svg" 1707148109 43642 df89887c3ba988e92966e6393865a79c ""
-  "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" 1707651257 122406 7562c0bd0ee0164eff1f121483a641e9 ""
+  "c:/Users/School/Desktop/SmartWatch/swea-team5group6/Group6_Team5.tex" 1707652473 122409 018ae0597d4bacd6df5abb4f5186da15 ""
   "svg-inkscape/AppearenceTheme_activity_svg-tex.pdf" 1707167065 177851 1e1070bcea72b90d06cbadbea3a9aed0 ""
   "svg-inkscape/AppearenceTheme_activity_svg-tex.pdf_tex" 1707167065 2125 73caf53976e63a5c75aa97adc1c7435d ""
   "svg-inkscape/AppearenceTheme_class_svg-tex.pdf" 1707166049 199226 9d62c5c02f0780369b571b5f8993b839 ""
