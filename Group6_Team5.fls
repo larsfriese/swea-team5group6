@@ -169,15 +169,10 @@ INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\tex\latex\epstopdf-pkg\epstop
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
+INPUT "inkscape" -V 
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\tex\latex\graphics\color.sty
-INPUT .\Group6_Team5.out
-INPUT .\Group6_Team5.out
-INPUT Group6_Team5.out
-INPUT Group6_Team5.out
-OUTPUT Group6_Team5.pdf
-INPUT .\Group6_Team5.out
-INPUT .\Group6_Team5.out
 OUTPUT Group6_Team5.out
+OUTPUT Group6_Team5.pdf
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmcsc10.tfm
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr17.tfm
@@ -187,11 +182,10 @@ INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tf
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\bell6\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT .\Jiwon\signature\Hermon
+INPUT .\Jiwon\signature\Howard
+INPUT .\Jiwon\signature\Jiwon
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
-INPUT .\Group6_Team5.toc
-INPUT .\Group6_Team5.toc
-INPUT Group6_Team5.toc
 OUTPUT Group6_Team5.toc
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr6.tfm
@@ -1730,7 +1724,5 @@ INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr9.pfb
-INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
-INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
 INPUT C:\Users\bell6\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti12.pfb
