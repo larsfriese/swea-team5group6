@@ -2101,11 +2101,50 @@ then we seek for improvement and review from other team members. In the very end
 
 \section{Marc Roemer}
 	\subsection{Requirement 9: Calculation and display daily and weekly step count statistics}
-		\begin{figure}[h!]
+			
+		\begin{table}[h]
 			\centering
 			\captionsetup{labelformat=empty}
-			\caption{UseCase}
-		\end{figure}
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.19\textwidth}|X|}
+				\hline
+				Name             & Calculation and display daily and weekly step count statistics                                \\ \hline
+				ID               & 9                                                                                       \\ \hline
+				Business Value   & Low                                                                                    \\ \hline
+				Description      & A fitness tracking capability which provides the user with their daily and weekly step count statistics \\ \hline
+				Trigger          & The beginning of a new week like Monday resets the old step count and starts to count the steps from the new week to provide an accurate daily and weekly statistics \\ \hline
+				Actors           & User, smart watch                                 \\ \hline
+				Pre-conditions   & The smart watch is configured to the fitness ap and the user hast activated the step counting feature                                    \\ \hline
+				Post-conditions  & User has access to statistics regarding their daily and weekly step counts                                                         \\ \hline
+				Basic Flow       & This is the main scenario where the user has configured and is connected to the fitness app \\ \hline
+								 & Actions: \\
+								 & 1. The user wears the smartwatch and ensures that the smart watch is activated and stays activated \\
+								 & 2. The smartwatch monitors and counts the user Steps via sensors \\
+								 & 3. After one time period it calculates and displays the daily step count and at the end of the week it \\ \hline
+				Alternative Flow A & Sums up the step numbers of the week and generates the weekly step count \\
+								 & Actions: \\
+								 & 1. Smartwatch loses connection \\
+								 & 2. The fitness app notifies the user that the step counter doesn't work \\
+								 & 3. The user has the choice to sync the steps with an outside device like a smartphone with the fitness app\\ \hline
+				Alternative Flow B & Environmental issues lead to inaccurate Step counting \\
+								 & Actions: \\
+								 & 1. Smart watch alerts the user about inaccuracies in counting due to environmental issues \\
+								 & 2. The smartwatch gives the user the opportunity to recalibrate the sensors for an accurate result \\
+								 & 3. The smart guides the user through the calibration and does a test Step count with the user \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The System should accurately calculate the total numbers of steps taken by the user based on the given data from the application
+			\item User should be able to view a step count statistic for the day and a weekly breakdown		
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The System has to process and update the step count data in real time to ensure that the user get the newest information at any time
+			\item The system has to handle the increasing step data without decreasing the
+performance Quality
+		\end{itemize}
+
 		\clearpage
 		\begin{figure}[h!]
 			\centering
@@ -2144,11 +2183,47 @@ then we seek for improvement and review from other team members. In the very end
 		\clearpage
 
 	\subsection{Requirement 10: Create and manages a workout plan}
-		\begin{figure}[h!]
+		\begin{table}[htbp]
 			\centering
 			\captionsetup{labelformat=empty}
 			\caption{UseCase}
-		\end{figure}
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
+				\hline
+				Name             & Create and manages a workout plan                                \\ \hline
+				ID               & 10                                                                                       \\ \hline
+				Business Value   & Medium                                                                                    \\ \hline
+				Description      & A fitness application which allows the user to create and manage personalized workout plans \\ \hline
+				Trigger          & Users sets goal in the app and thus triggers the system to generate a personalized plan to reach the goal \\ \hline
+				Actors           & User, Fitness app                                 \\ \hline
+				Pre-conditions   & The user has installed and registered to the fitness app and the app has access to information about the user's goal                                    \\ \hline
+				Post-conditions  & User receives a personalized workout plan                                                         \\ \hline
+				Basic Flow       & This is the main scenario where the user gets a personalized workout plan \\ \hline
+								 & Actions: \\
+								 & 1. The user creates an account and sets his goals. habits and preferences \\
+								 & 2. The app configures a customized workout plan specific to the user given information \\
+								 & 3. The app provides daily tips and tracks the progress and if the user reached the daily goal \\ \hline
+				Alternative Flow A & User can t reach the daily workout goal because of personal circumstances \\
+								 & Actions: \\
+								 & 1. The app gives the user the possibility to create a new plan for the following day which contain a change of the exercise sets so the user can catch up the missed ones \\
+								 & 2. The user adapts the new plan for the following day and after that day the plan continuous normally \\ \hline
+				Alternative Flow B & The plan doesn't fit anymore because of physical changes \\
+								 & Actions: \\
+								 & 1. The app goes with the plan but user isn't satisfied because of changes e.g. weight gain or loss \\
+								 & 2. The app offers every month a feedback sheet so the user can fill in every changes \\
+								 & 3. The app does a new goal calculation and creates a new workout plan in the likening of the user \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The System should accurately calculate the total numbers of steps taken by the user based on the given data from the application
+			\item User should be able to view a step count statistic for the day and a weekly breakdown		
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The System has to process and update the step count data in real time to ensure that the user get the newest information at any time
+			\item The system has to handle the increasing step data without decreasing the performance Quality
+		\end{itemize}
 		\clearpage
 		\begin{figure}[h!]
 			\centering
@@ -2187,11 +2262,46 @@ then we seek for improvement and review from other team members. In the very end
 		\clearpage
 
 	\subsection{Requirement 21: Race time prediction}
-		\begin{figure}[h!]
+		\begin{table}[htbp]
 			\centering
 			\captionsetup{labelformat=empty}
 			\caption{UseCase}
-		\end{figure}
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
+				\hline
+				Name             & Race time prediction                                \\ \hline
+				ID               & 21                                                                                       \\ \hline
+				Business Value   & Low                                                                                    \\ \hline
+				Description      & Predicts the time it will take to finish a certain challenge depending on previous performane \\ \hline
+				Trigger          & When user selects a workout or route \\ \hline
+				Actors           & User, smart watch                                 \\ \hline
+				Pre-conditions   & User accepted historical data and selects a workout routine or route                                    \\ \hline
+				Post-conditions  & Historical data gets updated on current performance                                                         \\ \hline
+				Basic Flow       & This is the main scenario where the user accepted historical data and is connected to the internet \\ \hline
+								 & Actions: \\
+								 & 1. The smartwatch calculates how long a certain activity takes the user to do, from historical data \\
+								 & 2. User can opt out of this service \\
+								 & 3. User can reset historical data \\ \hline
+				Alternative Flow A & The User didnt accept historical data collection or opted out of this service \\
+								 & Actions: \\
+								 & 1. Smartwatch calculates an estimate depending on global average \\
+								 & 2. User has the option to opt in again \\ \hline
+				Alternative Flow B & Not enough historical data found to calculate prediction or data is corrupted \\
+								 & Actions: \\
+								 & 1. Smartwatch calculates an estimate from backup \\
+								 & 2. Smartwatch notifies the user about the problem \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The system should accurately calculate the time based on the given data from the application
+			\item The system should have calculated the time already before it is displayed for a seamless experience	
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The system has to update the calculated time before a workout to ensure that the user get the newest information
+			\item The system has to be able to adapt to missing data or corrupted data
+		\end{itemize}
 		\clearpage
 		\begin{figure}[h!]
 		    	\centering
@@ -2223,11 +2333,47 @@ then we seek for improvement and review from other team members. In the very end
 		\clearpage	
 
 	\subsection{Requirement 22: light detection for brightness (light sensor)}
-		\begin{figure}[h!]
+		\begin{table}[htbp]
 			\centering
 			\captionsetup{labelformat=empty}
 			\caption{UseCase}
-		\end{figure}
+			\begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
+				\hline
+				Name             & light detection for brightness (light sensor)                                \\ \hline
+				ID               & 22                                                                                       \\ \hline
+				Business Value   & Low                                                                                    \\ \hline
+				Description      & Adjusts brightness of the screen depending on ambient light \\ \hline
+				Trigger          & Changes in abient light detected \\ \hline
+				Actors           & smart watch                                 \\ \hline
+				Pre-conditions   & light sensor/camera not deactivated, user activated auto-brightness                                    \\ \hline
+				Post-conditions  & Brightness is adjusted                                                         \\ \hline
+				Basic Flow       & This is the main scenario the brightness gets adjusted based on ambient light \\ \hline
+								 & Actions: \\
+								 & 1. Smartwatch detects ambient light \\
+								 & 2. Smartwatch adjusts brightness accordingly \\ \hline
+				Alternative Flow A & Sensor gets covered completely \\
+								 & Actions: \\
+								 & 1. Smartwatch goes into idle mode \\
+								 & 2. Smartwatch makes a closing sound \\ \hline
+				Alternative Flow B & When smartwatch detects flashing lights it enters party mode flashing random colors on screen \\
+								 & Actions: \\
+								 & 1. Smartwatch detects flashing lights \\
+								 & 2. Smartwatch plays fun animation \\ 
+								 & 3. User can turn this off \\ \hline
+			\end{tabularx}
+		\end{table}
+		\paragraph{Functional requirements}
+		\begin{itemize}
+			\item The system should accurately calculate the brightness based on the given data from the sensor
+			\item The system should calculate the brightness every few seconds to save battery
+			\item The system should go into idle mode when the sensor gets covered
+		\end{itemize}
+		
+		\paragraph{Non-functional requirements}
+		\begin{itemize}
+			\item The system should flash lights back when a party is detected
+			\item The system has to be able withstand bright light
+		\end{itemize}
 		\clearpage
 		\begin{figure}[h!]
 		    	\centering
