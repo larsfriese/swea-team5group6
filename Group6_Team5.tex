@@ -429,13 +429,13 @@ then we seek for improvement and review from other team members. In the very end
 \newpage
 
 \section{Hermon Gimikael}
-\subsection{Requirement 1 : User Fitness Challenge}
+\subsection{Requirement 6 : User Fitness Challenge}
 
 \begin{table}[h!]
     \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
         \hline
         Name             & Allow user to create and join fitness Challenges and competitions                               \\ \hline
-        ID               & 1                                                                                   \\ \hline
+        ID               & 6                                                                                   \\ \hline
         Business Value   & Medium                                                                                  \\ \hline
         Description      & Allows the user to create a fitness Challenge for himself and to join or invite other logged in user\\ \hline
         Trigger          & User pushs create and share Button \\ \hline
@@ -533,14 +533,14 @@ then we seek for improvement and review from other team members. In the very end
 \clearpage
 
 
-\subsection{Requirement 2 : Medication Reminder}
+\subsection{Requirement 18 : Medication Reminder}
 
 
 \begin{table}[h!]
     \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
         \hline
         Name             & Medication Reminder                                \\ \hline
-        ID               & 2                                                                                     \\ \hline
+        ID               & 18                                                                                     \\ \hline
         Business Value   & low                                                                                  \\ \hline
         Description      & Service to help user adher to their medication schedules  \\ \hline
         Trigger          & User adds medication and sets his Medication Details\\ \hline
@@ -634,13 +634,13 @@ then we seek for improvement and review from other team members. In the very end
 \clearpage
 
 
-\subsection{Requirement 3 : Water Intake System}
+\subsection{Requirement 19 : Water Intake System}
 
 \begin{table}[h!]
     \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
         \hline
         Name             & Water Intake System                               \\ \hline
-        ID               & 3                                                                                     \\ \hline
+        ID               & 19                                                                                     \\ \hline
         Business Value   & High                                                                                    \\ \hline
         Description      & Gives option to monitor and manage daily water consumption \\ \hline
         Trigger          & User adds water intake  \\ \hline
@@ -750,13 +750,13 @@ then we seek for improvement and review from other team members. In the very end
 \clearpage
 
 
-\subsection{Requirement 4 : Mood Level Tracker}
+\subsection{Requirement 20 : Mood Level Tracker}
 
 \begin{table}[h!]
     \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
         \hline
         Name             & Mood Level Tracker                               \\ \hline
-        ID               & 4                                                                                      \\ \hline
+        ID               & 20                                                                                      \\ \hline
         Business Value   & High                                                                                   \\ \hline
         Description      & User can track his Mood for to have an overview of his well beeing  \\ \hline
         Trigger          & User chooses Mood of the day and pushs "entry" button \\ \hline
@@ -1752,13 +1752,15 @@ then we seek for improvement and review from other team members. In the very end
 			\item The smartwatch needs to be quickly accessible and easily usable
 			\item The smartwatch needs to identify the correct gesture at least 95\% of the time
 		\end{itemize}
+
+		I didn't include a UI Prototype here, as the executing actions when noticing gestures dont need a UI.
 		\clearpage
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Use Case Diagram - Easy usability with Gesture Control}
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[width=\textwidth]{Lars/Use Case Gesture Control/GestureControl_usecase.svg}}
-				\caption{Use Case Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 				\vspace{1em}
@@ -1769,9 +1771,9 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Activity Diagram - Easy usability with Gesture Control}
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[inkscapelatex=false]{Lars/Use Case Gesture Control/GestureControl_activity.svg}}
-				\caption{Activity Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -1780,32 +1782,32 @@ then we seek for improvement and review from other team members. In the very end
 
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Class Diagram - Easy usability with Gesture Control}
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Lars/Use Case Gesture Control/GestureControl_class.svg}}
-				\caption{Class Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 				\vspace{1em}
-				In this class diagramm, the gesture controller keeps track of all the gesture objects there are.
-				Whenever a motion is detected, it will cycle thorugh all the gesture objects it has, and calls the function on each one
+				In this class diagram, the gesture controller keeps track of all the gesture objects there are.
+				Whenever a motion is detected, it will cycle through all the gesture objects it has, and call the function on each one
 				of them to check if the gesture was executed.
 				\\ \\
 				Each gesture object has a list of data that is being compared to the live gyroscope data, to determine if a gesture was done.
-				I choose to make the individual gestures specialisations of a gesture superclass.
+				I choose to make the individual gestures specializations of a gesture superclass.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
 
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Class Diagram - Easy usability with Gesture Control}
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Lars/Use Case Gesture Control/GestureControl_sequence.svg}}
-				\caption{Sequence Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 				\vspace{1em}
 				This sequence diagram is pretty straightforward. You can see how every gesture subclass object checks if the motion
-				represents its gesture. At the end a boolean is returned from each object, representing if the gesture action was executred or not.
+				represents its gesture. At the end a boolean is returned from each object, representing if the gesture action was executed or not.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1863,10 +1865,10 @@ then we seek for improvement and review from other team members. In the very end
 		% UI Prototype
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Prototype - Monitor sleep quality using heartbeat data}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=1.1]{Stefan/UI Prototypes/Sleep tracker.svg}
-				\caption{Sleep Tracker Prototype}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -1876,10 +1878,10 @@ then we seek for improvement and review from other team members. In the very end
 	
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Usecase Diagram - Monitor sleep quality using heartbeat data}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=0.55]{Lars/Use Case Sleep Analysis/SleepMonitor_usecase.svg}
-				\caption{Use Case Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -1888,10 +1890,10 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Activity Diagram - Monitor sleep quality using heartbeat data}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=0.8]{Lars/Use Case Sleep Analysis/SleepMonitor_activity.svg}
-				\caption{Activity Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -1900,8 +1902,8 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Class Diagram - Monitor sleep quality using heartbeat data}
 			\begin{subfigure}{\textwidth}
-				\centering
 				\includesvg[scale=1.1]{Lars/Use Case Sleep Analysis/SleepMonitor_class.svg}
 				\caption{Class Diagram}
 			\end{subfigure}
@@ -1914,10 +1916,10 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Sequence Diagram - Monitor sleep quality using heartbeat data}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=0.6]{Lars/Use Case Sleep Analysis/SleepMonitor_sequence.svg}
-				\caption{Sequence Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			
@@ -1949,7 +1951,7 @@ then we seek for improvement and review from other team members. In the very end
 										& 6. The system returns the information by reading the quick summary out loud. \\ \hline
 			\textbf{Alternative Flow A} & The smartwatch has the information already saved in the local database. \\ \hline
 										& \textbf{Actions}: \\ 
-										& 1-4. Same steps \\ 
+										& 1-4. Same steps as basic flow \\ 
 										& 5. The system finds the piece of information in the local database. \\ 
 										& 6. The system returns the information by reading the quick summary out loud. \\ \hline
 		\end{tabularx}
@@ -1964,17 +1966,19 @@ then we seek for improvement and review from other team members. In the very end
 			\paragraph{Non-functional requirements}
 			\begin{itemize}
 				\item The natural language processing of the smartwatch needs to be good enough to accurately recognize the question
-				\item The local database has to be quick enough (respond in under a couple of seconds) to respond to the given user question
+				\item The local database has to be quick enough (respond in under a couple of seconds) to respond to the given user question in time
 			\end{itemize}
+
+		I didn't include a UI Prototype here, as talking with a voice assistant doesn't require any UI.
 		\clearpage
 	
 	
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Use Case Diagram - Voice Assistant for easy data lookup}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=0.7]{Lars/Use Case Voice Assistant/VoiceAssistant_usecase.svg}
-				\caption{Use Case Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -1983,10 +1987,10 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Activity Diagram - Voice Assistant for easy data lookup}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=0.7]{Lars/Use Case Voice Assistant/VoiceAssistant_activity.svg}
-				\caption{Activity Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -1995,31 +1999,31 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Class Diagram - Voice Assistant for easy data lookup}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\resizebox{\textwidth}{!}{\includesvg{Lars/Use Case Voice Assistant/VoiceAssistant_class.svg}}
-				\caption{Class Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 				\vspace{1em}
 				This class diagram shows that the VoiceAssistant class can either have 0 or 1 Web Services, and the Webservice can (at least in the context of this system)
-				not exist without the VoiceAssistant. The Knowledgebase can exist independenlty of the VoiceAssitant and only exists once. Therefore the multiplicity is 1 and 1.
+				not exist without the VoiceAssistant. The Knowledgebase can exist independently of the VoiceAssitant and only exists once. Therefore the multiplicity is 1 and 1.
 				\\ \\
 				The sequence diagram shows the interaction between the VoiceAssistant, the WebService and the KnowledgeBase. 
-				The smartwatch first tries to retreive an answer to the users question by querying the local KnowledgeBase.
-				If an answer cant be found there, a WebService Object is created which qu eries a free AI search engine of the users choice for the answer.
-				It then retreives the answer, saves it in the KnowledgeBase and returns it to the User. Saving to the KnowledgeBase is asynchronous,
-				because there is no return value and, the sequence of actions doesnt have to wait for the completion of the operation.
+				The smartwatch first tries to retrieve an answer to the users question by querying the local KnowledgeBase.
+				If an answer cant be found there, a WebService Object is created which queries a free AI search engine of the users choice for the answer.
+				It then retrieve the answer, saves it in the KnowledgeBase and returns it to the User. Saving to the KnowledgeBase is asynchronous,
+				because there is no return value and, the sequence of actions doesn't have to wait for the completion of the operation.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Sequence Diagram - Voice Assistant for easy data lookup}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=0.50]{Lars/Use Case Voice Assistant/VoiceAssistant_sequence.svg}
-				\caption{Sequence Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			
@@ -2052,15 +2056,15 @@ then we seek for improvement and review from other team members. In the very end
 										& \textbf{Actions}: \\
 										& 1-3. Same steps \\
 										& 4. The system notices the user takes out phone \\
-										& 5. The Smartwatch vibrates to remind user to stay on track, and prevents phone usage \\\hline
+										& 5. The Smartwatch vibrates to remind user to stay on track, and prevents phone usage \\
 										& 4. User gets back to working until working session ends. \\
-										& 5. Button "Start working session" appears again, and counter increases by one \\
-			\textbf{Alternative Flow B} & The user ends the work cycle prematurely \\\hline
+										& 5. Button "Start working session" appears again, and counter increases by one \\ \hline
+			\textbf{Alternative Flow B} & The user ends the work cycle prematurely \\ \hline
 										& \textbf{Actions}: \\
-										& 1-3. Same steps \\
+										& 1-3. Same steps as basic flow \\
 										& 4. The user taps on button "End work cycle"\\
-										& 5. The smartwatch doesn't count this work cycle \\\hline
-										& 5. Button "Start working session" appears again \\
+										& 5. The smartwatch doesn't count this work cycle \\
+										& 5. Button "Start working session" appears again \\ \hline
 		\end{tabularx}
 	\end{center}
 	
@@ -2079,20 +2083,20 @@ then we seek for improvement and review from other team members. In the very end
 		% UI Prototype
 		\begin{figure}[htbp]
 			\centering
+			\textbf{UI Prototype 1 - Focus manager for focusing on work}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=1.1]{Stefan/UI Prototypes/Focus Manager 1.svg}
-				\caption{Sleep Tracker Prototype}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
 		\end{figure}
 		\begin{figure}[htbp]
 			\centering
+			\textbf{UI Prototype 2 - Focus manager for focusing on work}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=1.1]{Stefan/UI Prototypes/Focus Manager 2.svg}
-				\caption{Sleep Tracker Prototype}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -2102,10 +2106,10 @@ then we seek for improvement and review from other team members. In the very end
 	
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Use Case Diagram - Focus manager for focusing on work}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=0.7]{Lars/Use Case Focus Manager/FocusManager_usecase.svg}
-				\caption{Use Case Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -2114,10 +2118,10 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Activity Diagram - Focus manager for focusing on work}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=0.7]{Lars/Use Case Focus Manager/FocusManager_activity.svg}
-				\caption{Activity Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -2126,10 +2130,10 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Class Diagram - Focus manager for focusing on work}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=0.8]{Lars/Use Case Focus Manager/FocusManager_class.svg}
-				\caption{Class Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 				\vspace{1em}
@@ -2139,17 +2143,16 @@ then we seek for improvement and review from other team members. In the very end
 		
 		\begin{figure}[htbp]
 			\centering
+			\textbf{Sequence Diagram - Focus manager for focusing on work}
 			\begin{subfigure}{\textwidth}
 				\centering
 				\includesvg[scale=0.8]{Lars/Use Case Focus Manager/FocusManager_sequence.svg}
-				\caption{Sequence Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			
 			\end{subfigure}
 		\end{figure} 
 		\clearpage
-
 
 	
 
