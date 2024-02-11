@@ -559,7 +559,7 @@ then we seek for improvement and review from other team members. In the very end
                          & 1. User denies or doesn't respond \\
                          & 2. System checks medication urgency Level \\
                          & 3. If "low" or "medium" System sends hourly push notifications as reminder 
-                           to confirm or denie \\
+                           to confirm or deny \\
                          & 4. If "high" System sends notification to emergency contact that the User didn't took his Medicin \\ \hline
         Alternative Flow B & User want to change his Medication Details \\
                          & Actions: \\
@@ -647,16 +647,16 @@ then we seek for improvement and review from other team members. In the very end
         Actors           & User,Water Intake System                                \\ \hline
         Pre-conditions   & Water Intake System opened                                 \\ \hline
         Post-conditions  & Water Intake System has recorded and updated users Water consumption                                                     \\ \hline
-        Basic Flow       & This is the main scenario when the user added water throught the day and reached his goal \\ \hline
+        Basic Flow       & This is the main scenario when the user added water throughout the day and reached his goal \\ \hline
                          & Actions: \\
                          & 1. User sets his sex,age,weight\\
                          & 2. System generated default Value \\
                          & 3. User accepts Value \\
                          & 4. System saves Value \\
-                         & 5. User adds water intake throught the day\\
+                         & 5. User adds water intake throughout the day\\
                          & 6. After one Time period system calculates total Intake \\
                          & 7. User reached his Goal \\
-                         & 8. System notifies user about reached goal and logs achievment of the day\\ 
+                         & 8. System notifies user about reached goal and logs achievement of the day\\ 
                          & 9. System resets water intake to 0\\ \hline
         Alternative Flow A & User missed Water intakes  \\
                          & Actions: \\
@@ -665,13 +665,13 @@ then we seek for improvement and review from other team members. In the very end
                          & 3. User enters remaining Water\\
                          & 4. System calculates new total Intake\\
                          & 5. User reached his Goal\\ 
-                         & 6. System notifies user about reached goal and logs achievment of the day\\
+                         & 6. System notifies user about reached goal and logs achievement of the day\\
                          & 7. System resets water intake to 0 \\ \hline
         Alternative Flow B & User didn't reach his goal\\
                          & Actions: \\
                          & 1. System informs user about missed goal \\
                          & 2. User declines possibility to enter missed Water intakes\\
-                         & 3. System informs user about missed goal and sends reccomandations for next time \\ \hline
+                         & 3. System informs user about missed goal and sends recommendations for next time \\ \hline
     \end{tabularx}
 \end{table}
 	
@@ -758,11 +758,11 @@ then we seek for improvement and review from other team members. In the very end
         Name             & Mood Level Tracker                               \\ \hline
         ID               & 20                                                                                      \\ \hline
         Business Value   & High                                                                                   \\ \hline
-        Description      & User can track his Mood for to have an overview of his well beeing  \\ \hline
-        Trigger          & User chooses Mood of the day and pushs "entry" button \\ \hline
+        Description      & User can track his Mood for to have an overview of his well being  \\ \hline
+        Trigger          & User chooses Mood of the day and pushes "entry" button \\ \hline
         Actors           & User, Mood Tracker System                               \\ \hline
         Pre-conditions   & Mood Tracker System opened                                   \\ \hline
-        Post-conditions  & User has an overlook about his well beeing                                                       \\ \hline
+        Post-conditions  & User has an overlook about his well being                                                       \\ \hline
         Basic Flow       & This is the main scenario were the user entry his Mood of the day and his Mood is good or okay and want a Quick diary \\ \hline
                          & Actions: \\
                          & 1. User clicks Mood entry\\
@@ -926,7 +926,7 @@ then we seek for improvement and review from other team members. In the very end
 		\begin{subfigure}{\textwidth}
 			This ShareWorkoutAchievement activity diagram shows detail flow chart about the requirement. 
 			When user select an achievement, either it displays message "start workout and share it" because user has no 
-			achievement, or create the achieveme post if the user has achieveme detected. Afterwards, user can choose a 
+			achievement, or create the achievement post if the user has achievement detected. Afterwards, user can choose a 
 			social media app to share or just download image and save to gallery.
 		\end{subfigure}
 	\end{figure}
@@ -976,12 +976,12 @@ then we seek for improvement and review from other team members. In the very end
 				ID               & 8 \\ \hline
 				Business Value   & Medium \\ \hline
 				Description      & A health and nutrition app which allows the user through scanning the barcode
-									to track their daily food intake gives the nutritional informations about the food, counts the calories and gives feedback about the 
+									to track their daily food intake gives the nutritional information about the food, counts the calories and gives feedback about the 
 									users dietary \\ \hline
 				Trigger          & User opens the app to track their food for the day and thus triggers the apps food logging feature\\ \hline
 				Actors           & User, nutrition app\\ \hline
 				Pre-conditions   & User installed and created an account and the app has access database which contains nutritional\\ \hline
-				Post-conditions  & The user gets information's about nutritions of food items and a log of all items which has been scanned\\ \hline
+				Post-conditions  & The user gets information's about nutrition of food items and a log of all items which has been scanned\\ \hline
 				Basic Flow       & \\ \hline
 								Description Actions& This is the main scenario when user creates successful a scanning the barcode \\ \hline
 								1 & User scanned the barcode of a food item of his choice \\ \hline
@@ -990,7 +990,7 @@ then we seek for improvement and review from other team members. In the very end
 				Alternative Flow & A \\ \hline
 								Description Actions& The app doesn't scan the barcode of the item \\ \hline
 								1 & The app shows an error and gives the user a text box to manually write the barcode number of the searched item \\ \hline
-								2 & The system searches the item in the food database and gives the nutritional informations and logs the item for future uses \\ \hline
+								2 & The system searches the item in the food database and gives the nutritional information and logs the item for future uses \\ \hline
 								Alternative Flow & B \\ \hline
 								Description Actions& The searched item is not found in the database and shows an error \\ \hline
 								1 & The app requests the user to manually input the nutritional information's about the item \\ \hline
@@ -1024,8 +1024,8 @@ then we seek for improvement and review from other team members. In the very end
 			\caption{Use Case Diagram}
 		\end{subfigure}
 		\begin{subfigure}{\textwidth}
-			This NutritionalTracking usecase diagram shows the user has 3 way to input information of item: scan barcode,
-			input barcode number or input nutritional infomation. The input nutritional information method will add the item to database.
+			This NutritionalTracking use case diagram shows the user has 3 way to input information of item: scan barcode,
+			input barcode number or input nutritional information. The input nutritional information method will add the item to database.
 			Then system will shows calories, vitamins etc. of the logged food item.
 		\end{subfigure}
 		
@@ -1043,8 +1043,8 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 				This NutritionalTracking activity diagram shows the flow chart of the requirement. Firstly, user log into the app then scan the barcode.
-				If barcode is detected it will display the nutriotinal information directly, if no then use has to input nutritional information about the item
-				manually, then add it to datbase. But if no barcode is detected, user has the option to manully input barcode number, then it will display the 
+				If barcode is detected it will display the nutritional information directly, if no then use has to input nutritional information about the item
+				manually, then add it to database. But if no barcode is detected, user has the option to manually input barcode number, then it will display the 
 				nutritional information in the end.
 			\end{subfigure}
 		\end{figure}
@@ -1108,8 +1108,8 @@ then we seek for improvement and review from other team members. In the very end
 				Basic Flow       & \\ \hline
 								Description Actions& This is the main scenario when user select preference theme \\ \hline
 								1 & Select between light and dark themes  \\ \hline
-								2 & Apply preset font color/background adjustment on system inferface \\ \hline
-								3 & Apply preset contrast adjustment on system inferface \\ \hline
+								2 & Apply preset font color/background adjustment on system interface \\ \hline
+								3 & Apply preset contrast adjustment on system interface \\ \hline
 								4 & Apply theme on system interface \\ \hline
 				Alternative Flow & A \\ \hline
 								Description Actions& User want to adjust contrast level \\ \hline
@@ -1120,8 +1120,8 @@ then we seek for improvement and review from other team members. In the very end
 								Description Actions& User want to reset contrast level to default \\ \hline
 								1 & The user press on "reset" button \\ \hline
 								2 & The system display confirmation to reset  \\ \hline
-								3 & The contrast level is reset to deafult value \\ \hline
-								4 & The systema apply preset contrast level \\ \hline
+								3 & The contrast level is reset to default value \\ \hline
+								4 & The system apply preset contrast level \\ \hline
 			\end{tabularx}
 		\end{table}
 		\end{center}
@@ -1141,14 +1141,14 @@ then we seek for improvement and review from other team members. In the very end
 	
 
 	\begin{figure}[htbp]
-		\textbf{Use Case Diagram - Appearence Theme }
+		\textbf{Use Case Diagram - Appearance Theme }
 		\centering
 		\begin{subfigure}{\textwidth}
 			\resizebox{\textwidth}{!}{\includesvg[]{Howard/AppearenceTheme/AppearenceTheme_usecase.svg}}
 			\caption{Use Case Diagram}
 		\end{subfigure}
 		\begin{subfigure}{\textwidth}
-			This appearence theme usecase diagram shows the user has 2 options for theme, light and dark theme. It would
+			This appearance theme use case diagram shows the user has 2 options for theme, light and dark theme. It would
 			change to light or dark appearance base on user selection. User also has an option to change contrast level, and also a button to reset it.
 		\end{subfigure}
 	\end{figure}
@@ -1156,7 +1156,7 @@ then we seek for improvement and review from other team members. In the very end
 	\clearpage
 
 		\begin{figure}[htbp]
-			\textbf{ Activity Diagram - Appearence Theme }
+			\textbf{ Activity Diagram - Appearance Theme }
 			\centering
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Howard/AppearenceTheme/AppearenceTheme_activity.svg}}
@@ -1172,7 +1172,7 @@ then we seek for improvement and review from other team members. In the very end
 		\clearpage
 
 		\begin{figure}[htbp]
-			\textbf{Class Diagram - Appearence Theme }
+			\textbf{Class Diagram - Appearance Theme }
 			\centering
 			\begin{subfigure}{\textwidth}
 				\resizebox{\textwidth}{!}{\includesvg[]{Howard/AppearenceTheme/AppearenceTheme_class.svg}}
@@ -1188,7 +1188,7 @@ then we seek for improvement and review from other team members. In the very end
 		
 
 		\begin{figure}[htbp]
-			\textbf{Sequence Diagram - Appearence Theme }
+			\textbf{Sequence Diagram - Appearance Theme }
 			\centering
 			\begin{subfigure}{\textwidth}
 				\scalebox{0.6}{\includesvg[]{Howard/AppearenceTheme/AppearenceTheme_sequence.svg}}
@@ -1719,7 +1719,7 @@ then we seek for improvement and review from other team members. In the very end
 				\textbf{ID}                 & 12 \\ \hline
 				\textbf{Description}        & When the user lifts his arm and turns his wrist, the smartwatch display turns on. When he lowers the arm, the display turns off. Additionally, the smartwatch opens a custom app when the user shakes his hand. \\ \hline
 				\textbf{Trigger}            & User lifting/lowering arm and turning wrist, or shaking the hand \\ \hline
-				\textbf{Actors}             & User, System, Gyroscope Sensor \\ \hline
+				\textbf{Actors}             & User, GestureManager, GyroscopeSensor \\ \hline
 				\textbf{Pre-conditions}     & Display on/off \\ \hline
 				\textbf{Post-conditions}    & Display off/on, App opened \\ \hline
 				\textbf{Basic Flow}         & This is the main scenario where the system recognizes a gesture. \\ \hline
@@ -1753,7 +1753,7 @@ then we seek for improvement and review from other team members. In the very end
 			\item The smartwatch needs to identify the correct gesture at least 95\% of the time
 		\end{itemize}
 
-		I didn't include a UI Prototype here, as the executing actions when noticing gestures dont need a UI.
+		I didn't include a UI Prototype here, as the executing actions when noticing gestures don't need a UI.
 		\clearpage
 		
 		\begin{figure}[htbp]
@@ -1788,8 +1788,8 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 				\vspace{1em}
-				In this class diagramm, the gesture controller keeps track of all the gesture objects there are.
-				Whenever a motion is detected, it will cycle thorugh all the gesture objects it has, and calls the function on each one
+				In this class diagram, the gesture controller keeps track of all the gesture objects there are.
+				Whenever a motion is detected, it will cycle through all the gesture objects it has, and calls the function on each one
 				of them to check if the gesture was executed.
 				\\ \\
 				Each gesture object has a list of data that is being compared to the live gyroscope data, to determine if a gesture was done.
@@ -1823,7 +1823,7 @@ then we seek for improvement and review from other team members. In the very end
 			\textbf{ID}                 & 4 \\ \hline
 			\textbf{Description}        & Show sleeping pattern chart and score of sleeping quality \\ \hline
 			\textbf{Trigger}            & Set a goal of sleeping time, and system is notified that user's heart rate pattern is changed to sleeping pattern from heart rate sensor. \\ \hline
-			\textbf{Actors}             & User, Sleeping system \\ \hline
+			\textbf{Actors}             & User, SleepManager, HeartbeatSensor \\ \hline
 			\textbf{Pre-conditions}     & Smartwatch turned on, Sleep monitoring app opened \\ \hline
 			\textbf{Post-conditions}    & User gets information about their last sleep \\ \hline
 			\textbf{Basic Flow}         & This is the main scenario when the heart rate system works. \\ \hline
@@ -1878,10 +1878,10 @@ then we seek for improvement and review from other team members. In the very end
 	
 		\begin{figure}[htbp]
 			\centering
-			\textbf{Usecase Diagram - Monitor sleep quality using heartbeat data}
+			\textbf{Use case Diagram - Monitor sleep quality using heartbeat data}
 			\begin{subfigure}{\textwidth}
 				\centering
-				\includesvg[scale=0.55]{Lars/Use Case Sleep Analysis/SleepMonitor_usecase.svg}
+				\includesvg[scale=0.45]{Lars/Use Case Sleep Analysis/SleepMonitor_usecase.svg}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -1937,7 +1937,7 @@ then we seek for improvement and review from other team members. In the very end
 			\textbf{ID}                 & 25 \\ \hline
 			\textbf{Description}        & Ask your virtual assistant questions and get real-time answers from the web. \\ \hline
 			\textbf{Trigger}            & Say "Hey [virtual assistant's name]" \\ \hline
-			\textbf{Actors}             & User, System \\ \hline
+			\textbf{Actors}             & User, DatabaseManager, VoiceAssistant \\ \hline
 			\textbf{Pre-conditions}     & Smartwatch turned on \\ \hline
 			\textbf{Post-conditions}    & User gets the information he wanted without having to pull out his phone or move his hand. \\ \hline
 			\textbf{Basic Flow}         & This is the main scenario where the smartwatch successfully retrieves information from the web. \\ \hline
@@ -1959,7 +1959,7 @@ then we seek for improvement and review from other team members. In the very end
 		\paragraph{Functional requirements}
 			\begin{itemize}
 				\item The smartwatch responds to users voice commands with relevant information
-				\item The smartwatch retreives data from the web
+				\item The smartwatch retrieves data from the web
 			\end{itemize}
 			
 			\paragraph{Non-functional requirements}
@@ -1977,7 +1977,7 @@ then we seek for improvement and review from other team members. In the very end
 			\textbf{Use Case Diagram - Voice Assistant for easy data lookup}
 			\begin{subfigure}{\textwidth}
 				\centering
-				\includesvg[scale=0.7]{Lars/Use Case Voice Assistant/VoiceAssistant_usecase.svg}
+				\includesvg[scale=0.6]{Lars/Use Case Voice Assistant/VoiceAssistant_usecase.svg}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -2006,7 +2006,7 @@ then we seek for improvement and review from other team members. In the very end
 			\begin{subfigure}{\textwidth}
 				\vspace{1em}
 				This class diagram shows that the VoiceAssistant class can either have 0 or 1 Web Services, and the Webservice can (at least in the context of this system)
-				not exist without the VoiceAssistant. The Knowledgebase can exist independently of the VoiceAssitant and only exists once. Therefore the multiplicity is 1 and 1.
+				not exist without the VoiceAssistant. The knowledge base can exist independently of the VoiceAssistant and only exists once. Therefore the multiplicity is 1 and 1.
 				\\ \\
 				The sequence diagram shows the interaction between the VoiceAssistant, the WebService and the KnowledgeBase. 
 				The smartwatch first tries to retrieve an answer to the users question by querying the local KnowledgeBase.
@@ -2041,7 +2041,7 @@ then we seek for improvement and review from other team members. In the very end
 			\textbf{ID}                 & 26 \\\hline
 			\textbf{Description}        & Smartwatch reminds you to stay on track with work, by vibrating when you try to look at your phone or try to do something else while working. You can decide on how long you want a "working session" to be. \\\hline
 			\textbf{Trigger}            & Click "Start working session" \\\hline
-			\textbf{Actors}             & User, System, Smartphone \\\hline
+			\textbf{Actors}             & User, FocusManager, SmartphoneConnectionSystem \\\hline
 			\textbf{Pre-conditions}     & Smartwatch turned on, Bluetooth on \\\hline
 			\textbf{Post-conditions}    & User had a productive working session \\\hline
 			\textbf{Basic Flow} 		& This is the main scenario where the user starts a working session with just 1 work cycle \\\hline
@@ -2108,7 +2108,7 @@ then we seek for improvement and review from other team members. In the very end
 			\textbf{Use Case Diagram - Focus manager for focusing on work}
 			\begin{subfigure}{\textwidth}
 				\centering
-				\includesvg[scale=0.7]{Lars/Use Case Focus Manager/FocusManager_usecase.svg}
+				\includesvg[scale=0.5]{Lars/Use Case Focus Manager/FocusManager_usecase.svg}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 			\end{subfigure}
@@ -2327,7 +2327,7 @@ performance Quality
 				Name             & Race time prediction                                \\ \hline
 				ID               & 21                                                                                       \\ \hline
 				Business Value   & Low                                                                                    \\ \hline
-				Description      & Predicts the time it will take to finish a certain challenge depending on previous performane \\ \hline
+				Description      & Predicts the time it will take to finish a certain challenge depending on previous performance \\ \hline
 				Trigger          & When user selects a workout or route \\ \hline
 				Actors           & User, smart watch                                 \\ \hline
 				Pre-conditions   & User accepted historical data and selects a workout routine or route                                    \\ \hline
@@ -2337,7 +2337,7 @@ performance Quality
 								 & 1. The smartwatch calculates how long a certain activity takes the user to do, from historical data \\
 								 & 2. User can opt out of this service \\
 								 & 3. User can reset historical data \\ \hline
-				Alternative Flow A & The User didnt accept historical data collection or opted out of this service \\
+				Alternative Flow A & The User didn't accept historical data collection or opted out of this service \\
 								 & Actions: \\
 								 & 1. Smartwatch calculates an estimate depending on global average \\
 								 & 2. User has the option to opt in again \\ \hline
@@ -2399,7 +2399,7 @@ performance Quality
 				ID               & 22                                                                                       \\ \hline
 				Business Value   & Low                                                                                    \\ \hline
 				Description      & Adjusts brightness of the screen depending on ambient light \\ \hline
-				Trigger          & Changes in abient light detected \\ \hline
+				Trigger          & Changes in ambient light detected \\ \hline
 				Actors           & smart watch                                 \\ \hline
 				Pre-conditions   & light sensor/camera not deactivated, user activated auto-brightness                                    \\ \hline
 				Post-conditions  & Brightness is adjusted                                                         \\ \hline
@@ -2478,12 +2478,12 @@ performance Quality
 							Description & This is the main scenario where the user already has a valid account and password \\ \hline
 							Actions & \\ \hline
 							1 & The user opens the heartbeat app \\ \hline
-							2 & The app presents the user current heartrate in real time \\ \hline
+							2 & The app presents the user current heart rate in real time \\ \hline
 			Alternative Flow & A \\ \hline
-							Description & Inaccurate Sensoring of the heart beat \\ \hline
+							Description & Inaccurate sensoring of the heart beat \\ \hline
 							Actions & \\ \hline
 							1 & The app alerts the user about potential inaccuracy of the heart beat rate because of sensor issues. \\ \hline
-							2 & The app guides the user through a recalibration of the sensor for accurate restults.  \\ \hline
+							2 & The app guides the user through a recalibration of the sensor for accurate results.  \\ \hline
 			Alternative Flow & B \\ \hline
 							Description & App sensors an anomaly in the heartbeat pattern  \\ \hline
 							Actions & \\ \hline
@@ -2500,7 +2500,7 @@ performance Quality
 		
 	\paragraph{Non-functional requirements}
 		\begin{itemize}
-			\item The sensor must provide accurate readings within a specific tolerance e.g. +/- 2-3 heart beats per minute under nomal condition. 
+			\item The sensor must provide accurate readings within a specific tolerance e.g. +/- 2-3 heart beats per minute under normal condition. 
 			\item The app displays the heart rate within specific time frames, so delays should be minimal
 		\end{itemize}
 		 \clearpage
@@ -2516,7 +2516,7 @@ performance Quality
 			The User has specific interactions for example he is able to review his heart rate on the history, he can also receive
 			heart rate alerts which will include safety confirmation and extend if an emergency is needed. We can also set a limit of heart rate for example,
 			if the user sets the limit to 140 bpm then he will get notified if we get passed that bpm. Next he can view the current heart rate on the smartwatch.
-			The External health monioring service can sensor the heart rate proceed its data and give the user personal insight of his heartrate. 
+			The External health monitoring service can sensor the heart rate proceed its data and give the user personal insight of his heart rate. 
 		\end{subfigure}
 	\end{figure}
 	\clearpage
@@ -2547,7 +2547,7 @@ performance Quality
 		\begin{subfigure}{\textwidth}
 			Inside the Class Diagram we check the data from the User because height, weight or even age does play an important factor
 			for the heart rate analysis. Next we sensor the heart rate from the user and proceed the data. For that we use a directional 
-			association since we do the operation once, and the muliplitiy stays 1 because we only use 1 sensor. Inside the process data we check for 
+			association since we do the operation once, and the multiplicity stays 1 because we only use 1 sensor. Inside the process data we check for 
 			the current heart rate. Last but not least, we display the data and the user is able to show the completed heart rate 
 			analysis. 
 		\end{subfigure}
@@ -2594,7 +2594,7 @@ performance Quality
 			Pre-conditions   & Environmental sensors are operational and calibrated\\ \hline
 			Post-conditions  & Displays the data in the smartwatch\\ \hline
 			Basic Flow       & \\ \hline
-							  Description & Detail each change in the environment monioring system \\ \hline
+							  Description & Detail each change in the environment monitoring system \\ \hline
 							  Actions & \\ \hline
 							  1 & activating the sensors \\ \hline
 							  2 & capturing the data (e.g. temperature, UV, etc) \\ \hline
@@ -2614,18 +2614,18 @@ performance Quality
 							  2 & sends push notification and warns the user \\ \hline
 							  3 & displays the notification on the smartwatch and recommends actions (e.g. apply sunscreen, seek shelter, etc) \\ \hline
 							  4 & user acknowledges the notification\\ \hline
-							  5 & user doesn't acknoweldege notification -> the system keeps sending notifications or warns the user \\ \hline
+							  5 & user doesn't acknowledge notification -> the system keeps sending notifications or warns the user \\ \hline
 		\end{tabularx}
 	\end{center}
 	\paragraph{Functional requirements}
 		\begin{itemize}
-			\item The sensor should automatically activate to environement changes or updates.
-			\item It needs to capture the environement data in real time.
+			\item The sensor should automatically activate to environment changes or updates.
+			\item It needs to capture the environment data in real time.
 		\end{itemize}
 		
 	\paragraph{Non-functional requirements}
 		\begin{itemize}
-			\item The display of the environement data on the smartwatch must be clear, intuitive and easily to understand. 
+			\item The display of the environment data on the smartwatch must be clear, intuitive and easily to understand. 
 			\item Must optimize low power consumption to minimize impact to smartwatch battery life. 
 		\end{itemize}
 	
@@ -2638,12 +2638,12 @@ performance Quality
 			\caption{Use Case Diagram}
 		\end{subfigure}
 		\begin{subfigure}{\textwidth}
-			The Environment Monitoring shows the use cases. The Actvity sensor sensors the environment and transmit
-			proceeds the data and generate a safe monioring notification. This tells the user the current environement e.g.
+			The Environment Monitoring shows the use cases. The activity sensor sensors the environment and transmit
+			proceeds the data and generate a safe monitoring notification. This tells the user the current environment e.g.
 			temperature, UV exposure or more. If it comes to hazardous conditions it sends the user a notification and asks him 
-			to either acknoweldege or not. Next the activity sensor displays the data on the smartwatch and record or
-			track any other incident reports. The user on the other hand can acknoweldege the notification and look into
-			history data and has an authentification. 
+			to either acknowledge or not. Next the activity sensor displays the data on the smartwatch and record or
+			track any other incident reports. The user on the other hand can acknowledge the notification and look into
+			history data and has an authentication. 
 		\end{subfigure}
 	\end{figure}
 	\clearpage
@@ -2720,7 +2720,7 @@ performance Quality
 							Actions & \\ \hline
 							1 & Selects "Pay with Smartwatch" option within the app and reads with the card reader \\ \hline
 							2 & User sees the amount to pay and confirms the payment  \\ \hline
-							3 & Payment system processes the transaction with the user's bank or digitial wallet \\ \hline
+							3 & Payment system processes the transaction with the user's bank or digital wallet \\ \hline
 							4 & confirmation through the card reader and receipt sent to the users email \\ \hline
 			Alternative Flow & A \\ \hline
 							Description & Payment with smartwatch fails due to connectivity issues \\ \hline
@@ -2735,7 +2735,7 @@ performance Quality
 							2 & Payment system processes the transaction but receives an error due wrong password  \\ \hline
 							3 & User retry entering password but still no result \\ \hline
 							4 & Bank account blocks the card \\ \hline
-							5 & User gets notificated and needs to pay with a different payment method \\ \hline
+							5 & User gets notified and needs to pay with a different payment method \\ \hline
 		\end{tabularx}
 	\end{center}
 	\paragraph{Functional requirements}
@@ -2779,7 +2779,7 @@ performance Quality
 			to a card reader and the card reader verifies if the card exists or does not. If the card doesn't exists it notifies
 			the user that the card is invalid. Else we proceed to the bank account and the user should enter the password. If the 
 			password is wrong it requests to enter the password again. After 3 tries it should automatically block the user. Else the 
-			cash has been successfully transfered and the user can complete the transaction. 
+			cash has been successfully transferred and the user can complete the transaction. 
 		\end{subfigure}
 	\end{figure}
 	\clearpage
@@ -2794,8 +2794,8 @@ performance Quality
 		\begin{subfigure}{\textwidth}
 			The Class Diagram shows the interactions and relationships to each single process. For example, the User is
 			able to create an account and register himself. Then it has a directional association to the proceed Data. Thats
-			where the card is being checked, wheither it exists or not. If it exists we simply go to the bank account and check 
-			for the password and get the receipt that the transaction was sucessful. If there is a case when the password is 
+			where the card is being checked, whether it exists or not. If it exists we simply go to the bank account and check 
+			for the password and get the receipt that the transaction was successful. If there is a case when the password is 
 			incorrect we simply ask the user to retry. If the retries all failed or the user decides to pay with a different 
 			payment method we need to stop the process. 
 		\end{subfigure}
@@ -2812,7 +2812,7 @@ performance Quality
 			Inside the Sequence Diagram we have a Main which opens the smartwatch. Then the user checks the digital card with the 
 			card reader if it exists or not. If it doesn't we simply stop the program. Else we can just check if its vaild and request the 
 			user to enter the password. If the password is correct we get the receipt and the transaction message. If we might occur to incorrect 
-			password we have 2 more retries and if those 2 failed aswell we stop the program if not we can get the receipt and the transaction
+			password we have 2 more retries and if those 2 failed as well we stop the program if not we can get the receipt and the transaction
 			message. 
 		\end{subfigure}
 	\end{figure}
@@ -2837,7 +2837,7 @@ performance Quality
 			ID               & 24 \\ \hline
 			Business Value   & Low \\ \hline
 			Description      & Provides the user with helpful tips and guidance throughout the smartwatch \\ \hline
-			Trigger          & User requess tips and help with the smartwatch interface or associated app \\ \hline
+			Trigger          & User request tips and help with the smartwatch interface or associated app \\ \hline
 			Actors           & User, Smartwatch, Companion smartwatch app \\ \hline
 			Pre-conditions   & Smartwatch connected with phone, needs basic knowledge for the usage of the smartwatch \\ \hline
 			Post-conditions  & User receives helpful tips and feels more confident using the smartwatch, engagement with the features increased \\ \hline
@@ -2916,7 +2916,7 @@ performance Quality
 			\caption{Class Diagram}
 		\end{subfigure}
 		\begin{subfigure}{\textwidth}
-			For the Class Diagram we have 3 classes. The user, searchbar and then the tips application. The User usually 
+			For the Class Diagram we have 3 classes. The user, search bar and then the tips application. The User usually 
 			has an id for this smartwatch an account is registered with a name. If the user decides to pick one of the presets
 			it directs him/her to the tipsApplication, where he can read the advice. Else if he decides to search for an element 
 			we can find it and directs us to the tipsApplication. 
