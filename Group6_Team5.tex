@@ -107,10 +107,9 @@
 		System & Calculator & functional & low &  1 & Jiwon Won \\ \hline
 		System & Personalised Health Recommendation & functional & high &  2 & Jiwon Won \\ \hline 
 		System & Body Composition Check by BIA & functional & high &  2 & Jiwon Won \\ \hline
-		System & Body Composition Check by BIA & functional & high &  2 & Jiwon Won \\ \hline
         User & Share workout achievement on social media & functional & low & 1 & Howard-Yi Hong Soon \\ \hline
         System & Nutritional Tracking for food intake and calorie counting & functional & medium & 1 & Howard-Yi Hong Soon \\ \hline
-        System & Appearence Theme & functional & medium & 2 & Howard-Yi Hong Soon \\ \hline
+        System & Appearance Theme & functional & medium & 2 & Howard-Yi Hong Soon \\ \hline
         System & Stopwatch & functional & medium & 2 & Howard-Yi Hong Soon \\ \hline
         System & Display heart rate on Smartwatch & functional & medium &  2 & Stefan Nguyen \\ \hline
         System & Environment Monitoring & functional & low &  2 & Stefan Nguyen \\ \hline
@@ -398,7 +397,7 @@ then we seek for improvement and review from other team members. In the very end
 	\item[-] Use case diagram
 	\item[-] Activity diagram
 	\item[-] Class diagram
-	\item[-] Sequence diagran
+	\item[-] Sequence diagram
    \end{itemize}
 \end{itemize}
 
@@ -426,14 +425,14 @@ then we seek for improvement and review from other team members. In the very end
         ID               & 1                                                                                   \\ \hline
         Business Value   & Medium                                                                                  \\ \hline
         Description      & Allows the user to create a fitness Challenge for himself and to join or invite other logged in user\\ \hline
-        Trigger          & User pushs create and share Button \\ \hline
+        Trigger          & User pushes create and share Button \\ \hline
         Actors           & User1,User2,User Challenge System                        \\ \hline
         Pre-conditions   & User1 and User2 successfully logged in, internet connection                                  \\ \hline
         Post-conditions  & User can participate a Challenge alone or with User2                                                        \\ \hline
         Basic Flow       & This is the main scenario were User1 creates a Challenge and Invite User2 who accept it\\ \hline
                          & Actions: \\
                          & 1. User1 set sports category,period and goal\\
-                         & 2. User1 pushs "share" button \\
+                         & 2. User1 pushes "share" button \\
                          & 3. User1 chooses User2 to compete with\\
                          & 4. User Challenge System sends invitation to User2 \\
                          & 5. User2 receives invitation\\
@@ -449,7 +448,7 @@ then we seek for improvement and review from other team members. In the very end
         Alternative Flow B & User1 sent wrong User invitation \\
                          & Actions: \\
                          & 1. User1 push "show Invitation list" \\
-                         & 2. User1 pushs "cancel" button \\
+                         & 2. User1 pushes "cancel" button \\
                          & 3. System withdraw invitation notification from User2\\ \hline
     \end{tabularx}
 \end{table}
@@ -530,14 +529,14 @@ then we seek for improvement and review from other team members. In the very end
         Name             & Medication Reminder                                \\ \hline
         ID               & 2                                                                                     \\ \hline
         Business Value   & low                                                                                  \\ \hline
-        Description      & Service to help user adher to their medication schedules  \\ \hline
+        Description      & Service to help user adhere to their medication schedules  \\ \hline
         Trigger          & User adds medication and sets his Medication Details\\ \hline
         Actors           & User,Medication Reminder System                               \\ \hline
         Pre-conditions   & User sat his Medication and Details                                    \\ \hline
         Post-conditions  & User took his medication on time                                                   \\ \hline
         Basic Flow       & This is the main scenario when the user sat his Medication and Details \\ \hline
                          & Actions: \\
-                         & 1.User sets his name, age, weight, medication, dosis, notification time, urgency Level(low,medium,high) and emergency contact\\
+                         & 1.User sets his name, age, weight, medication, doses, notification time, urgency Level(low,medium,high) and emergency contact\\
                          & 2. System sends a push notification at the sat time to remind the user to take his Medicine \\
                          & 3. After Reminder System sends a second notification that user should confirm or deny medication Intake\\
                          & 4. User confirms \\
@@ -554,7 +553,7 @@ then we seek for improvement and review from other team members. In the very end
                          & 1. User clicks "Details" button \\
                          & 2. User clicks "adjust" button \\
                          & 3. User clicks "Change" button \\
-                         & 4. User changes the Deatails \\
+                         & 4. User changes the details \\
                          & 5. System changes the Medication Details\\ \hline
     \end{tabularx}
 \end{table}
@@ -757,19 +756,19 @@ then we seek for improvement and review from other team members. In the very end
                          & 2. System presents Mood scale \\
                          & 3. User selects Mood Level \\
                          & 4. User wants a Quick diary \\
-                         & 5. System generates 10 quastions for user \\
-                         & 6. Sysem logs mood entry with timestamp and quick entry\\ \hline
+                         & 5. System generates 10 questions for user \\
+                         & 6. System logs mood entry with timestamp and quick entry\\ \hline
         Alternative Flow A & User selects "very sad " as mood entry \\
                          & Actions: \\
                          & 1. System recognize low mood Level \\
                          & 2. System suggests resources for mood improvement \\
                          & 3. User accept suggestion \\
                          & 4. System sends User links to articles and exercises \\
-                         & 5. System loggs mood entry with timestamp and article links \\ \hline
+                         & 5. System logs mood entry with timestamp and article links \\ \hline
         Alternative Flow B & User declines the Quick diary and summary  \\
                          & Actions: \\
                          & 1. System logs mood entry with timestamp \\
-                         & 2. Systeme provides summary of recent mood entries\\
+                         & 2. System provides summary of recent mood entries\\
                          & 3. User declines summary \\
                          & 4. System closes \\ \hline
     \end{tabularx}
@@ -1151,7 +1150,7 @@ then we seek for improvement and review from other team members. In the very end
 				\caption{Activity Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				This appearence theme activity diagram show the flow chart of this requirement, user has two option to select, either white or dark theme.
+				This appearance theme activity diagram show the flow chart of this requirement, user has two option to select, either white or dark theme.
 				Each flow apply preset font color and contrast level, then user can adjust contrast level manually if they want to customize, it depends on the 
 				user wishes.
 			\end{subfigure}
@@ -1167,8 +1166,8 @@ then we seek for improvement and review from other team members. In the very end
 				\caption{Class Diagram}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				This appearence theme class diagram shows the classes, operations and classes for the requirement. A SelectTheme class to identify
-				which theme user chosed. Then 2 different themes has seperate individual class, which has preset font color, bacground color and 
+				This appearance theme class diagram shows the classes, operations and classes for the requirement. A SelectTheme class to identify
+				which theme user chose. Then 2 different themes has separate individual class, which has preset font color, bacground color and 
 				contrast level. An additional AdjustContrast class let user adjust contrast level as their wishes.
 			\end{subfigure}
 		\end{figure}
@@ -1244,7 +1243,7 @@ then we seek for improvement and review from other team members. In the very end
 			\caption{Use Case Diagram}
 		\end{subfigure}
 		\begin{subfigure}{\textwidth}
-			This stopwatch usecase diagram shows the outcome whenever user press start, stop and reset stopwatch. The system must accurately track and display the elapsed time once it starts,
+			This stopwatch use case diagram shows the outcome whenever user press start, stop and reset stopwatch. The system must accurately track and display the elapsed time once it starts,
 			then only can user perform stop, save and reset. Save operation can be performed after user stop the stopwatch.
 		\end{subfigure}
 	\end{figure}
@@ -1279,7 +1278,7 @@ then we seek for improvement and review from other team members. In the very end
 				This stopwatch class diagram shows the classes, operations and classes for the requirement. User has to press 
 				the opration button to initiate it. When it becomes true, then it will initiate the class StopWatch. The operation in StopWatch depends on 
 				UserInput, either it starts, stop or reset. If user want to save the elapsed time, it will use get operation to get the time,
-				then the SaveTime class will perform an opeeration to save it. 
+				then the SaveTime class will perform an operation to save it. 
 			\end{subfigure}
 		\end{figure}
 
@@ -1447,7 +1446,7 @@ then we seek for improvement and review from other team members. In the very end
 		\paragraph{Functional requirements}
 		\begin{itemize}
 			\item They system update new lock screen themes from database
-			\item The user can change color detail by chaning color chart code
+			\item The user can change color detail by changing color chart code
 		\end{itemize}
 		
 		\paragraph{Non-functional requirements}
@@ -1515,7 +1514,7 @@ then we seek for improvement and review from other team members. In the very end
 				Name             & Calculator                                \\ \hline
 				ID               & 14                                                                                       \\ \hline
 				Business Value   & Low                                                                                    \\ \hline
-				Description      & Caculate polynomial term \\ \hline
+				Description      & Calculate polynomial term \\ \hline
 				Trigger          & User open "Calculator" app \\ \hline
 				Actors           & User, Calculator system                                \\ \hline
 				Pre-conditions   & Calculator app opened                                    \\ \hline
@@ -1525,13 +1524,13 @@ then we seek for improvement and review from other team members. In the very end
 								 & 1. User write down polynomial term by calculator \\
 								 & 2. User push "=" button \\
 								 & 3. System calculate polynomial term \\
-								 & 4. System shows conculusion of the term in real number \\
+								 & 4. System shows conclusion of the term in real number \\
 								 & 5. System reset the term in 0 \\ \hline
 				Alternative Flow A & The conclusion of terminals is imaginary number \\
 								 & Actions: \\
 								 & 1. System check the terminal can be calculated in range of real number \\
 								 & 2. System show "Please correct the terminal" \\ \hline
-				Alternative Flow B & User try to devide in 0 \\
+				Alternative Flow B & User try to divide in 0 \\
 								 & Actions: \\
 								 & 1. System check the terminal is mathematically correct  \\
 								 & 2. System show "You can not divide in 0" \\ \hline
@@ -1546,7 +1545,7 @@ then we seek for improvement and review from other team members. In the very end
 		\paragraph{Non-functional requirements}
 		\begin{itemize}
 			\item The system has to ensure clearing terminal after the calculation is over to avoid collision with new terminal
-			\item The system show all the numeric data and opperator icon clearly in vector
+			\item The system show all the numeric data and operator icon clearly in vector
 		\end{itemize}
 		\newpage
 		
@@ -1557,7 +1556,7 @@ then we seek for improvement and review from other team members. In the very end
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/Calculator/Calculator_usecase.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				This diagram shows interatctions between user and calculator while the polynomial terminal is operating. The terminal requires to be mathematically complete and clear to calulate. Also the result should be in range of real number since our calculator can show number in real number only.
+				This diagram shows interactions between user and calculator while the polynomial terminal is operating. The terminal requires to be mathematically complete and clear to calulate. Also the result should be in range of real number since our calculator can show number in real number only.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1582,7 +1581,7 @@ then we seek for improvement and review from other team members. In the very end
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/Calculator/Calculator_class.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				Input class of calculator diagrma requires number set and operation. Simple operations are just applied in input class, and it actually operates and calculation class.
+				Input class of calculator diagram requires number set and operation. Simple operations are just applied in input class, and it actually operates and calculation class.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1633,7 +1632,7 @@ then we seek for improvement and review from other team members. In the very end
 		\end{table}
 		\paragraph{Functional requirements}
 		\begin{itemize}
-			\item The system categorises data recording to calculation of impedance level of each body compositions
+			\item The system categorizes data recording to calculation of impedance level of each body compositions
 			\item The system sync to bioelectrical sensor in real-time
 		\end{itemize}
 		
@@ -1677,7 +1676,7 @@ then we seek for improvement and review from other team members. In the very end
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/BioelecAnalysis/BioelecAnalysis_class.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				Class diagram shows how each classes interact each other. When the sensor detact something, then it goes to warning class so that we check device is detached or there is too much humidity. If the sensor can work without any problem, then analysis class starts to create chart from the imported data and show the anlysis result to user.
+				Class diagram shows how each classes interact each other. When the sensor detect something, then it goes to warning class so that we check device is detached or there is too much humidity. If the sensor can work without any problem, then analysis class starts to create chart from the imported data and show the anlysis result to user.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1690,7 +1689,7 @@ then we seek for improvement and review from other team members. In the very end
 				\scalebox{0.7}{\includesvg[]{Jiwon/BioelecAnalysis/BioelecAnalysis_sequence.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				This sequence diagram shows flows of the requirement. If there is abnormal situations that device can not work anymore, then sensor will recognise the signal and send warning to user. If analysis is working well, then data will be sent to main stream to create chart.
+				This sequence diagram shows flows of the requirement. If there is abnormal situations that device can not work anymore, then sensor will recognize the signal and send warning to user. If analysis is working well, then data will be sent to main stream to create chart.
 			\end{subfigure}
 		\end{figure}
 		\clearpage   
@@ -1774,12 +1773,12 @@ then we seek for improvement and review from other team members. In the very end
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
 				\vspace{1em}
-				In this class diagramm, the gesture controller keeps track of all the gesture objects there are.
-				Whenever a motion is detected, it will cycle thorugh all the gesture objects it has, and calls the function on each one
+				In this class diagram, the gesture controller keeps track of all the gesture objects there are.
+				Whenever a motion is detected, it will cycle through all the gesture objects it has, and calls the function on each one
 				of them to check if the gesture was executed.
 				\\ \\
 				Each gesture object has a list of data that is being compared to the live gyroscope data, to determine if a gesture was done.
-				I choose to make the individual gestures specialisations of a gesture superclass.
+				I choose to make the individual gestures specializations of a gesture superclass.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
