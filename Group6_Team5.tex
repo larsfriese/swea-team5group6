@@ -45,6 +45,10 @@
 		User & Focus manager for focusing on work & functional & low & 1 & Lars Friese \\ \hline
 		System & Voice Assistant for easy data lookup & functional & medium & 2 & Lars Friese \\ \hline
 		System & Monitor sleep quality using heartbeat data & functional & high & 2 & Lars Friese \\ \hline
+        User & User Fitness Challenge & functional & medium & 1 & Hermon Gimikael \\ \hline
+		System & Medication Reminder & functional & medium & 1 & Hermon Gimikael \\ \hline
+		System & Water Intake System & functional & high & 2 & Hermon Gimikael \\ \hline
+		System & Mood Level Tracker & function & high & 2 & Hermon Gimikael \\ \hline 
 	\end{tabularx}
 \end{center}
 
@@ -82,7 +86,7 @@ We used the First Meeting to discuss the foundation of our final Report. The fir
 
 \section*{Task Distribution}
 \begin{description}
-    \item[Hermon Gimikael:] Water Consumption Tracker, Medication Reminder Service
+    \item[Hermon Gimikael:] Water Intake System, Medication Reminder 
     \item[Howard-Yi Hong Soon:] Different Themes, Alarm Clock-Timer
     \item[Jiwon Won:] Calculator, Change Lock Screen Template
     \item[Lars Friese:] Voice Assistant Integration, Gesture Controller
@@ -133,7 +137,7 @@ Our Group used the second meeting to check how far everybody is with their Diagr
 
 \section*{Task Distribution}
 \begin{description}
-    \item[Hermon Gimikael:] Allow user to create or Joint Fitness Challenges and competitions / Mood Level Tracker
+    \item[Hermon Gimikael:] User Fitness Challenge / Mood Level Tracker
     \item[Howard-Yi Hong Soon:] Share workout Achievements on social media / Nutritional Tracking for Food intake and Calorie Calculator
     \item[Jiwon Won:] Display personalized health insights and recommendations / Calculator
     \item[Lars Friese:] Virtual Assistant Web / Sleep Analyser
@@ -343,7 +347,7 @@ then we seek for improvement and review from other team members. In the very end
 \newpage
 
 \section{Hermon Gimikael}
-\subsection{Requirement 1 : User Challenge}
+\subsection{Requirement 1 : User Fitness Challenge}
 
 \begin{table}[h!]
     \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
@@ -352,7 +356,7 @@ then we seek for improvement and review from other team members. In the very end
         ID               & 1                                                                                   \\ \hline
         Business Value   & Medium                                                                                  \\ \hline
         Description      & Allows the user to create a fitness Challenge for himself and to join or invite other logged in user\\ \hline
-        Trigger          & User pushs create and share button or pushs join button \\ \hline
+        Trigger          & User pushs create and share Button \\ \hline
         Actors           & User1,User2,User Challenge System                        \\ \hline
         Pre-conditions   & User1 and User2 successfully logged in, internet connection                                  \\ \hline
         Post-conditions  & User can participate a Challenge alone or with User2                                                        \\ \hline
@@ -390,65 +394,70 @@ then we seek for improvement and review from other team members. In the very end
 	\paragraph{Non-functional requirements}
 		\begin{itemize}
 			\item The System has to be capable to handle multiple users participating in the same challenges or
-			competitions at the same time without losing performance quality
+			competitions at the same time without losing performance quality.
 			
 		\end{itemize}
 
 \clearpage
 
 \begin{figure}[htbp]
-	\textbf{Hermon Gimikael}
-    \centering
+	\textbf{Use Case Diagram - User Fitness Challenge}
+	\centering
 	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge_UseCase.svg}}
-		\caption{Use Case Diagram}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge/UserFitnessChallenge_UseCase.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+	\end{subfigure}
+\end{figure}
+
+
+\clearpage
+
+\begin{figure}[htbp]
+	\textbf{Activity Diagram - User Fitness Challenge}
+	\centering
+	\begin{subfigure}{\textwidth}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge/UserFitnessChallenge_Activity.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
 	\end{subfigure}
 \end{figure}
 
 \clearpage
 
 \begin{figure}[htbp]
-	\textbf{Hermon Gimikael}
+	\textbf{Class Diagram - User Fitness Challenge}
 	\centering
 	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge_Activity.svg}}
-		\caption{Activity Diagram}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge/UserFitnessChallenge_Class.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
 	\end{subfigure}
 \end{figure}
 
 \clearpage
 
 \begin{figure}[htbp]
-	\textbf{Hermon Gimikael}
+	\textbf{Sequence Diagram - User Fitness Challenge}
 	\centering
 	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge_ClassDiagram.svg}}
-		\caption{Class Diagram}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge/UserFitnessChallenge_Sequence.svg}}
 	\end{subfigure}
-\end{figure}
-
-\clearpage
-
-\begin{figure}[htbp]
-	\textbf{Hermon Gimikael}
-	\centering
 	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge_SequenceDiagram.svg}}
-		\caption{Sequence Diagram}
 	\end{subfigure}
 \end{figure}
 
 
 \clearpage
 
-\textbf{Hermon Gimikael}
-\subsection{Requirement 2 : Medication Reminder System}
+
+\subsection{Requirement 2 : Medication Reminder}
 
 
 \begin{table}[h!]
     \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
         \hline
-        Name             & Medication Reminder System                               \\ \hline
+        Name             & Medication Reminder                                \\ \hline
         ID               & 2                                                                                     \\ \hline
         Business Value   & low                                                                                  \\ \hline
         Description      & Service to help user adher to their medication schedules  \\ \hline
@@ -483,23 +492,23 @@ then we seek for improvement and review from other team members. In the very end
 \paragraph{Functional requirements}
 		\begin{itemize}
 			\item  The system should be able to remind users promptly of upcoming medication doses based on schedules set by the user.
-			\item  Users should be able to customize reminders according to their individual needs, including frequency of notifications and the ability to add or remove specific medications
+			\item  Users should be able to customize reminders according to their individual needs.
 		\end{itemize}
 		
 	\paragraph{Non-functional requirements}
 		\begin{itemize}
 			\item The system must be reliable, delivering reminders at the correct times to ensure users take their medications on time.
-			\item : The user interface should be intuitive and user-friendly, facilitating easy interaction and configuration for users of all ages.
 		\end{itemize}
 
 \clearpage
 
 \begin{figure}[htbp]
-	\textbf{Hermon Gimikael}
+	\textbf{Use Case - Medication Reminder}
 	\centering
 	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder_UseCase.svg}}
-		\caption{Use Case Diagram}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder/MedicationReminder_UseCase.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
 	\end{subfigure}
 \end{figure}
 
@@ -507,52 +516,55 @@ then we seek for improvement and review from other team members. In the very end
 
 
 \begin{figure}[htbp]
-	\textbf{Hermon Gimikael}
+	\textbf{Activity Diagram - Medication Reminder }
 	\centering
 	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder_ActivityDiagram.svg}}
-		\caption{Activity Diagram}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder/MedicationReminder_Activity.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
 	\end{subfigure}
 \end{figure}
 
 \clearpage
 
 \begin{figure}[htbp]
-	\textbf{Hermon Gimikael}
+	\textbf{Class Diagram - Medication Reminder}
 	\centering
 	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder_ClassDiagram.svg}}
-		\caption{Class Diagram}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder/MedicationReminder_Class.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
 	\end{subfigure}
 \end{figure}
 
 \clearpage
 
 \begin{figure}[htbp]
-	\textbf{Hermon Gimikael}
+	\textbf{Sequence Diagram - Medication Reminder}
 	\centering
 	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder_SequenceDiagram.svg}}
-		\caption{Sequence Diagram}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MedicationReminder/MedicationReminder_Sequence.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
 	\end{subfigure}
 \end{figure}
 
 \clearpage
 
-\textbf{Hermon Gimikael}
-\subsection{Requirement 3 : Water Intake Service}
+
+\subsection{Requirement 3 : Water Intake System}
 
 \begin{table}[h!]
     \begin{tabularx}{\textwidth}{|>{\raggedright\arraybackslash}p{0.25\textwidth}|X|}
         \hline
-        Name             & Water Intake Service                                \\ \hline
+        Name             & Water Intake System                               \\ \hline
         ID               & 3                                                                                     \\ \hline
         Business Value   & High                                                                                    \\ \hline
         Description      & Gives option to monitor and manage daily water consumption \\ \hline
         Trigger          & User adds water intake  \\ \hline
-        Actors           & User,Water Intake Service                                \\ \hline
-        Pre-conditions   & Water Intake Service opened                                 \\ \hline
-        Post-conditions  & Water Intake Service has recorded and updated users Water consumption                                                     \\ \hline
+        Actors           & User,Water Intake System                                \\ \hline
+        Pre-conditions   & Water Intake System opened                                 \\ \hline
+        Post-conditions  & Water Intake System has recorded and updated users Water consumption                                                     \\ \hline
         Basic Flow       & This is the main scenario when the user added water throught the day and reached his goal \\ \hline
                          & Actions: \\
                          & 1. User sets his sex,age,weight\\
@@ -566,9 +578,9 @@ then we seek for improvement and review from other team members. In the very end
                          & 9. System resets water intake to 0\\ \hline
         Alternative Flow A & User missed Water intakes  \\
                          & Actions: \\
-                         & 1. Syste informs user about missed goal\\
+                         & 1. System informs user about missed goal\\
                          & 2. System gives user the possibility to enter missed Water intakes \\ 
-                         & 3. user enters remaining Water\\
+                         & 3. User enters remaining Water\\
                          & 4. System calculates new total Intake\\
                          & 5. User reached his Goal\\ 
                          & 6. System notifies user about reached goal and logs achievment of the day\\
@@ -590,57 +602,72 @@ then we seek for improvement and review from other team members. In the very end
 	\paragraph{Non-functional requirements}
 		\begin{itemize}
 			\item The system must reliably record and display water intake data to accurately track user progress.
-			\item The user interface should be intuitive and easy to navigate, allowing users to input water intake data quickly and efficiently.
+			\item The user interface should be easy to navigate.
 		\end{itemize}
 
 
 \clearpage
 
 \begin{figure}[htbp]
-    \textbf{Hermon Gimikael}
-    \centering
-    \begin{subfigure}{\textwidth}
-        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/Water Intake System Use Case.svg}}
-        \caption{Use Case Diagram}
-    \end{subfigure}
-\end{figure}
-
-\clearpage
-
-\begin{figure}[htbp]
-    \textbf{Hermon Gimikael}
-    \centering
-    \begin{subfigure}{\textwidth}
-        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/Water Intake System Activity.svg}}
-		\caption{Activity Diagram}
+	\textbf{Use Case - Water Intake System}
+	\centering
+	\begin{subfigure}{\textwidth}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/WaterIntake/WaterIntakeSystem_UseCase.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
 	\end{subfigure}
 \end{figure}
 
 \clearpage
 
 \begin{figure}[htbp]
-    \textbf{Hermon Gimikael}
-    \centering
-    \begin{subfigure}{\textwidth}
-        \includesvg[width=\textwidth]{Hermon/Water Intake System Class.svg}
-        \caption{Class Diagram}
-    \end{subfigure}
+	\textbf{Activity Diagram - Water Intake System}
+	\centering
+	\begin{subfigure}{\textwidth}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/WaterIntake/WaterIntakeSystem_Activity.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+	\end{subfigure}
 \end{figure}
 
 \clearpage
 
 \begin{figure}[htbp]
-    \textbf{Hermon Gimikael}
-    \centering
-    \begin{subfigure}{\textwidth}
-        \includesvg[width=\textwidth]{Hermon/Water Intake System seq.svg}
-        \caption{Sequence Diagram}
-    \end{subfigure}
+	\textbf{Class Diagram - Water Intake System}
+	\centering
+	\begin{subfigure}{\textwidth}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/WaterIntake/WaterIntakeSystem_Class.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+	\end{subfigure}
 \end{figure}
 
 \clearpage
 
-\textbf{Hermon Gimikael}
+\begin{figure}[htbp]
+	\textbf{Sequence Diagram - Water Intake System}
+	\centering
+	\begin{subfigure}{\textwidth}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/WaterIntake/WaterIntakeSystem_Sequence.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+	\end{subfigure}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[htbp]
+	\textbf{UI Prototype - Water Intake System}
+	\centering
+	\begin{subfigure}{\textwidth}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/WaterIntake/WaterIntakeSystem.svg}}	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+	\end{subfigure}
+\end{figure}
+
+\clearpage
+
+
 \subsection{Requirement 4 : Mood Level Tracker}
 
 \begin{table}[h!]
@@ -649,14 +676,14 @@ then we seek for improvement and review from other team members. In the very end
         Name             & Mood Level Tracker                               \\ \hline
         ID               & 4                                                                                      \\ \hline
         Business Value   & High                                                                                   \\ \hline
-        Description      & User can track his Mood for good Mental Health beeing  \\ \hline
+        Description      & User can track his Mood for to have an overview of his well beeing  \\ \hline
         Trigger          & User chooses Mood of the day and pushs "entry" button \\ \hline
         Actors           & User, Mood Tracker System                               \\ \hline
         Pre-conditions   & Mood Tracker System opened                                   \\ \hline
         Post-conditions  & User has an overlook about his well beeing                                                       \\ \hline
         Basic Flow       & This is the main scenario were the user entry his Mood of the day and his Mood is good or okay and want a Quick diary \\ \hline
                          & Actions: \\
-                         & 1. User click Mood entry\\
+                         & 1. User clicks Mood entry\\
                          & 2. System presents Mood scale \\
                          & 3. User selects Mood Level \\
                          & 4. User wants a Quick diary \\
@@ -680,57 +707,61 @@ then we seek for improvement and review from other team members. In the very end
 
 \paragraph{Functional requirements}
 		\begin{itemize}
-			\item  The system should allow users to log their mood levels on a daily basis, selecting from a predefined set of options
+			\item  The system should allow users to log their mood levels on a daily basis, selecting from a predefined set of options.
 		\end{itemize}
 		
 	\paragraph{Non-functional requirements}
 		\begin{itemize}
-			\item The system must reliably record and display water intake data to accurately track user progress.
-			\item The user interface should be intuitive and easy to navigate, allowing users to input water intake data quickly and efficiently.
+			\item The application should have a fast response time and be easy to navigate to ensure a smooth user experience.
 		\end{itemize}
 
 \clearpage
 
 \begin{figure}[htbp]
-    \textbf{Hermon Gimikael}
-    \centering
-    \begin{subfigure}{\textwidth}
-        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/MoodLevelTracker_UseCase.svg}}
-        \caption{Use Case Diagram}
-    \end{subfigure}
-\end{figure}
-
-\clearpage
-
-
-\begin{figure}[htbp]
-    \textbf{Hermon Gimikael}
-    \centering
-    \begin{subfigure}{\textwidth}
-        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/MoodLevelTracker_ActivityDiagram.svg}}
-        \caption{Activity Diagram}
-    \end{subfigure}
-\end{figure}
-
-\clearpage
-
-\begin{figure}[htbp]
-    \textbf{Hermon Gimikael}
-    \centering
-    \begin{subfigure}{\textwidth}
-        \resizebox{\textwidth}{!}{\includesvg[]{Hermon/MoodTrackerSystem_ClassDiagram.svg}}
-        \caption{Class Diagram}
-    \end{subfigure}
-\end{figure}
-
-\clearpage
-
-\begin{figure}[htbp]
-	\textbf{Hermon Gimikael}
+	\textbf{Use Case - Mood Level Tracker}
 	\centering
 	\begin{subfigure}{\textwidth}
-		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/UserChallenge_UseCase.svg}}
-		\caption{Sequence Diagram}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MoodLevelTracker/MoodLevelTracker_UseCase.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+	\end{subfigure}
+\end{figure}
+
+
+\clearpage
+
+
+\begin{figure}[htbp]
+	\textbf{Activity Diagram - Mood Level Tracker}
+	\centering
+	\begin{subfigure}{\textwidth}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MoodLevelTracker/MoodLevelTracker_Activity.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+	\end{subfigure}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[htbp]
+	\textbf{Class Diagram - Mood Level Tracker}
+	\centering
+	\begin{subfigure}{\textwidth}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MoodLevelTracker/MoodLevelTracker_Class.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
+	\end{subfigure}
+\end{figure}
+
+\clearpage
+
+\begin{figure}[htbp]
+	\textbf{Sequence Diagram - Mood Level Tracker}
+	\centering
+	\begin{subfigure}{\textwidth}
+		\resizebox{\textwidth}{!}{\includesvg[]{Hermon/MoodLevelTracker/MoodLevelTracker_Sequence.svg}}
+	\end{subfigure}
+	\begin{subfigure}{\textwidth}
 	\end{subfigure}
 \end{figure}
 
@@ -1404,6 +1435,7 @@ then we seek for improvement and review from other team members. In the very end
 				
 			\end{subfigure}
 		\end{figure}
+
 		\clearpage
 		
 		
