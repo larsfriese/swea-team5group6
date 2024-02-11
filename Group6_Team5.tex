@@ -1306,7 +1306,7 @@ then we seek for improvement and review from other team members. In the very end
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_usecase.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
+				This use case diagram shows interactions between user and system. There are two system which create contents and sum contents with personalised data, so that user can consume useful contents.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1319,7 +1319,7 @@ then we seek for improvement and review from other team members. In the very end
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation__activity.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
+				Activity diagram shows how does the health recommendation system flows. If the delivery from one system to other was not successful, then system send the request again. But there is nothing to import from the system, system automatically finish the update.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1331,7 +1331,7 @@ then we seek for improvement and review from other team members. In the very end
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_class.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
+				Class diagram shows how each classes interact to each other. New content class combine medical topic and references to create more reliable contents. When new content is imported to content recommendation class and it is successfully delivered and combined with analysis data, they can find references of content inside.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1344,7 +1344,7 @@ then we seek for improvement and review from other team members. In the very end
 				\scalebox{0.7}{\includesvg[]{Jiwon/HealthRecommendation/HealthRecommendation_sequence.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
+				This diagram shows how the basic sequence flow of health recommendation. If there is not a newly updated contents updated, then request of new content is aborted. But when new content is updated, we can analise user's health data and sort new contents by user's demand.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1416,7 +1416,7 @@ then we seek for improvement and review from other team members. In the very end
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/LockScreen/LockScreen_usecase.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				=
+				Use case diagram shows interactions between user and lock screen system. Most of actions are depends on user's choice. When user decide new lock screen template, he has to choose basic template and details. When user specify new lock screen to change, then lock screen compare it is different from current template. If they are diffrent, then new lock screen is applied.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1429,7 +1429,7 @@ then we seek for improvement and review from other team members. In the very end
 				\scalebox{0.9}{\includesvg[]{Jiwon/LockScreen/LockScreen_activity.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
+				There is two alternative flows in this activity diagram. If there is no newly updated template to show user, then system does not update template choice screen. And if user desired to change to same template with same details, then system shows denied message.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1441,7 +1441,7 @@ then we seek for improvement and review from other team members. In the very end
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/LockScreen/LockScreen_class.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
+				This class diagram shows operations inside of each classes. Lock Screen class import all the information from other classes. Firstly new templates are updated, and then personalised screen information is imported to lock screen class. Then identicality is checked between with personalised screen and check identicality at the last. If the identicality test is passed, class send the result, so that lock screen is allowed to be changed.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
