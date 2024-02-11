@@ -32,12 +32,12 @@
 \begin{center}
     {\huge \textbf{Declaration of Authorship}\\}\vspace{15pt}
 	{\normalsize \textbf{We hereby certify that the project report we are submitting is entirely our own original work except where otherwise indicated. We did not submit this work anywhere else before. We are aware of the University's regulations concerning plagiarism, including those regulations concerning disciplinary actions that may result from plagiarism. Any use of the works of any other author, in any form, is properly acknowledged at their point of use.}\\}\vspace{15pt}
-	{\normalsize \itshape{Hermon Gimikael}\\}
+	{\normalsize \itshape{Hermon Gimikael 1534827}\\}
 	{\normalsize \itshape{Howard Yi-Hong Soon 1427925}\\}
 	{\normalsize \itshape{Jiwon Won 1524006}\\}
 	{\normalsize \itshape{Lars Friese 1459362}\\}
-	{\normalsize \itshape{Marc Roemer}\\}
-	{\normalsize \itshape{Stefan Nguyen}\\}
+	{\normalsize \itshape{Marc Roemer 1431047}\\}
+	{\normalsize \itshape{Stefan Nguyen 1430035}\\}
 \end{center}
 \clearpage
 
@@ -1591,7 +1591,7 @@ then we seek for improvement and review from other team members. In the very end
 		\end{table}
 		\paragraph{Functional requirements}
 		\begin{itemize}
-			\item The system categorises data recording to calculation of impedance level of each body portions
+			\item The system categorises data recording to calculation of impedance level of each body compositions
 			\item The system sync to bioelectrical sensor in real-time
 		\end{itemize}
 		
@@ -1610,7 +1610,7 @@ then we seek for improvement and review from other team members. In the very end
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/BioelecAnalysis/BioelecAnalysis_usecase.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
+				This diagram shows interactions between user, bioelectrical sensor and system. Most of the operations are done by system, but sensor is containing lots of tasks in this case. When user triggers the measurement, sensor measure each body compositions and system analise how much it is included and ratio of whole body.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1623,7 +1623,7 @@ then we seek for improvement and review from other team members. In the very end
 				\scalebox{1.0}{\includesvg[]{Jiwon/BioelecAnalysis/BioelecAnalysis_activity.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
+				Activity diagram shows what is basic flow of the analysis. When the sensor detected abnormal situations such as the device is detached or there is abnormal humidity so that it disturb measurement, then system show message what kind of error it has.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1635,7 +1635,7 @@ then we seek for improvement and review from other team members. In the very end
 				\resizebox{\textwidth}{!}{\includesvg[]{Jiwon/BioelecAnalysis/BioelecAnalysis_class.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
+				Class diagram shows how each classes interact each other. When the sensor detact something, then it goes to warning class so that we check device is detached or there is too much humidity. If the sensor can work without any problem, then analysis class starts to create chart from the imported data and show the anlysis result to user.
 			\end{subfigure}
 		\end{figure}
 		\clearpage
@@ -1648,7 +1648,7 @@ then we seek for improvement and review from other team members. In the very end
 				\scalebox{0.7}{\includesvg[]{Jiwon/BioelecAnalysis/BioelecAnalysis_sequence.svg}}
 			\end{subfigure}
 			\begin{subfigure}{\textwidth}
-				
+				This sequence diagram shows flows of the requirement. If there is abnormal situations that device can not work anymore, then sensor will recognise the signal and send warning to user. If analysis is working well, then data will be sent to main stream to create chart.
 			\end{subfigure}
 		\end{figure}
 		\clearpage   
